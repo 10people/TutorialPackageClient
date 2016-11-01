@@ -1,0 +1,41 @@
+﻿#pragma once
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+#include "codegen/il2cpp-codegen.h"
+
+// CG_REQ_STORYCOPYSCENE_CHAPTERAWARD
+struct CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_t3593;
+// Google.ProtocolBuffers.CodedOutputStream
+struct CodedOutputStream_t2918;
+// PacketDistributed
+struct PacketDistributed_t2209;
+// Google.ProtocolBuffers.CodedInputStream
+struct CodedInputStream_t2919;
+
+// System.Void CG_REQ_STORYCOPYSCENE_CHAPTERAWARD::.ctor()
+ void CG_REQ_STORYCOPYSCENE_CHAPTERAWARD__ctor_m27877 (CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_t3593 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean CG_REQ_STORYCOPYSCENE_CHAPTERAWARD::get_HasChapterID()
+ bool CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_get_HasChapterID_m27878 (CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_t3593 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 CG_REQ_STORYCOPYSCENE_CHAPTERAWARD::get_ChapterID()
+ int32_t CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_get_ChapterID_m27879 (CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_t3593 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void CG_REQ_STORYCOPYSCENE_CHAPTERAWARD::set_ChapterID(System.Int32)
+ void CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_set_ChapterID_m27880 (CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_t3593 * __this, int32_t ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void CG_REQ_STORYCOPYSCENE_CHAPTERAWARD::SetChapterID(System.Int32)
+ void CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_SetChapterID_m27881 (CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_t3593 * __this, int32_t ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean CG_REQ_STORYCOPYSCENE_CHAPTERAWARD::get_HasAwardIndex()
+ bool CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_get_HasAwardIndex_m27882 (CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_t3593 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 CG_REQ_STORYCOPYSCENE_CHAPTERAWARD::get_AwardIndex()
+ int32_t CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_get_AwardIndex_m27883 (CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_t3593 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void CG_REQ_STORYCOPYSCENE_CHAPTERAWARD::set_AwardIndex(System.Int32)
+ void CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_set_AwardIndex_m27884 (CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_t3593 * __this, int32_t ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void CG_REQ_STORYCOPYSCENE_CHAPTERAWARD::SetAwardIndex(System.Int32)
+ void CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_SetAwardIndex_m27885 (CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_t3593 * __this, int32_t ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 CG_REQ_STORYCOPYSCENE_CHAPTERAWARD::SerializedSize()
+ int32_t CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_SerializedSize_m27886 (CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_t3593 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void CG_REQ_STORYCOPYSCENE_CHAPTERAWARD::WriteTo(Google.ProtocolBuffers.CodedOutputStream)
+ void CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_WriteTo_m27887 (CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_t3593 * __this, CodedOutputStream_t2918 * ___output, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// PacketDistributed CG_REQ_STORYCOPYSCENE_CHAPTERAWARD::MergeFrom(Google.ProtocolBuffers.CodedInputStream,PacketDistributed)
+ PacketDistributed_t2209 * CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_MergeFrom_m27888 (CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_t3593 * __this, CodedInputStream_t2919 * ___input, PacketDistributed_t2209 * ____base, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean CG_REQ_STORYCOPYSCENE_CHAPTERAWARD::IsInitialized()
+ bool CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_IsInitialized_m27889 (CG_REQ_STORYCOPYSCENE_CHAPTERAWARD_t3593 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

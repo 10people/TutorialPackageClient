@@ -1,0 +1,35 @@
+Id	DESC	TeleportName	SrcSceneID	SrcPosX	SrcPosZ	DstSceneID	DstPosX	DstPosZ
+INT	STRING	STRING	INT	INT	INT	INT	INT	INT
+#MAX_ID=200;MAX_RECORD=200;TableType=Index;								
+#传送点ID  	描述		传送点所在场景ID	传送点坐标X	传送点坐标Z	目的地所在场景ID	目的地坐标X	目的地坐标Z
+0	YiCiYuanZhiMen - MuSeYuLin	前往暮色雨林	28	46	25	5	19	17
+1	MuSeYuLin - YiCiYuanZhiMen	前往异次元之门	5	12	5	28	41	24
+2	YiCiYuanZhiMen - YiWangFeiXu	前往呼啸沙漠	28	3	25	23	68	89
+3	YiWangFeiXu - YiCiYuanZhiMen	前往异次元之门	23	72	89	28	7	23
+4	LeKeSiGang - HuXiaoShaMo	前往遗忘废墟	33	77	4	34	84	19
+5	HuangHunHuPan - HuangHunZhiHu	前往黄昏之湖	27	24	75	36	77	20
+6	YiCiYuanZhiMen - LeKeSiGang	前往勒克斯港	28	24	3	33	16	109
+7	LeKeSiGang - YiCiYuanZhiMen	前往异次元之门	33	13	112	28	24	7
+8	LeKeSiGang - HuangHunHuPan	前往黄昏湖畔	33	48	30	27	60	78
+9	HuangHunHuPan - LeKeSiGang	前往勒克斯港	27	57	78	33	51	33
+10	LeKeSiGang - HunLi	废弃中	-1	-1	-1	-1	-1	-1
+11	LeKeSiGang - BiWuChangDong	前往比武场东	33	33	123	33	33	33
+12	LeKeSiGang - BiWuChangXi	前往比武场西	33	3	98	33	33	33
+13	WangLingBingTa - YiWangFeiXu	废弃中	38	88	27	43	6	87
+14	YiCiYuanZhiMen - XueSeBingFeng	前往血色冰封	28	24	47	38	88	69
+15	HuangHunZhiHu - HuangHunHuPan	前往黄昏湖畔	36	83	19	27	27	75
+16	HuangHunZhiHu - HuangHunYaoSai	前往黄昏要塞	36	13	62	12	27	11
+17	HuangHunYaoSai - HuangHunZhiHu	前往黄昏之湖	12	30	11	36	16	62
+18	XueSeBingFeng - YiCiYuanZhiMen	前往异次元之门	38	86	59	28	24	44
+19	WangLingBingTa - LeKeSiGang	前往勒克斯港	38	5	39	33	105	52
+20	LeKeSiGang - XueSeBingFeng	前往血色冰封	33	105	55	38	9	39
+21	XueSeBingFeng - WangLingZhiTa	前往雷纳堡边境	43	6	92	39	34	84
+22	HuangHunYaoSai - YiCiYuanZhiMen	前往异次元之门	12	81	20	28	21	25
+23	HuXiaoShaMo-YiWangFeiXu	前往勒克斯港	34	84	16	33	81	4
+24	HuXiaoShaMo-LeiNaBaoBianYuan	前往雷纳堡边境	34	17	50	39	81	19
+25	HuXiaoShaMo-LeiNaBaoBianYuan	前往遗忘废墟	39	86	19	34	17	55
+26	LeiNaBaoBianYuan-LeiNaBao	前往雷纳堡	39	12	24	51	90	60
+27	LeiNaBao-LeiNaBaoBianYuan	前往雷纳堡边境	51	90	54	39	12	20
+28	LeiNaBaoBianYuan-LeiNaBao	前往雷纳堡	39	7	8	51	63	20
+29	LeiNaBao-LeiNaBaoBianYuan	前往雷纳堡边境	51	63	15	39	12	8
+30	LeiNaBaoBianYuan-YiCiYuanZhiMen	前往亡灵冰塔	39	34	89	43	6	87

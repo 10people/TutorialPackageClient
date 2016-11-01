@@ -1,0 +1,16 @@
+﻿#pragma once
+#include <stdint.h>
+// System.String
+struct String_t;
+// Mono.Xml.DTDNode
+struct DTDNode_t6942;
+// System.ValueType
+#include "mscorlib_System_ValueType.h"
+// System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>
+struct KeyValuePair_2_t6946 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>::key
+	String_t* ___key;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>::value
+	DTDNode_t6942 * ___value;
+};

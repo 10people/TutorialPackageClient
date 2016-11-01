@@ -1,0 +1,32 @@
+#ifndef GAMECONFIG_H_
+#define GAMECONFIG_H_
+
+#define GAME_VERSION 0
+#define PROGRAM_VERSION 316
+#define UPDATE_CHANNELAPP_CONFIG_VERSION 0
+#define GM_ENABLE 0
+#define UPDATE_ENABLE 0
+#define RES_DOWNLOAD_URL @"http://10.12.48.47:8080/tlbb/res"
+#define CHANNEL_STRING @"IOSTest"
+#define SERVERLIST_URL @"0"
+#define UPDATEAPP_URL @"0"
+#define DEBUGMODE_ENABLE 0
+#define MEIDA_CHANNEL @"0"
+#define CHANNEL_ID @"4001"
+#define CY_APP_KEY @"1457399010187"
+#define CY_APP_SECRET @"7a62c542d3574a0298dcfe1bb63367cf"
+#define THIRD_APP_ID @""
+#define THIRD_APP_KEY @""
+#define THIRD_RESULT_KEY @""
+#define SHARECENTER_ENABLE 0
+#define GENGXIN_URL @""
+#define COMMON_GENGXIN_URL @""
+#define TALKINGDATA_KEY @""
+#define TALKINGDATA_CHANNEL @""
+#define UMANALYTICS_KEY @""
+#define APP_DETAIL_URL @""
+#define CDN_ORG_URL @""
+#define CDN_REPLACE_URL @""
+#define CDN2_REPLACE_URL @""
+
+#endif

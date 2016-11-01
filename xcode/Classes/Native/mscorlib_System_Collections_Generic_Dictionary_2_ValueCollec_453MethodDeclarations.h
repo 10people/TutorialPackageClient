@@ -1,0 +1,55 @@
+﻿#pragma once
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+#include "codegen/il2cpp-codegen.h"
+
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>
+struct ValueCollection_t18583;
+// System.Object
+struct Object_t;
+// System.Collections.Generic.Dictionary`2<System.String,SkillBarInfo[]>
+struct Dictionary_2_t4978;
+// SkillBarInfo[]
+struct SkillBarInfoU5BU5D_t1728;
+// System.Collections.Generic.IEnumerator`1<SkillBarInfo[]>
+struct IEnumerator_1_t18591;
+// System.Array
+struct Array_t;
+// System.Collections.IEnumerator
+struct IEnumerator_t67;
+// SkillBarInfo[][]
+struct SkillBarInfoU5BU5DU5BU5D_t18580;
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,SkillBarInfo[]>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_454.h"
+
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Object>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_15MethodDeclarations.h"
+#define ValueCollection__ctor_m136830(__this, ___dictionary, method) (void)ValueCollection__ctor_m59539_gshared((ValueCollection_t8800 *)__this, (Dictionary_2_t8794 *)___dictionary, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m136831(__this, ___item, method) (void)ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m59540_gshared((ValueCollection_t8800 *)__this, (Object_t *)___item, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>::System.Collections.Generic.ICollection<TValue>.Clear()
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m136832(__this, method) (void)ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m59541_gshared((ValueCollection_t8800 *)__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m136833(__this, ___item, method) (bool)ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m59542_gshared((ValueCollection_t8800 *)__this, (Object_t *)___item, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m136834(__this, ___item, method) (bool)ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m59543_gshared((ValueCollection_t8800 *)__this, (Object_t *)___item, method)
+// System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
+#define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m136835(__this, method) (Object_t*)ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m59544_gshared((ValueCollection_t8800 *)__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define ValueCollection_System_Collections_ICollection_CopyTo_m136836(__this, ___array, ___index, method) (void)ValueCollection_System_Collections_ICollection_CopyTo_m59545_gshared((ValueCollection_t8800 *)__this, (Array_t *)___array, (int32_t)___index, method)
+// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>::System.Collections.IEnumerable.GetEnumerator()
+#define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m136837(__this, method) (Object_t *)ValueCollection_System_Collections_IEnumerable_GetEnumerator_m59546_gshared((ValueCollection_t8800 *)__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>::System.Collections.Generic.ICollection<TValue>.get_IsReadOnly()
+#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m136838(__this, method) (bool)ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m59547_gshared((ValueCollection_t8800 *)__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>::System.Collections.ICollection.get_IsSynchronized()
+#define ValueCollection_System_Collections_ICollection_get_IsSynchronized_m136839(__this, method) (bool)ValueCollection_System_Collections_ICollection_get_IsSynchronized_m59548_gshared((ValueCollection_t8800 *)__this, method)
+// System.Object System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>::System.Collections.ICollection.get_SyncRoot()
+#define ValueCollection_System_Collections_ICollection_get_SyncRoot_m136840(__this, method) (Object_t *)ValueCollection_System_Collections_ICollection_get_SyncRoot_m59549_gshared((ValueCollection_t8800 *)__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>::CopyTo(TValue[],System.Int32)
+#define ValueCollection_CopyTo_m136841(__this, ___array, ___index, method) (void)ValueCollection_CopyTo_m59550_gshared((ValueCollection_t8800 *)__this, (ObjectU5BU5D_t142*)___array, (int32_t)___index, method)
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>::GetEnumerator()
+ Enumerator_t18592  ValueCollection_GetEnumerator_m136842 (ValueCollection_t18583 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SkillBarInfo[]>::get_Count()
+#define ValueCollection_get_Count_m136843(__this, method) (int32_t)ValueCollection_get_Count_m59552_gshared((ValueCollection_t8800 *)__this, method)

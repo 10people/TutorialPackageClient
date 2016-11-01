@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0428a786cdcb4dd59d5e397a7057825, type: 3}
+  m_Name: Run external program
+  m_EditorClassIdentifier: 
+  CreatedWithActionVersion: 1.1
+  pathToExecutable:
+    useExpression: 0
+    expression: 
+    propertyValue: D:/tools/pngquant-windows/pngquant.exe
+  workingDirectory:
+    useExpression: 0
+    expression: C:\Windows\System32
+    propertyValue: D:/tools/pngquant-windows
+  useShellExecute:
+    useExpression: 0
+    expression: 
+    propertyValue: 1
+  useFileset:
+    useExpression: 0
+    expression: 
+    propertyValue: 0
+  basePath:
+    useExpression: 0
+    expression: C:\Windows\System32
+    propertyValue: D:/tools/pngquant-windows
+  includes:
+  - useExpression: 0
+    expression: 
+    propertyValue: pngquant
+  excludes: []
+  relativePaths:
+    useExpression: 0
+    expression: 
+    propertyValue: 1
+  pathSeparator:
+    useExpression: 0
+    expression: 
+    propertyValue: 0
+  runOncePerFile:
+    useExpression: 0
+    expression: 
+    propertyValue: 0
+  failOnError:
+    useExpression: 0
+    expression: 
+    propertyValue: 0
+  arguments:
+  - useExpression: 0
+    expression: 
+    propertyValue: 256
+  - useExpression: 0
+    expression: 
+    propertyValue: D:/tools/test/**/*.png
+  - useExpression: 0
+    expression: 
+    propertyValue: --ext
+  - useExpression: 0
+    expression: 
+    propertyValue: .png
+  - useExpression: 0
+    expression: 
+    propertyValue: --force

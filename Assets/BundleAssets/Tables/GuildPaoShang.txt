@@ -1,0 +1,13 @@
+Id	Desc	TotalPaoShangTime	AllocateTimesOnce	MemMaxTimesOneDay	WealthFactor	TotalCoinRefixFactor	MinCoinRefixFactor	RobCoinRefixFactor
+INT	STRING	INT	INT	INT	FLOAT	FLOAT	FLOAT	FLOAT
+#MAX_ID=100;MAX_RECORD=100;TableType=Index;								
+#ID(索引不可跳跃)帮会等级	策划维护	帮会每周能拥有的跑商次数	帮主每次分配增加的次数	帮会成员每天接取的上限	财富产出系数	商票金额金币修正系数	保底金币修正系数	被劫杀金币修正系数
+1	1级帮会	0	0	0	0.92	0.92	0.92	0.92
+2	2级帮会	560	186	2	0.96	0.96	0.96	0.96
+3	3级帮会	700	233	2	1	1	1	1
+4	4级帮会	840	280	2	1.04	1.04	1.04	1.04
+5	5级帮会	1120	373	2	1.08	1.08	1.08	1.08
+6	6级帮会	1260	420	2	1.12	1.12	1.12	1.12
+7	7级帮会	1540	513	2	1.16	1.16	1.16	1.16
+8	8级帮会	1820	606	2	1.2	1.2	1.2	1.2
+9	9级帮会	2100	700	2	1.24	1.24	1.24	1.24

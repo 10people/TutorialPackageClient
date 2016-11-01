@@ -1,0 +1,804 @@
+﻿#include "il2cpp-config.h"
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#ifndef _MSC_VER
+#include <alloca.h>
+#else
+#include <malloc.h>
+#endif
+#include <cmath>
+#include <limits>
+#include <assert.h>
+#include "stringLiterals.h"
+
+extern TypeInfo U3CModuleU3E_t6636_il2cpp_TypeInfo;
+extern TypeInfo MonoTODOAttribute_t6637_il2cpp_TypeInfo;
+extern TypeInfo XsdIdentitySelector_t6642_il2cpp_TypeInfo;
+extern TypeInfo XsdIdentityField_t6641_il2cpp_TypeInfo;
+extern TypeInfo XsdIdentityPath_t6639_il2cpp_TypeInfo;
+extern TypeInfo XsdIdentityStep_t6645_il2cpp_TypeInfo;
+extern TypeInfo XsdKeyEntryField_t6648_il2cpp_TypeInfo;
+extern TypeInfo XsdKeyEntryFieldCollection_t6652_il2cpp_TypeInfo;
+extern TypeInfo XsdKeyEntry_t6646_il2cpp_TypeInfo;
+extern TypeInfo XsdKeyEntryCollection_t6654_il2cpp_TypeInfo;
+extern TypeInfo XsdKeyTable_t6653_il2cpp_TypeInfo;
+extern TypeInfo XsdParticleStateManager_t6660_il2cpp_TypeInfo;
+extern TypeInfo XsdValidationState_t6661_il2cpp_TypeInfo;
+extern TypeInfo XsdElementValidationState_t6663_il2cpp_TypeInfo;
+extern TypeInfo XsdSequenceValidationState_t6664_il2cpp_TypeInfo;
+extern TypeInfo XsdChoiceValidationState_t6666_il2cpp_TypeInfo;
+extern TypeInfo XsdAllValidationState_t6668_il2cpp_TypeInfo;
+extern TypeInfo XsdAnyValidationState_t6670_il2cpp_TypeInfo;
+extern TypeInfo XsdAppendedValidationState_t6674_il2cpp_TypeInfo;
+extern TypeInfo XsdEmptyValidationState_t6672_il2cpp_TypeInfo;
+extern TypeInfo XsdInvalidValidationState_t6673_il2cpp_TypeInfo;
+extern TypeInfo XsdValidatingReader_t6683_il2cpp_TypeInfo;
+extern TypeInfo XsdValidationContext_t6659_il2cpp_TypeInfo;
+extern TypeInfo XsdIDManager_t6681_il2cpp_TypeInfo;
+extern TypeInfo XsdWildcard_t6693_il2cpp_TypeInfo;
+extern TypeInfo IHasXmlParserContext_t7049_il2cpp_TypeInfo;
+extern TypeInfo IHasXmlSchemaInfo_t6679_il2cpp_TypeInfo;
+extern TypeInfo XsdWhitespaceFacet_t6694_il2cpp_TypeInfo;
+extern TypeInfo XsdOrdering_t6695_il2cpp_TypeInfo;
+extern TypeInfo XsdAnySimpleType_t6647_il2cpp_TypeInfo;
+extern TypeInfo XdtAnyAtomicType_t6697_il2cpp_TypeInfo;
+extern TypeInfo XdtUntypedAtomic_t6698_il2cpp_TypeInfo;
+extern TypeInfo XsdString_t6699_il2cpp_TypeInfo;
+extern TypeInfo XsdNormalizedString_t6700_il2cpp_TypeInfo;
+extern TypeInfo XsdToken_t6701_il2cpp_TypeInfo;
+extern TypeInfo XsdLanguage_t6702_il2cpp_TypeInfo;
+extern TypeInfo XsdNMToken_t6703_il2cpp_TypeInfo;
+extern TypeInfo XsdNMTokens_t6704_il2cpp_TypeInfo;
+extern TypeInfo XsdName_t6705_il2cpp_TypeInfo;
+extern TypeInfo XsdNCName_t6706_il2cpp_TypeInfo;
+extern TypeInfo XsdID_t6707_il2cpp_TypeInfo;
+extern TypeInfo XsdIDRef_t6708_il2cpp_TypeInfo;
+extern TypeInfo XsdIDRefs_t6709_il2cpp_TypeInfo;
+extern TypeInfo XsdEntity_t6710_il2cpp_TypeInfo;
+extern TypeInfo XsdEntities_t6711_il2cpp_TypeInfo;
+extern TypeInfo XsdNotation_t6712_il2cpp_TypeInfo;
+extern TypeInfo XsdDecimal_t6713_il2cpp_TypeInfo;
+extern TypeInfo XsdInteger_t6714_il2cpp_TypeInfo;
+extern TypeInfo XsdLong_t6715_il2cpp_TypeInfo;
+extern TypeInfo XsdInt_t6716_il2cpp_TypeInfo;
+extern TypeInfo XsdShort_t6717_il2cpp_TypeInfo;
+extern TypeInfo XsdByte_t6718_il2cpp_TypeInfo;
+extern TypeInfo XsdNonNegativeInteger_t6719_il2cpp_TypeInfo;
+extern TypeInfo XsdUnsignedLong_t6720_il2cpp_TypeInfo;
+extern TypeInfo XsdUnsignedInt_t6721_il2cpp_TypeInfo;
+extern TypeInfo XsdUnsignedShort_t6722_il2cpp_TypeInfo;
+extern TypeInfo XsdUnsignedByte_t6723_il2cpp_TypeInfo;
+extern TypeInfo XsdPositiveInteger_t6724_il2cpp_TypeInfo;
+extern TypeInfo XsdNonPositiveInteger_t6725_il2cpp_TypeInfo;
+extern TypeInfo XsdNegativeInteger_t6726_il2cpp_TypeInfo;
+extern TypeInfo XsdFloat_t6727_il2cpp_TypeInfo;
+extern TypeInfo XsdDouble_t6728_il2cpp_TypeInfo;
+extern TypeInfo XsdBase64Binary_t6729_il2cpp_TypeInfo;
+extern TypeInfo XsdHexBinary_t6730_il2cpp_TypeInfo;
+extern TypeInfo XsdQName_t6731_il2cpp_TypeInfo;
+extern TypeInfo XsdBoolean_t6732_il2cpp_TypeInfo;
+extern TypeInfo XsdAnyURI_t6733_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaUri_t6734_il2cpp_TypeInfo;
+extern TypeInfo XsdDuration_t6736_il2cpp_TypeInfo;
+extern TypeInfo XdtDayTimeDuration_t6737_il2cpp_TypeInfo;
+extern TypeInfo XdtYearMonthDuration_t6738_il2cpp_TypeInfo;
+extern TypeInfo XsdDateTime_t6739_il2cpp_TypeInfo;
+extern TypeInfo XsdDate_t6740_il2cpp_TypeInfo;
+extern TypeInfo XsdTime_t6741_il2cpp_TypeInfo;
+extern TypeInfo XsdGYearMonth_t6742_il2cpp_TypeInfo;
+extern TypeInfo XsdGMonthDay_t6743_il2cpp_TypeInfo;
+extern TypeInfo XsdGYear_t6744_il2cpp_TypeInfo;
+extern TypeInfo XsdGMonth_t6745_il2cpp_TypeInfo;
+extern TypeInfo XsdGDay_t6746_il2cpp_TypeInfo;
+extern TypeInfo IXmlSchemaInfo_t6793_il2cpp_TypeInfo;
+extern TypeInfo QNameValueType_t6747_il2cpp_TypeInfo;
+extern TypeInfo StringValueType_t6748_il2cpp_TypeInfo;
+extern TypeInfo UriValueType_t6749_il2cpp_TypeInfo;
+extern TypeInfo StringArrayValueType_t6750_il2cpp_TypeInfo;
+extern TypeInfo ValidationEventArgs_t6752_il2cpp_TypeInfo;
+extern TypeInfo ValidationHandler_t6753_il2cpp_TypeInfo;
+extern TypeInfo XmlSchema_t6691_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaAll_t6669_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaAnnotated_t6764_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaAnnotation_t6761_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaAny_t6671_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaAnyAttribute_t6765_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaAppInfo_t6767_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaAttribute_t6676_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaAttributeGroup_t6757_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaAttributeGroupRef_t6768_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaChoice_t6667_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaCollection_t6769_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaCollectionEnumerator_t6770_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaCompilationSettings_t6771_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaComplexContent_t6773_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaComplexContentExtension_t6775_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaComplexContentRestriction_t6776_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaComplexType_t6690_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaContent_t6772_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaContentModel_t6774_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaContentProcessing_t6778_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaContentType_t6779_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaDatatype_t6689_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaDerivationMethod_t6780_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaDocumentation_t6781_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaElement_t6657_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaEnumerationFacet_t6782_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaException_t6751_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaExternal_t6756_il2cpp_TypeInfo;
+extern TypeInfo Facet_t6784_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaFacet_t6696_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaForm_t6785_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaFractionDigitsFacet_t6786_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaGroup_t6788_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaGroupBase_t6759_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaGroupRef_t6789_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaIdentityConstraint_t6655_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaImport_t6790_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaInclude_t6791_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaInfo_t6792_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaKey_t6794_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaKeyref_t6795_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaLengthFacet_t6796_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaMaxExclusiveFacet_t6797_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaMaxInclusiveFacet_t6798_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaMaxLengthFacet_t6799_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaMinExclusiveFacet_t6800_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaMinInclusiveFacet_t6801_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaMinLengthFacet_t6802_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaNotation_t6803_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaNumericFacet_t6787_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaObject_t6662_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaObjectCollection_t6755_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaObjectEnumerator_t6804_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaObjectTableEnumerator_t6805_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaObjectTable_t6754_il2cpp_TypeInfo;
+extern TypeInfo EmptyParticle_t6807_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaParticle_t6760_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaPatternFacet_t6808_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaReader_t6758_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaRedefine_t6809_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSequence_t6665_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSet_t6680_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleContent_t6811_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleContentExtension_t6812_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleContentRestriction_t6813_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleType_t6688_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleTypeContent_t6814_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleTypeList_t6815_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleTypeRestriction_t6817_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaSimpleTypeUnion_t6821_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaTotalDigitsFacet_t6818_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaType_t6687_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaUnique_t6822_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaUse_t6823_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaUtil_t6824_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaValidationException_t6686_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaValidationFlags_t6825_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaValidity_t6826_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaWhiteSpaceFacet_t6827_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaXPath_t6643_il2cpp_TypeInfo;
+extern TypeInfo XmlSeverityType_t6828_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeCode_t6829_il2cpp_TypeInfo;
+extern TypeInfo CodeIdentifier_t6830_il2cpp_TypeInfo;
+extern TypeInfo IXmlSerializable_t6889_il2cpp_TypeInfo;
+extern TypeInfo KeyHelper_t6831_il2cpp_TypeInfo;
+extern TypeInfo ReflectionHelper_t6834_il2cpp_TypeInfo;
+extern TypeInfo SchemaTypes_t6836_il2cpp_TypeInfo;
+extern TypeInfo SerializationSource_t6837_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeSerializationSource_t6838_il2cpp_TypeInfo;
+extern TypeInfo TypeData_t6841_il2cpp_TypeInfo;
+extern TypeInfo TypeMember_t6842_il2cpp_TypeInfo;
+extern TypeInfo TypeTranslator_t6843_il2cpp_TypeInfo;
+extern TypeInfo UnreferencedObjectEventArgs_t6844_il2cpp_TypeInfo;
+extern TypeInfo XmlAnyAttributeAttribute_t6845_il2cpp_TypeInfo;
+extern TypeInfo XmlAnyElementAttribute_t6846_il2cpp_TypeInfo;
+extern TypeInfo XmlAnyElementAttributes_t6847_il2cpp_TypeInfo;
+extern TypeInfo XmlArrayAttribute_t6848_il2cpp_TypeInfo;
+extern TypeInfo XmlArrayItemAttribute_t6849_il2cpp_TypeInfo;
+extern TypeInfo XmlArrayItemAttributes_t6850_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributeAttribute_t6851_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributeEventArgs_t6852_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributeOverrides_t6840_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributes_t6853_il2cpp_TypeInfo;
+extern TypeInfo XmlChoiceIdentifierAttribute_t6854_il2cpp_TypeInfo;
+extern TypeInfo XmlCustomFormatter_t6860_il2cpp_TypeInfo;
+extern TypeInfo XmlElementAttribute_t6862_il2cpp_TypeInfo;
+extern TypeInfo XmlElementAttributes_t6855_il2cpp_TypeInfo;
+extern TypeInfo XmlElementEventArgs_t6863_il2cpp_TypeInfo;
+extern TypeInfo XmlEnumAttribute_t6856_il2cpp_TypeInfo;
+extern TypeInfo XmlIgnoreAttribute_t6864_il2cpp_TypeInfo;
+extern TypeInfo XmlIncludeAttribute_t6865_il2cpp_TypeInfo;
+extern TypeInfo XmlMapping_t6867_il2cpp_TypeInfo;
+extern TypeInfo ObjectMap_t6866_il2cpp_TypeInfo;
+extern TypeInfo SerializationFormat_t6868_il2cpp_TypeInfo;
+extern TypeInfo XmlMemberMapping_t6869_il2cpp_TypeInfo;
+extern TypeInfo XmlMembersMapping_t6871_il2cpp_TypeInfo;
+extern TypeInfo XmlNamespaceDeclarationsAttribute_t6872_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeEventArgs_t6873_il2cpp_TypeInfo;
+extern TypeInfo XmlReflectionImporter_t6874_il2cpp_TypeInfo;
+extern TypeInfo XmlReflectionMember_t6876_il2cpp_TypeInfo;
+extern TypeInfo XmlRootAttribute_t6839_il2cpp_TypeInfo;
+extern TypeInfo XmlSchemaProviderAttribute_t6879_il2cpp_TypeInfo;
+extern TypeInfo XmlSerializationGeneratedCode_t6880_il2cpp_TypeInfo;
+extern TypeInfo WriteCallbackInfo_t6882_il2cpp_TypeInfo;
+extern TypeInfo CollectionFixup_t6884_il2cpp_TypeInfo;
+extern TypeInfo Fixup_t6886_il2cpp_TypeInfo;
+extern TypeInfo CollectionItemFixup_t6887_il2cpp_TypeInfo;
+extern TypeInfo XmlSerializationReader_t6888_il2cpp_TypeInfo;
+extern TypeInfo FixupCallbackInfo_t6892_il2cpp_TypeInfo;
+extern TypeInfo ReaderCallbackInfo_t6893_il2cpp_TypeInfo;
+extern TypeInfo XmlSerializationReaderInterpreter_t6890_il2cpp_TypeInfo;
+extern TypeInfo WriteCallbackInfo_t6896_il2cpp_TypeInfo;
+extern TypeInfo XmlSerializationWriter_t6899_il2cpp_TypeInfo;
+extern TypeInfo CallbackInfo_t6901_il2cpp_TypeInfo;
+extern TypeInfo XmlSerializationWriterInterpreter_t6900_il2cpp_TypeInfo;
+extern TypeInfo SerializerData_t6905_il2cpp_TypeInfo;
+extern TypeInfo XmlSerializer_t5907_il2cpp_TypeInfo;
+extern TypeInfo XmlSerializerImplementation_t6904_il2cpp_TypeInfo;
+extern TypeInfo XmlSerializerNamespaces_t5909_il2cpp_TypeInfo;
+extern TypeInfo XmlTextAttribute_t6857_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeAttribute_t6858_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeMapElementInfo_t6894_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeMapElementInfoList_t6877_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeMapMember_t6875_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeMapMemberAttribute_t6911_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeMapMemberElement_t6878_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeMapMemberList_t6912_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeMapMemberExpandable_t6913_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeMapMemberFlatList_t6914_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeMapMemberAnyElement_t6903_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeMapMemberAnyAttribute_t6915_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeMapMemberNamespaces_t6916_il2cpp_TypeInfo;
+extern TypeInfo XmlTypeMapping_t6835_il2cpp_TypeInfo;
+extern TypeInfo XmlSerializableMapping_t6917_il2cpp_TypeInfo;
+extern TypeInfo ClassMap_t6891_il2cpp_TypeInfo;
+extern TypeInfo ListMap_t6902_il2cpp_TypeInfo;
+extern TypeInfo EnumMapMember_t6920_il2cpp_TypeInfo;
+extern TypeInfo EnumMap_t6922_il2cpp_TypeInfo;
+extern TypeInfo IXPathNavigable_t7069_il2cpp_TypeInfo;
+extern TypeInfo ConformanceLevel_t6923_il2cpp_TypeInfo;
+extern TypeInfo DTDAutomataFactory_t6925_il2cpp_TypeInfo;
+extern TypeInfo DTDAutomata_t6927_il2cpp_TypeInfo;
+extern TypeInfo DTDElementAutomata_t6929_il2cpp_TypeInfo;
+extern TypeInfo DTDChoiceAutomata_t6926_il2cpp_TypeInfo;
+extern TypeInfo DTDSequenceAutomata_t6928_il2cpp_TypeInfo;
+extern TypeInfo DTDOneOrMoreAutomata_t6930_il2cpp_TypeInfo;
+extern TypeInfo DTDEmptyAutomata_t6931_il2cpp_TypeInfo;
+extern TypeInfo DTDAnyAutomata_t6932_il2cpp_TypeInfo;
+extern TypeInfo DTDInvalidAutomata_t6933_il2cpp_TypeInfo;
+extern TypeInfo DTDObjectModel_t6924_il2cpp_TypeInfo;
+extern TypeInfo U3CU3Ec__Iterator3_t6944_il2cpp_TypeInfo;
+extern TypeInfo DictionaryBase_t6943_il2cpp_TypeInfo;
+extern TypeInfo DTDCollectionBase_t6950_il2cpp_TypeInfo;
+extern TypeInfo DTDElementDeclarationCollection_t6934_il2cpp_TypeInfo;
+extern TypeInfo DTDAttListDeclarationCollection_t6935_il2cpp_TypeInfo;
+extern TypeInfo DTDEntityDeclarationCollection_t6937_il2cpp_TypeInfo;
+extern TypeInfo DTDNotationDeclarationCollection_t6938_il2cpp_TypeInfo;
+extern TypeInfo DTDContentModel_t6956_il2cpp_TypeInfo;
+extern TypeInfo DTDContentModelCollection_t6955_il2cpp_TypeInfo;
+extern TypeInfo DTDNode_t6942_il2cpp_TypeInfo;
+extern TypeInfo DTDElementDeclaration_t6951_il2cpp_TypeInfo;
+extern TypeInfo DTDAttributeDefinition_t6957_il2cpp_TypeInfo;
+extern TypeInfo DTDAttListDeclaration_t6952_il2cpp_TypeInfo;
+extern TypeInfo DTDEntityBase_t6958_il2cpp_TypeInfo;
+extern TypeInfo DTDEntityDeclaration_t6953_il2cpp_TypeInfo;
+extern TypeInfo DTDNotationDeclaration_t6954_il2cpp_TypeInfo;
+extern TypeInfo DTDParameterEntityDeclarationCollection_t6936_il2cpp_TypeInfo;
+extern TypeInfo DTDParameterEntityDeclaration_t6959_il2cpp_TypeInfo;
+extern TypeInfo DTDContentOrderType_t6960_il2cpp_TypeInfo;
+extern TypeInfo DTDAttributeOccurenceType_t6961_il2cpp_TypeInfo;
+extern TypeInfo DTDOccurence_t6962_il2cpp_TypeInfo;
+extern TypeInfo DTDReader_t6964_il2cpp_TypeInfo;
+extern TypeInfo AttributeSlot_t6965_il2cpp_TypeInfo;
+extern TypeInfo DTDValidatingReader_t6970_il2cpp_TypeInfo;
+extern TypeInfo EntityHandling_t6971_il2cpp_TypeInfo;
+extern TypeInfo EntityResolvingXmlReader_t6966_il2cpp_TypeInfo;
+extern TypeInfo Formatting_t6972_il2cpp_TypeInfo;
+extern TypeInfo IHasXmlChildNode_t7014_il2cpp_TypeInfo;
+extern TypeInfo IXmlLineInfo_t6649_il2cpp_TypeInfo;
+extern TypeInfo IXmlNamespaceResolver_t6651_il2cpp_TypeInfo;
+extern TypeInfo Entry_t6973_il2cpp_TypeInfo;
+extern TypeInfo NameTable_t6975_il2cpp_TypeInfo;
+extern TypeInfo NamespaceHandling_t6976_il2cpp_TypeInfo;
+extern TypeInfo NewLineHandling_t6977_il2cpp_TypeInfo;
+extern TypeInfo ReadState_t6978_il2cpp_TypeInfo;
+extern TypeInfo ValidationType_t6979_il2cpp_TypeInfo;
+extern TypeInfo WhitespaceHandling_t6980_il2cpp_TypeInfo;
+extern TypeInfo WriteState_t6981_il2cpp_TypeInfo;
+extern TypeInfo XmlAttribute_t6763_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributeCollection_t6984_il2cpp_TypeInfo;
+extern TypeInfo XmlCDataSection_t6986_il2cpp_TypeInfo;
+extern TypeInfo XmlChar_t6988_il2cpp_TypeInfo;
+extern TypeInfo XmlCharacterData_t6987_il2cpp_TypeInfo;
+extern TypeInfo XmlComment_t5525_il2cpp_TypeInfo;
+extern TypeInfo XmlConvert_t6989_il2cpp_TypeInfo;
+extern TypeInfo XmlDateTimeSerializationMode_t6990_il2cpp_TypeInfo;
+extern TypeInfo XmlDeclaration_t6991_il2cpp_TypeInfo;
+extern TypeInfo XmlDocument_t5524_il2cpp_TypeInfo;
+extern TypeInfo XmlDocumentFragment_t6996_il2cpp_TypeInfo;
+extern TypeInfo XmlDocumentType_t6995_il2cpp_TypeInfo;
+extern TypeInfo XmlElement_t5531_il2cpp_TypeInfo;
+extern TypeInfo XmlEntity_t7001_il2cpp_TypeInfo;
+extern TypeInfo XmlEntityReference_t6997_il2cpp_TypeInfo;
+extern TypeInfo XmlException_t6940_il2cpp_TypeInfo;
+extern TypeInfo XmlImplementation_t6992_il2cpp_TypeInfo;
+extern TypeInfo XmlStreamReader_t7003_il2cpp_TypeInfo;
+extern TypeInfo NonBlockingStreamReader_t7004_il2cpp_TypeInfo;
+extern TypeInfo XmlInputStream_t7002_il2cpp_TypeInfo;
+extern TypeInfo XmlLinkedNode_t6983_il2cpp_TypeInfo;
+extern TypeInfo XmlNameEntry_t6982_il2cpp_TypeInfo;
+extern TypeInfo XmlNameEntryCache_t6993_il2cpp_TypeInfo;
+extern TypeInfo XmlNameTable_t6650_il2cpp_TypeInfo;
+extern TypeInfo XmlNamedNodeMap_t6985_il2cpp_TypeInfo;
+extern TypeInfo NsDecl_t7006_il2cpp_TypeInfo;
+extern TypeInfo NsScope_t7007_il2cpp_TypeInfo;
+extern TypeInfo XmlNamespaceManager_t6685_il2cpp_TypeInfo;
+extern TypeInfo EmptyNodeList_t7010_il2cpp_TypeInfo;
+extern TypeInfo XmlNode_t5526_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeChangedAction_t7012_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeChangedEventArgs_t7013_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeList_t5747_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t7015_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeListChildren_t7011_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeType_t7016_il2cpp_TypeInfo;
+extern TypeInfo XmlNotation_t7017_il2cpp_TypeInfo;
+extern TypeInfo XmlOutputMethod_t7018_il2cpp_TypeInfo;
+extern TypeInfo ContextItem_t7019_il2cpp_TypeInfo;
+extern TypeInfo XmlParserContext_t6684_il2cpp_TypeInfo;
+extern TypeInfo XmlParserInputSource_t7020_il2cpp_TypeInfo;
+extern TypeInfo XmlParserInput_t6963_il2cpp_TypeInfo;
+extern TypeInfo XmlProcessingInstruction_t6998_il2cpp_TypeInfo;
+extern TypeInfo XmlQualifiedName_t6656_il2cpp_TypeInfo;
+extern TypeInfo XmlReader_t6677_il2cpp_TypeInfo;
+extern TypeInfo CommandState_t7023_il2cpp_TypeInfo;
+extern TypeInfo CharGetter_t7024_il2cpp_TypeInfo;
+extern TypeInfo XmlReaderBinarySupport_t7021_il2cpp_TypeInfo;
+extern TypeInfo XmlReaderSettings_t7022_il2cpp_TypeInfo;
+extern TypeInfo XmlResolver_t6678_il2cpp_TypeInfo;
+extern TypeInfo XmlSignificantWhitespace_t6999_il2cpp_TypeInfo;
+extern TypeInfo XmlSpace_t7025_il2cpp_TypeInfo;
+extern TypeInfo XmlText_t5528_il2cpp_TypeInfo;
+extern TypeInfo XmlTokenInfo_t7026_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributeTokenInfo_t7027_il2cpp_TypeInfo;
+extern TypeInfo TagName_t7028_il2cpp_TypeInfo;
+extern TypeInfo DtdInputState_t7029_il2cpp_TypeInfo;
+extern TypeInfo DtdInputStateStack_t7030_il2cpp_TypeInfo;
+extern TypeInfo XmlTextReader_t6941_il2cpp_TypeInfo;
+extern TypeInfo XmlTextReader_t6967_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeInfo_t7035_il2cpp_TypeInfo;
+extern TypeInfo StringUtil_t7036_il2cpp_TypeInfo;
+extern TypeInfo XmlDeclState_t7037_il2cpp_TypeInfo;
+extern TypeInfo XmlTextWriter_t7039_il2cpp_TypeInfo;
+extern TypeInfo XmlTokenizedType_t7040_il2cpp_TypeInfo;
+extern TypeInfo XmlUrlResolver_t7042_il2cpp_TypeInfo;
+extern TypeInfo XmlValidatingReader_t6968_il2cpp_TypeInfo;
+extern TypeInfo XmlWhitespace_t7000_il2cpp_TypeInfo;
+extern TypeInfo XmlWriter_t5910_il2cpp_TypeInfo;
+extern TypeInfo XmlWriterSettings_t5908_il2cpp_TypeInfo;
+extern TypeInfo ValidationEventHandler_t6682_il2cpp_TypeInfo;
+extern TypeInfo UnreferencedObjectEventHandler_t6909_il2cpp_TypeInfo;
+extern TypeInfo XmlAttributeEventHandler_t6906_il2cpp_TypeInfo;
+extern TypeInfo XmlElementEventHandler_t6907_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeEventHandler_t6908_il2cpp_TypeInfo;
+extern TypeInfo XmlSerializationCollectionFixupCallback_t6883_il2cpp_TypeInfo;
+extern TypeInfo XmlSerializationFixupCallback_t6885_il2cpp_TypeInfo;
+extern TypeInfo XmlSerializationReadCallback_t6881_il2cpp_TypeInfo;
+extern TypeInfo XmlSerializationWriteCallback_t6895_il2cpp_TypeInfo;
+extern TypeInfo XmlNodeChangedEventHandler_t6994_il2cpp_TypeInfo;
+extern TypeInfo $ArrayType$12_t7043_il2cpp_TypeInfo;
+extern TypeInfo $ArrayType$8_t7044_il2cpp_TypeInfo;
+extern TypeInfo $ArrayType$256_t7045_il2cpp_TypeInfo;
+extern TypeInfo $ArrayType$1280_t7046_il2cpp_TypeInfo;
+extern TypeInfo U3CPrivateImplementationDetailsU3E_t7047_il2cpp_TypeInfo;
+#include "utils/RegisterRuntimeInitializeAndCleanup.h"
+#include <map>
+struct TypeInfo;
+struct MethodInfo;
+TypeInfo* g_System_Xml_Assembly_Types[381] = 
+{
+	&U3CModuleU3E_t6636_il2cpp_TypeInfo,
+	&MonoTODOAttribute_t6637_il2cpp_TypeInfo,
+	&XsdIdentitySelector_t6642_il2cpp_TypeInfo,
+	&XsdIdentityField_t6641_il2cpp_TypeInfo,
+	&XsdIdentityPath_t6639_il2cpp_TypeInfo,
+	&XsdIdentityStep_t6645_il2cpp_TypeInfo,
+	&XsdKeyEntryField_t6648_il2cpp_TypeInfo,
+	&XsdKeyEntryFieldCollection_t6652_il2cpp_TypeInfo,
+	&XsdKeyEntry_t6646_il2cpp_TypeInfo,
+	&XsdKeyEntryCollection_t6654_il2cpp_TypeInfo,
+	&XsdKeyTable_t6653_il2cpp_TypeInfo,
+	&XsdParticleStateManager_t6660_il2cpp_TypeInfo,
+	&XsdValidationState_t6661_il2cpp_TypeInfo,
+	&XsdElementValidationState_t6663_il2cpp_TypeInfo,
+	&XsdSequenceValidationState_t6664_il2cpp_TypeInfo,
+	&XsdChoiceValidationState_t6666_il2cpp_TypeInfo,
+	&XsdAllValidationState_t6668_il2cpp_TypeInfo,
+	&XsdAnyValidationState_t6670_il2cpp_TypeInfo,
+	&XsdAppendedValidationState_t6674_il2cpp_TypeInfo,
+	&XsdEmptyValidationState_t6672_il2cpp_TypeInfo,
+	&XsdInvalidValidationState_t6673_il2cpp_TypeInfo,
+	&XsdValidatingReader_t6683_il2cpp_TypeInfo,
+	&XsdValidationContext_t6659_il2cpp_TypeInfo,
+	&XsdIDManager_t6681_il2cpp_TypeInfo,
+	&XsdWildcard_t6693_il2cpp_TypeInfo,
+	&IHasXmlParserContext_t7049_il2cpp_TypeInfo,
+	&IHasXmlSchemaInfo_t6679_il2cpp_TypeInfo,
+	&XsdWhitespaceFacet_t6694_il2cpp_TypeInfo,
+	&XsdOrdering_t6695_il2cpp_TypeInfo,
+	&XsdAnySimpleType_t6647_il2cpp_TypeInfo,
+	&XdtAnyAtomicType_t6697_il2cpp_TypeInfo,
+	&XdtUntypedAtomic_t6698_il2cpp_TypeInfo,
+	&XsdString_t6699_il2cpp_TypeInfo,
+	&XsdNormalizedString_t6700_il2cpp_TypeInfo,
+	&XsdToken_t6701_il2cpp_TypeInfo,
+	&XsdLanguage_t6702_il2cpp_TypeInfo,
+	&XsdNMToken_t6703_il2cpp_TypeInfo,
+	&XsdNMTokens_t6704_il2cpp_TypeInfo,
+	&XsdName_t6705_il2cpp_TypeInfo,
+	&XsdNCName_t6706_il2cpp_TypeInfo,
+	&XsdID_t6707_il2cpp_TypeInfo,
+	&XsdIDRef_t6708_il2cpp_TypeInfo,
+	&XsdIDRefs_t6709_il2cpp_TypeInfo,
+	&XsdEntity_t6710_il2cpp_TypeInfo,
+	&XsdEntities_t6711_il2cpp_TypeInfo,
+	&XsdNotation_t6712_il2cpp_TypeInfo,
+	&XsdDecimal_t6713_il2cpp_TypeInfo,
+	&XsdInteger_t6714_il2cpp_TypeInfo,
+	&XsdLong_t6715_il2cpp_TypeInfo,
+	&XsdInt_t6716_il2cpp_TypeInfo,
+	&XsdShort_t6717_il2cpp_TypeInfo,
+	&XsdByte_t6718_il2cpp_TypeInfo,
+	&XsdNonNegativeInteger_t6719_il2cpp_TypeInfo,
+	&XsdUnsignedLong_t6720_il2cpp_TypeInfo,
+	&XsdUnsignedInt_t6721_il2cpp_TypeInfo,
+	&XsdUnsignedShort_t6722_il2cpp_TypeInfo,
+	&XsdUnsignedByte_t6723_il2cpp_TypeInfo,
+	&XsdPositiveInteger_t6724_il2cpp_TypeInfo,
+	&XsdNonPositiveInteger_t6725_il2cpp_TypeInfo,
+	&XsdNegativeInteger_t6726_il2cpp_TypeInfo,
+	&XsdFloat_t6727_il2cpp_TypeInfo,
+	&XsdDouble_t6728_il2cpp_TypeInfo,
+	&XsdBase64Binary_t6729_il2cpp_TypeInfo,
+	&XsdHexBinary_t6730_il2cpp_TypeInfo,
+	&XsdQName_t6731_il2cpp_TypeInfo,
+	&XsdBoolean_t6732_il2cpp_TypeInfo,
+	&XsdAnyURI_t6733_il2cpp_TypeInfo,
+	&XmlSchemaUri_t6734_il2cpp_TypeInfo,
+	&XsdDuration_t6736_il2cpp_TypeInfo,
+	&XdtDayTimeDuration_t6737_il2cpp_TypeInfo,
+	&XdtYearMonthDuration_t6738_il2cpp_TypeInfo,
+	&XsdDateTime_t6739_il2cpp_TypeInfo,
+	&XsdDate_t6740_il2cpp_TypeInfo,
+	&XsdTime_t6741_il2cpp_TypeInfo,
+	&XsdGYearMonth_t6742_il2cpp_TypeInfo,
+	&XsdGMonthDay_t6743_il2cpp_TypeInfo,
+	&XsdGYear_t6744_il2cpp_TypeInfo,
+	&XsdGMonth_t6745_il2cpp_TypeInfo,
+	&XsdGDay_t6746_il2cpp_TypeInfo,
+	&IXmlSchemaInfo_t6793_il2cpp_TypeInfo,
+	&QNameValueType_t6747_il2cpp_TypeInfo,
+	&StringValueType_t6748_il2cpp_TypeInfo,
+	&UriValueType_t6749_il2cpp_TypeInfo,
+	&StringArrayValueType_t6750_il2cpp_TypeInfo,
+	&ValidationEventArgs_t6752_il2cpp_TypeInfo,
+	&ValidationHandler_t6753_il2cpp_TypeInfo,
+	&XmlSchema_t6691_il2cpp_TypeInfo,
+	&XmlSchemaAll_t6669_il2cpp_TypeInfo,
+	&XmlSchemaAnnotated_t6764_il2cpp_TypeInfo,
+	&XmlSchemaAnnotation_t6761_il2cpp_TypeInfo,
+	&XmlSchemaAny_t6671_il2cpp_TypeInfo,
+	&XmlSchemaAnyAttribute_t6765_il2cpp_TypeInfo,
+	&XmlSchemaAppInfo_t6767_il2cpp_TypeInfo,
+	&XmlSchemaAttribute_t6676_il2cpp_TypeInfo,
+	&XmlSchemaAttributeGroup_t6757_il2cpp_TypeInfo,
+	&XmlSchemaAttributeGroupRef_t6768_il2cpp_TypeInfo,
+	&XmlSchemaChoice_t6667_il2cpp_TypeInfo,
+	&XmlSchemaCollection_t6769_il2cpp_TypeInfo,
+	&XmlSchemaCollectionEnumerator_t6770_il2cpp_TypeInfo,
+	&XmlSchemaCompilationSettings_t6771_il2cpp_TypeInfo,
+	&XmlSchemaComplexContent_t6773_il2cpp_TypeInfo,
+	&XmlSchemaComplexContentExtension_t6775_il2cpp_TypeInfo,
+	&XmlSchemaComplexContentRestriction_t6776_il2cpp_TypeInfo,
+	&XmlSchemaComplexType_t6690_il2cpp_TypeInfo,
+	&XmlSchemaContent_t6772_il2cpp_TypeInfo,
+	&XmlSchemaContentModel_t6774_il2cpp_TypeInfo,
+	&XmlSchemaContentProcessing_t6778_il2cpp_TypeInfo,
+	&XmlSchemaContentType_t6779_il2cpp_TypeInfo,
+	&XmlSchemaDatatype_t6689_il2cpp_TypeInfo,
+	&XmlSchemaDerivationMethod_t6780_il2cpp_TypeInfo,
+	&XmlSchemaDocumentation_t6781_il2cpp_TypeInfo,
+	&XmlSchemaElement_t6657_il2cpp_TypeInfo,
+	&XmlSchemaEnumerationFacet_t6782_il2cpp_TypeInfo,
+	&XmlSchemaException_t6751_il2cpp_TypeInfo,
+	&XmlSchemaExternal_t6756_il2cpp_TypeInfo,
+	&Facet_t6784_il2cpp_TypeInfo,
+	&XmlSchemaFacet_t6696_il2cpp_TypeInfo,
+	&XmlSchemaForm_t6785_il2cpp_TypeInfo,
+	&XmlSchemaFractionDigitsFacet_t6786_il2cpp_TypeInfo,
+	&XmlSchemaGroup_t6788_il2cpp_TypeInfo,
+	&XmlSchemaGroupBase_t6759_il2cpp_TypeInfo,
+	&XmlSchemaGroupRef_t6789_il2cpp_TypeInfo,
+	&XmlSchemaIdentityConstraint_t6655_il2cpp_TypeInfo,
+	&XmlSchemaImport_t6790_il2cpp_TypeInfo,
+	&XmlSchemaInclude_t6791_il2cpp_TypeInfo,
+	&XmlSchemaInfo_t6792_il2cpp_TypeInfo,
+	&XmlSchemaKey_t6794_il2cpp_TypeInfo,
+	&XmlSchemaKeyref_t6795_il2cpp_TypeInfo,
+	&XmlSchemaLengthFacet_t6796_il2cpp_TypeInfo,
+	&XmlSchemaMaxExclusiveFacet_t6797_il2cpp_TypeInfo,
+	&XmlSchemaMaxInclusiveFacet_t6798_il2cpp_TypeInfo,
+	&XmlSchemaMaxLengthFacet_t6799_il2cpp_TypeInfo,
+	&XmlSchemaMinExclusiveFacet_t6800_il2cpp_TypeInfo,
+	&XmlSchemaMinInclusiveFacet_t6801_il2cpp_TypeInfo,
+	&XmlSchemaMinLengthFacet_t6802_il2cpp_TypeInfo,
+	&XmlSchemaNotation_t6803_il2cpp_TypeInfo,
+	&XmlSchemaNumericFacet_t6787_il2cpp_TypeInfo,
+	&XmlSchemaObject_t6662_il2cpp_TypeInfo,
+	&XmlSchemaObjectCollection_t6755_il2cpp_TypeInfo,
+	&XmlSchemaObjectEnumerator_t6804_il2cpp_TypeInfo,
+	&XmlSchemaObjectTableEnumerator_t6805_il2cpp_TypeInfo,
+	&XmlSchemaObjectTable_t6754_il2cpp_TypeInfo,
+	&EmptyParticle_t6807_il2cpp_TypeInfo,
+	&XmlSchemaParticle_t6760_il2cpp_TypeInfo,
+	&XmlSchemaPatternFacet_t6808_il2cpp_TypeInfo,
+	&XmlSchemaReader_t6758_il2cpp_TypeInfo,
+	&XmlSchemaRedefine_t6809_il2cpp_TypeInfo,
+	&XmlSchemaSequence_t6665_il2cpp_TypeInfo,
+	&XmlSchemaSet_t6680_il2cpp_TypeInfo,
+	&XmlSchemaSimpleContent_t6811_il2cpp_TypeInfo,
+	&XmlSchemaSimpleContentExtension_t6812_il2cpp_TypeInfo,
+	&XmlSchemaSimpleContentRestriction_t6813_il2cpp_TypeInfo,
+	&XmlSchemaSimpleType_t6688_il2cpp_TypeInfo,
+	&XmlSchemaSimpleTypeContent_t6814_il2cpp_TypeInfo,
+	&XmlSchemaSimpleTypeList_t6815_il2cpp_TypeInfo,
+	&XmlSchemaSimpleTypeRestriction_t6817_il2cpp_TypeInfo,
+	&XmlSchemaSimpleTypeUnion_t6821_il2cpp_TypeInfo,
+	&XmlSchemaTotalDigitsFacet_t6818_il2cpp_TypeInfo,
+	&XmlSchemaType_t6687_il2cpp_TypeInfo,
+	&XmlSchemaUnique_t6822_il2cpp_TypeInfo,
+	&XmlSchemaUse_t6823_il2cpp_TypeInfo,
+	&XmlSchemaUtil_t6824_il2cpp_TypeInfo,
+	&XmlSchemaValidationException_t6686_il2cpp_TypeInfo,
+	&XmlSchemaValidationFlags_t6825_il2cpp_TypeInfo,
+	&XmlSchemaValidity_t6826_il2cpp_TypeInfo,
+	&XmlSchemaWhiteSpaceFacet_t6827_il2cpp_TypeInfo,
+	&XmlSchemaXPath_t6643_il2cpp_TypeInfo,
+	&XmlSeverityType_t6828_il2cpp_TypeInfo,
+	&XmlTypeCode_t6829_il2cpp_TypeInfo,
+	&CodeIdentifier_t6830_il2cpp_TypeInfo,
+	&IXmlSerializable_t6889_il2cpp_TypeInfo,
+	&KeyHelper_t6831_il2cpp_TypeInfo,
+	&ReflectionHelper_t6834_il2cpp_TypeInfo,
+	&SchemaTypes_t6836_il2cpp_TypeInfo,
+	&SerializationSource_t6837_il2cpp_TypeInfo,
+	&XmlTypeSerializationSource_t6838_il2cpp_TypeInfo,
+	&TypeData_t6841_il2cpp_TypeInfo,
+	&TypeMember_t6842_il2cpp_TypeInfo,
+	&TypeTranslator_t6843_il2cpp_TypeInfo,
+	&UnreferencedObjectEventArgs_t6844_il2cpp_TypeInfo,
+	&XmlAnyAttributeAttribute_t6845_il2cpp_TypeInfo,
+	&XmlAnyElementAttribute_t6846_il2cpp_TypeInfo,
+	&XmlAnyElementAttributes_t6847_il2cpp_TypeInfo,
+	&XmlArrayAttribute_t6848_il2cpp_TypeInfo,
+	&XmlArrayItemAttribute_t6849_il2cpp_TypeInfo,
+	&XmlArrayItemAttributes_t6850_il2cpp_TypeInfo,
+	&XmlAttributeAttribute_t6851_il2cpp_TypeInfo,
+	&XmlAttributeEventArgs_t6852_il2cpp_TypeInfo,
+	&XmlAttributeOverrides_t6840_il2cpp_TypeInfo,
+	&XmlAttributes_t6853_il2cpp_TypeInfo,
+	&XmlChoiceIdentifierAttribute_t6854_il2cpp_TypeInfo,
+	&XmlCustomFormatter_t6860_il2cpp_TypeInfo,
+	&XmlElementAttribute_t6862_il2cpp_TypeInfo,
+	&XmlElementAttributes_t6855_il2cpp_TypeInfo,
+	&XmlElementEventArgs_t6863_il2cpp_TypeInfo,
+	&XmlEnumAttribute_t6856_il2cpp_TypeInfo,
+	&XmlIgnoreAttribute_t6864_il2cpp_TypeInfo,
+	&XmlIncludeAttribute_t6865_il2cpp_TypeInfo,
+	&XmlMapping_t6867_il2cpp_TypeInfo,
+	&ObjectMap_t6866_il2cpp_TypeInfo,
+	&SerializationFormat_t6868_il2cpp_TypeInfo,
+	&XmlMemberMapping_t6869_il2cpp_TypeInfo,
+	&XmlMembersMapping_t6871_il2cpp_TypeInfo,
+	&XmlNamespaceDeclarationsAttribute_t6872_il2cpp_TypeInfo,
+	&XmlNodeEventArgs_t6873_il2cpp_TypeInfo,
+	&XmlReflectionImporter_t6874_il2cpp_TypeInfo,
+	&XmlReflectionMember_t6876_il2cpp_TypeInfo,
+	&XmlRootAttribute_t6839_il2cpp_TypeInfo,
+	&XmlSchemaProviderAttribute_t6879_il2cpp_TypeInfo,
+	&XmlSerializationGeneratedCode_t6880_il2cpp_TypeInfo,
+	&WriteCallbackInfo_t6882_il2cpp_TypeInfo,
+	&CollectionFixup_t6884_il2cpp_TypeInfo,
+	&Fixup_t6886_il2cpp_TypeInfo,
+	&CollectionItemFixup_t6887_il2cpp_TypeInfo,
+	&XmlSerializationReader_t6888_il2cpp_TypeInfo,
+	&FixupCallbackInfo_t6892_il2cpp_TypeInfo,
+	&ReaderCallbackInfo_t6893_il2cpp_TypeInfo,
+	&XmlSerializationReaderInterpreter_t6890_il2cpp_TypeInfo,
+	&WriteCallbackInfo_t6896_il2cpp_TypeInfo,
+	&XmlSerializationWriter_t6899_il2cpp_TypeInfo,
+	&CallbackInfo_t6901_il2cpp_TypeInfo,
+	&XmlSerializationWriterInterpreter_t6900_il2cpp_TypeInfo,
+	&SerializerData_t6905_il2cpp_TypeInfo,
+	&XmlSerializer_t5907_il2cpp_TypeInfo,
+	&XmlSerializerImplementation_t6904_il2cpp_TypeInfo,
+	&XmlSerializerNamespaces_t5909_il2cpp_TypeInfo,
+	&XmlTextAttribute_t6857_il2cpp_TypeInfo,
+	&XmlTypeAttribute_t6858_il2cpp_TypeInfo,
+	&XmlTypeMapElementInfo_t6894_il2cpp_TypeInfo,
+	&XmlTypeMapElementInfoList_t6877_il2cpp_TypeInfo,
+	&XmlTypeMapMember_t6875_il2cpp_TypeInfo,
+	&XmlTypeMapMemberAttribute_t6911_il2cpp_TypeInfo,
+	&XmlTypeMapMemberElement_t6878_il2cpp_TypeInfo,
+	&XmlTypeMapMemberList_t6912_il2cpp_TypeInfo,
+	&XmlTypeMapMemberExpandable_t6913_il2cpp_TypeInfo,
+	&XmlTypeMapMemberFlatList_t6914_il2cpp_TypeInfo,
+	&XmlTypeMapMemberAnyElement_t6903_il2cpp_TypeInfo,
+	&XmlTypeMapMemberAnyAttribute_t6915_il2cpp_TypeInfo,
+	&XmlTypeMapMemberNamespaces_t6916_il2cpp_TypeInfo,
+	&XmlTypeMapping_t6835_il2cpp_TypeInfo,
+	&XmlSerializableMapping_t6917_il2cpp_TypeInfo,
+	&ClassMap_t6891_il2cpp_TypeInfo,
+	&ListMap_t6902_il2cpp_TypeInfo,
+	&EnumMapMember_t6920_il2cpp_TypeInfo,
+	&EnumMap_t6922_il2cpp_TypeInfo,
+	&IXPathNavigable_t7069_il2cpp_TypeInfo,
+	&ConformanceLevel_t6923_il2cpp_TypeInfo,
+	&DTDAutomataFactory_t6925_il2cpp_TypeInfo,
+	&DTDAutomata_t6927_il2cpp_TypeInfo,
+	&DTDElementAutomata_t6929_il2cpp_TypeInfo,
+	&DTDChoiceAutomata_t6926_il2cpp_TypeInfo,
+	&DTDSequenceAutomata_t6928_il2cpp_TypeInfo,
+	&DTDOneOrMoreAutomata_t6930_il2cpp_TypeInfo,
+	&DTDEmptyAutomata_t6931_il2cpp_TypeInfo,
+	&DTDAnyAutomata_t6932_il2cpp_TypeInfo,
+	&DTDInvalidAutomata_t6933_il2cpp_TypeInfo,
+	&DTDObjectModel_t6924_il2cpp_TypeInfo,
+	&U3CU3Ec__Iterator3_t6944_il2cpp_TypeInfo,
+	&DictionaryBase_t6943_il2cpp_TypeInfo,
+	&DTDCollectionBase_t6950_il2cpp_TypeInfo,
+	&DTDElementDeclarationCollection_t6934_il2cpp_TypeInfo,
+	&DTDAttListDeclarationCollection_t6935_il2cpp_TypeInfo,
+	&DTDEntityDeclarationCollection_t6937_il2cpp_TypeInfo,
+	&DTDNotationDeclarationCollection_t6938_il2cpp_TypeInfo,
+	&DTDContentModel_t6956_il2cpp_TypeInfo,
+	&DTDContentModelCollection_t6955_il2cpp_TypeInfo,
+	&DTDNode_t6942_il2cpp_TypeInfo,
+	&DTDElementDeclaration_t6951_il2cpp_TypeInfo,
+	&DTDAttributeDefinition_t6957_il2cpp_TypeInfo,
+	&DTDAttListDeclaration_t6952_il2cpp_TypeInfo,
+	&DTDEntityBase_t6958_il2cpp_TypeInfo,
+	&DTDEntityDeclaration_t6953_il2cpp_TypeInfo,
+	&DTDNotationDeclaration_t6954_il2cpp_TypeInfo,
+	&DTDParameterEntityDeclarationCollection_t6936_il2cpp_TypeInfo,
+	&DTDParameterEntityDeclaration_t6959_il2cpp_TypeInfo,
+	&DTDContentOrderType_t6960_il2cpp_TypeInfo,
+	&DTDAttributeOccurenceType_t6961_il2cpp_TypeInfo,
+	&DTDOccurence_t6962_il2cpp_TypeInfo,
+	&DTDReader_t6964_il2cpp_TypeInfo,
+	&AttributeSlot_t6965_il2cpp_TypeInfo,
+	&DTDValidatingReader_t6970_il2cpp_TypeInfo,
+	&EntityHandling_t6971_il2cpp_TypeInfo,
+	&EntityResolvingXmlReader_t6966_il2cpp_TypeInfo,
+	&Formatting_t6972_il2cpp_TypeInfo,
+	&IHasXmlChildNode_t7014_il2cpp_TypeInfo,
+	&IXmlLineInfo_t6649_il2cpp_TypeInfo,
+	&IXmlNamespaceResolver_t6651_il2cpp_TypeInfo,
+	&Entry_t6973_il2cpp_TypeInfo,
+	&NameTable_t6975_il2cpp_TypeInfo,
+	&NamespaceHandling_t6976_il2cpp_TypeInfo,
+	&NewLineHandling_t6977_il2cpp_TypeInfo,
+	&ReadState_t6978_il2cpp_TypeInfo,
+	&ValidationType_t6979_il2cpp_TypeInfo,
+	&WhitespaceHandling_t6980_il2cpp_TypeInfo,
+	&WriteState_t6981_il2cpp_TypeInfo,
+	&XmlAttribute_t6763_il2cpp_TypeInfo,
+	&XmlAttributeCollection_t6984_il2cpp_TypeInfo,
+	&XmlCDataSection_t6986_il2cpp_TypeInfo,
+	&XmlChar_t6988_il2cpp_TypeInfo,
+	&XmlCharacterData_t6987_il2cpp_TypeInfo,
+	&XmlComment_t5525_il2cpp_TypeInfo,
+	&XmlConvert_t6989_il2cpp_TypeInfo,
+	&XmlDateTimeSerializationMode_t6990_il2cpp_TypeInfo,
+	&XmlDeclaration_t6991_il2cpp_TypeInfo,
+	&XmlDocument_t5524_il2cpp_TypeInfo,
+	&XmlDocumentFragment_t6996_il2cpp_TypeInfo,
+	&XmlDocumentType_t6995_il2cpp_TypeInfo,
+	&XmlElement_t5531_il2cpp_TypeInfo,
+	&XmlEntity_t7001_il2cpp_TypeInfo,
+	&XmlEntityReference_t6997_il2cpp_TypeInfo,
+	&XmlException_t6940_il2cpp_TypeInfo,
+	&XmlImplementation_t6992_il2cpp_TypeInfo,
+	&XmlStreamReader_t7003_il2cpp_TypeInfo,
+	&NonBlockingStreamReader_t7004_il2cpp_TypeInfo,
+	&XmlInputStream_t7002_il2cpp_TypeInfo,
+	&XmlLinkedNode_t6983_il2cpp_TypeInfo,
+	&XmlNameEntry_t6982_il2cpp_TypeInfo,
+	&XmlNameEntryCache_t6993_il2cpp_TypeInfo,
+	&XmlNameTable_t6650_il2cpp_TypeInfo,
+	&XmlNamedNodeMap_t6985_il2cpp_TypeInfo,
+	&NsDecl_t7006_il2cpp_TypeInfo,
+	&NsScope_t7007_il2cpp_TypeInfo,
+	&XmlNamespaceManager_t6685_il2cpp_TypeInfo,
+	&EmptyNodeList_t7010_il2cpp_TypeInfo,
+	&XmlNode_t5526_il2cpp_TypeInfo,
+	&XmlNodeChangedAction_t7012_il2cpp_TypeInfo,
+	&XmlNodeChangedEventArgs_t7013_il2cpp_TypeInfo,
+	&XmlNodeList_t5747_il2cpp_TypeInfo,
+	&Enumerator_t7015_il2cpp_TypeInfo,
+	&XmlNodeListChildren_t7011_il2cpp_TypeInfo,
+	&XmlNodeType_t7016_il2cpp_TypeInfo,
+	&XmlNotation_t7017_il2cpp_TypeInfo,
+	&XmlOutputMethod_t7018_il2cpp_TypeInfo,
+	&ContextItem_t7019_il2cpp_TypeInfo,
+	&XmlParserContext_t6684_il2cpp_TypeInfo,
+	&XmlParserInputSource_t7020_il2cpp_TypeInfo,
+	&XmlParserInput_t6963_il2cpp_TypeInfo,
+	&XmlProcessingInstruction_t6998_il2cpp_TypeInfo,
+	&XmlQualifiedName_t6656_il2cpp_TypeInfo,
+	&XmlReader_t6677_il2cpp_TypeInfo,
+	&CommandState_t7023_il2cpp_TypeInfo,
+	&CharGetter_t7024_il2cpp_TypeInfo,
+	&XmlReaderBinarySupport_t7021_il2cpp_TypeInfo,
+	&XmlReaderSettings_t7022_il2cpp_TypeInfo,
+	&XmlResolver_t6678_il2cpp_TypeInfo,
+	&XmlSignificantWhitespace_t6999_il2cpp_TypeInfo,
+	&XmlSpace_t7025_il2cpp_TypeInfo,
+	&XmlText_t5528_il2cpp_TypeInfo,
+	&XmlTokenInfo_t7026_il2cpp_TypeInfo,
+	&XmlAttributeTokenInfo_t7027_il2cpp_TypeInfo,
+	&TagName_t7028_il2cpp_TypeInfo,
+	&DtdInputState_t7029_il2cpp_TypeInfo,
+	&DtdInputStateStack_t7030_il2cpp_TypeInfo,
+	&XmlTextReader_t6941_il2cpp_TypeInfo,
+	&XmlTextReader_t6967_il2cpp_TypeInfo,
+	&XmlNodeInfo_t7035_il2cpp_TypeInfo,
+	&StringUtil_t7036_il2cpp_TypeInfo,
+	&XmlDeclState_t7037_il2cpp_TypeInfo,
+	&XmlTextWriter_t7039_il2cpp_TypeInfo,
+	&XmlTokenizedType_t7040_il2cpp_TypeInfo,
+	&XmlUrlResolver_t7042_il2cpp_TypeInfo,
+	&XmlValidatingReader_t6968_il2cpp_TypeInfo,
+	&XmlWhitespace_t7000_il2cpp_TypeInfo,
+	&XmlWriter_t5910_il2cpp_TypeInfo,
+	&XmlWriterSettings_t5908_il2cpp_TypeInfo,
+	&ValidationEventHandler_t6682_il2cpp_TypeInfo,
+	&UnreferencedObjectEventHandler_t6909_il2cpp_TypeInfo,
+	&XmlAttributeEventHandler_t6906_il2cpp_TypeInfo,
+	&XmlElementEventHandler_t6907_il2cpp_TypeInfo,
+	&XmlNodeEventHandler_t6908_il2cpp_TypeInfo,
+	&XmlSerializationCollectionFixupCallback_t6883_il2cpp_TypeInfo,
+	&XmlSerializationFixupCallback_t6885_il2cpp_TypeInfo,
+	&XmlSerializationReadCallback_t6881_il2cpp_TypeInfo,
+	&XmlSerializationWriteCallback_t6895_il2cpp_TypeInfo,
+	&XmlNodeChangedEventHandler_t6994_il2cpp_TypeInfo,
+	&$ArrayType$12_t7043_il2cpp_TypeInfo,
+	&$ArrayType$8_t7044_il2cpp_TypeInfo,
+	&$ArrayType$256_t7045_il2cpp_TypeInfo,
+	&$ArrayType$1280_t7046_il2cpp_TypeInfo,
+	&U3CPrivateImplementationDetailsU3E_t7047_il2cpp_TypeInfo,
+	NULL,
+};
+extern Il2CppImage g_System_Xml_dll_Image;
+extern CustomAttributesCache g_System_Xml_Assembly__CustomAttributeCache;
+Il2CppAssembly g_System_Xml_Assembly = 
+{
+	{ "System.Xml", 0, 0, "\x0\x24\x0\x0\x4\x80\x0\x0\x94\x0\x0\x0\x6\x2\x0\x0\x0\x24\x0\x0\x52\x53\x41\x31\x0\x4\x0\x0\x1\x0\x1\x0\x8D\x56\xC7\x6F\x9E\x86\x49\x38\x30\x49\xF3\x83\xC4\x4B\xE0\xEC\x20\x41\x81\x82\x2A\x6C\x31\xCF\x5E\xB7\xEF\x48\x69\x44\xD0\x32\x18\x8E\xA1\xD3\x92\x7\x63\x71\x2C\xCB\x12\xD7\x5F\xB7\x7E\x98\x11\x14\x9E\x61\x48\xE5\xD3\x2F\xBA\xAB\x37\x61\x1C\x18\x78\xDD\xC1\x9E\x20\xEF\x13\x5D\xC\xB2\xCF\xF2\xBF\xEC\x3D\x11\x58\x10\xC3\xD9\x6\x96\x38\xFE\x4B\xE2\x15\xDB\xF7\x95\x86\x19\x20\xE5\xAB\x6F\x7D\xB2\xE2\xCE\xEF\x13\x6A\xC2\x3D\x5D\xD2\xBF\x3\x17\x0\xAE\xC2\x32\xF6\xC6\xB1\xC7\x85\xB4\x30\x5C\x12\x3B\x37\xAB", { 0x7C, 0xEC, 0x85, 0xD7, 0xBE, 0xA7, 0x79, 0x8E }, 32772, 0, 1, 2, 0, 5, 0 },
+	&g_System_Xml_dll_Image,
+	&g_System_Xml_Assembly__CustomAttributeCache,
+};
+Il2CppImage g_System_Xml_dll_Image = 
+{
+	 "System.Xml.dll" ,
+	&g_System_Xml_Assembly,
+	g_System_Xml_Assembly_Types,
+	380,
+};
+static void s_System_XmlRegistration()
+{
+	RegisterAssembly (&g_System_Xml_Assembly);
+}
+static il2cpp::utils::RegisterRuntimeInitializeAndCleanup s_System_XmlRegistrationVariable(&s_System_XmlRegistration, NULL);

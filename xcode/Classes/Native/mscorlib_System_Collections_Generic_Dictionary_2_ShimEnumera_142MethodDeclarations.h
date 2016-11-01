@@ -1,0 +1,29 @@
+﻿#pragma once
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+#include "codegen/il2cpp-codegen.h"
+
+// System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_RoleName>>
+struct ShimEnumerator_t14181;
+// System.Object
+struct Object_t;
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_RoleName>>
+struct Dictionary_2_t283;
+// System.Collections.DictionaryEntry
+#include "mscorlib_System_Collections_DictionaryEntry.h"
+
+// System.Void System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_RoleName>>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+ void ShimEnumerator__ctor_m104480 (ShimEnumerator_t14181 * __this, Dictionary_2_t283 * ___host, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_RoleName>>::MoveNext()
+ bool ShimEnumerator_MoveNext_m104481 (ShimEnumerator_t14181 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_RoleName>>::get_Entry()
+ DictionaryEntry_t1066  ShimEnumerator_get_Entry_m104482 (ShimEnumerator_t14181 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_RoleName>>::get_Key()
+ Object_t * ShimEnumerator_get_Key_m104483 (ShimEnumerator_t14181 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_RoleName>>::get_Value()
+ Object_t * ShimEnumerator_get_Value_m104484 (ShimEnumerator_t14181 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_RoleName>>::get_Current()
+ Object_t * ShimEnumerator_get_Current_m104485 (ShimEnumerator_t14181 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_RoleName>>::Reset()
+ void ShimEnumerator_Reset_m104486 (ShimEnumerator_t14181 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

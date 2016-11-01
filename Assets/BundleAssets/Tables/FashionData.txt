@@ -1,0 +1,8 @@
+Id	Desc	Name	Icon	IsSale	PriceWeek	PriceMonth	PriceForever	ItemVisualID	SortID	FashionSource	DescDicId	FashionType
+INT	STRING	STRING	STRING	INT	INT	INT	INT	INT	INT	STRING	STRING	INT
+#MAX_ID=19;MAX_RECORD=20;TableType=Index;												
+#ID	描述(程序不读)	游戏中描述	图标	是否上架	7天售价	30天售价	永久售价	对应ItemVisual表ID	排序(从1开始 1最先显示)	获取途径	描述文字	时装类型
+0	白色时装	宫廷晚礼服时装	Baiseshizhuang	1	150	450	1350	34	1	外观商城购买	11110	1
+1	黑色时装	摇滚风格时装	Heiseshizhuang	1	150	450	1350	35	2	外观商城购买	11111	1
+2	黄金机械翅膀	吉尔伽美什	ChibangJX6	1	150	450	1350	100	1	外观商城购买	11225	2
+3	蓝色流光翅膀	银月天使	ChibangYM6	1	150	450	1350	101	1	外观商城购买	11226	2

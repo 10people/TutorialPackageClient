@@ -1,0 +1,12 @@
+﻿#pragma once
+#include <stdint.h>
+// System.Enum
+#include "mscorlib_System_Enum.h"
+// GC_SYSTEMSHOP_MERCHANDISELIST/SYSTEMSHOPTYPE
+#include "AssemblyU2DCSharp_GC_SYSTEMSHOP_MERCHANDISELIST_SYSTEMSHOPTY.h"
+// GC_SYSTEMSHOP_MERCHANDISELIST/SYSTEMSHOPTYPE
+struct SYSTEMSHOPTYPE_t2958 
+{
+	// System.Int32 GC_SYSTEMSHOP_MERCHANDISELIST/SYSTEMSHOPTYPE::value__
+	int32_t ___value__;
+};

@@ -1,0 +1,18 @@
+﻿#pragma once
+#include <stdint.h>
+// UnityEngine.WWW
+struct WWW_t1517;
+// System.Object
+struct Object_t;
+// System.Object
+#include "mscorlib_System_Object.h"
+// BundleManager/<LoadFontUI>c__Iterator11
+struct U3CLoadFontUIU3Ec__Iterator11_t2153  : public Object_t
+{
+	// UnityEngine.WWW BundleManager/<LoadFontUI>c__Iterator11::<www>__0
+	WWW_t1517 * ___U3CwwwU3E__0;
+	// System.Int32 BundleManager/<LoadFontUI>c__Iterator11::$PC
+	int32_t ___$PC;
+	// System.Object BundleManager/<LoadFontUI>c__Iterator11::$current
+	Object_t * ___$current;
+};

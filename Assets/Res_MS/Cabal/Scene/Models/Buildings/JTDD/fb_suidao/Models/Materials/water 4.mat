@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: water 4
+  m_Shader: {fileID: 4800000, guid: 4de45ccf074ebb14ba7830d3c7a3e26d, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4e4b043b55558a04d90e252454e10743, type: 3}
+          m_Scale: {x: .600000024, y: .300000012}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Bump
+        second:
+          m_Texture: {fileID: 2800000, guid: 547a458097437e04286f67eff8049d66, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: d67a8c26677f72b4abc692257ddee1a9, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _WaterTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 547a458097437e04286f67eff8049d66, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .802743971
+      data:
+        first:
+          name: _Reflect
+        second: .803571403
+      data:
+        first:
+          name: _FogNear
+        second: 1
+      data:
+        first:
+          name: _FogFar
+        second: 300
+      data:
+        first:
+          name: _ReflectionAlpha
+        second: .5
+      data:
+        first:
+          name: _ReflectionBias
+        second: .0199999996
+      data:
+        first:
+          name: _MainAlpha
+        second: .800000012
+      data:
+        first:
+          name: _FogStrength
+        second: .300000012
+      data:
+        first:
+          name: _FogShininess
+        second: 2
+      data:
+        first:
+          name: _InvFadeParemeter
+        second: .0399999991
+      data:
+        first:
+          name: _Tiling
+        second: .25
+      data:
+        first:
+          name: _ReflectionTint
+        second: .553571463
+    m_Colors:
+      data:
+        first:
+          name: _LightColor
+        second: {r: .852941155, g: .783953249, b: .783953249, a: .835294127}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _LightDirection
+        second: {r: -14.8999996, g: 113, b: -23.9400005, a: 0}
+      data:
+        first:
+          name: _WaveDirection
+        second: {r: 5, g: 8, b: -5, a: -10}
+      data:
+        first:
+          name: _FogColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _TexAtlasTiling
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _MainColor
+        second: {r: .113700002, g: .400000006, b: .310000002, a: 1}
+      data:
+        first:
+          name: _DirectionUv
+        second: {r: 2, g: 2, b: 0, a: -1}
+      data:
+        first:
+          name: _SunPos
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _Color0
+        second: {r: .0575259477, g: .825596511, b: .977941155, a: 1}
+      data:
+        first:
+          name: _Color1
+        second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _Specular
+        second: {r: .649599969, g: .649832249, b: .654411793, a: 0}
+      data:
+        first:
+          name: _InvRanges
+        second: {r: .529999971, g: .159999996, b: .469999999, a: 0}

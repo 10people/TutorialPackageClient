@@ -1,0 +1,14 @@
+Id	Desc	Name	Type	MiniLevel	MaxLevel	Weight	MissionID	UIName	ConsumeNormalRefreshItem	ConsumeBangdedYuanBao	ConsumeSpecialRefreshItem	ConsumeYuanBao	AwardActiveness	AwardMoney	AwardExp	AwardReputation	AwardItemID	AwardItemNum
+INT	STRING	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+#MAX_ID=199;MAX_RECORD=200;TableType=Index;																		
+#ID(索引不可跳跃)	策划维护	分类名称	分类(0门派1野怪2副本3强化4竞技5帮战6抽奖7美人8伙伴)	任务最小可接等级	任务最大可接等级	刷新权重	任务ID	UI跳转，对应UIPath	刷蓝消耗物品（师门令）	刷蓝消耗绑定元宝或者元宝	刷橙消耗物品（江湖令）	刷橙消耗元宝	活跃度奖励	金钱奖励	经验奖励	声望奖励	物品奖励	物品奖励数量
+0	通关活动副本10次	通关活动副本10次	0	1	200	-1	399	26	-1	-1	-1	-1	20	10000	3000	-1	60	3
+1	竞技场胜利3次	竞技场胜利3次	1	1	200	-1	400	27	-1	-1	-1	-1	20	20000	5000	-1	71001	2
+2	科技苑制作3次	科技苑制作3次	2	1	200	-1	401	31	-1	-1	-1	-1	10	4000	3000	-1	100001	2
+3	金币商店消费3次	金币商店消费3次	3	1	200	-1	402	32	-1	-1	-1	-1	10	4000	1000	-1	23	5
+4	宠物升星1次	宠物升星1次	4	1	200	-1	403	29	-1	-1	-1	-1	15	10000	5000	-1	111	3
+5	宠物元素技能升级1次	宠物元素技能升级1次	5	1	200	-1	404	30	-1	-1	-1	-1	10	11000	3000	-1	135	3
+6	技能升级5次	技能升级5次	6	1	200	-1	405	34	-1	-1	-1	-1	10	12000	3000	-1	59	3
+7	通关剧情副本5次	通关剧情副本5次	7	1	200	-1	406	28	-1	-1	-1	-1	25	20000	5000	-1	61	1
+8	装备强化3次	装备强化3次	8	1	200	-1	407	36	-1	-1	-1	-1	15	20000	3000	-1	24	5
+9	合成符文1次	合成符文1次	9	1	200	-1	408	35	-1	-1	-1	-1	15	25000	5000	-1	104	5

@@ -1,0 +1,8 @@
+Id	Desc	Name	MountIcon	MountDesc	MountSource	ModelID	Speed	BuffID	IsShowInUI
+INT	STRING	STRING	STRING	STRING	STRING	INT	INT	INT	INT
+#MAX_ID=1024;MAX_RECORD=1024;TableType=Hash;									
+#ID	程序不读	名称	图标	坐骑描述	坐骑来源描述	对应ClientTable/CharMount.txt	修正速度(UI显示百分比)	速度修正BuffID	是否显示在UI上
+1	摩托	SKT-耀光型	Ride1	梦寐以求的摩托车。哈喽，摩托。	开服大奖获取	0	40	48032	1
+2	滑板	QG-量产型	Ride1	由电磁驱动悬浮和攻击敌人。	主线任务获取	1	30	48001	1
+3	飞车	LXR-霎雹型	Ride1	雹子巴拉巴拉	金币购买	2	40	48032	1
+4	摩托车	CR-猎鹿款	Ride1	鹿鹿什么什么的	点券购买	3	40	48032	1

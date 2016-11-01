@@ -1,0 +1,6 @@
+Id	Desc	MinLevelLimit	MaxLevelLimit	ItemID1	ItemID2	ItemID3	ItemID4	ItemID5	ItemID6	ItemID7
+INT	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT
+#MAX_ID=1024;MAX_RECORD=1024;TableType=Hash;										
+#潜规则：必须和PaoHuanMission表的ID对应	本列程序不读	最小等级限制	最大等级限制	一组达成奖励物品ID（对应CommonItem表）	两组达成奖励物品ID（对应CommonItem表）	三组达成奖励物品ID（对应CommonItem表）	四组达成奖励物品ID（对应CommonItem表）	五组达成奖励物品ID（对应CommonItem表）	六组达成奖励物品ID（对应CommonItem表）	七组达成奖励物品ID（对应CommonItem表）
+0	30-40级周跑环	30	39	4011	4011	4011	4011	4011	4011	4011
+1	40-45级周跑环	40	44	4011	4011	4011	4011	4011	4011	4011

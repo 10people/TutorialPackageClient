@@ -1,0 +1,11 @@
+Id	Desc	Name	Icon	Layout	BelleCount	OpenLevel	AttrType	AttrGains_1	AttrGains_2	AttrGains_3	AttrGains_4	AttrGains_5	NatureIndex_1	NatureIndex_2	NatureIndex_3	NatureIndex_4	NatureIndex_5	NatureIndex_6
+INT	STRING	STRING	STRING	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+#MAX_ID=10000;MAX_RECORD=500;TableType=Hash;																		
+#本行程序不读	描述	名称	图标	布局(1代表5个位置 2代表6个位置，3代表3个位置)	美人最大数量与布局里数字对应	开放等级	属性类型	一阶加成	二阶加成	三阶加成	四阶加成	五阶加成	阵位1五行	阵位2五行	阵位3五行	阵位4五行	阵位5五行	阵位6五行
+0	生命	皇后	FZNvhuang	"""0000,1110,0000"""	3	1	0	5992	11236	33707	52433	74904	2	3	4	5	1	2
+1	暴击	命运之轮	FZMingyunzhilun	"""0011,0110,0000"""	4	30	9	900	2250	4050	6300	9000	1	2	3	4	5	1
+2	暴抗	权杖	FZQuanzhang	"""0011,1110,0000"""	5	50	10	1050	2625	4725	7350	10500	2	3	4	5	1	2
+3	命中	太阳	FZTaiyang	"""0011,1111,0000"""	6	50	7	900	2250	4050	6300	9000	3	4	5	2	3	4
+4	闪避	隐者	FZYinzhe	"""0011,1001,1001"""	6	50	8	975	2438	4388	6825	9750	5	1	2	3	4	5
+5	攻击	战车	FZZhanche	"""0011,1110,0011"""	7	70	1000	1248	3120	5616	8736	12480	1	2	3	4	5	1
+6	防御	世界	FZShijie	"""0111,1110,0001"""	7	70	1001	1310	3276	5897	9173	13104	1	2	3	4	5	1

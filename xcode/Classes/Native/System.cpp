@@ -1,0 +1,560 @@
+﻿#include "il2cpp-config.h"
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#ifndef _MSC_VER
+#include <alloca.h>
+#else
+#include <malloc.h>
+#endif
+#include <cmath>
+#include <limits>
+#include <assert.h>
+#include "stringLiterals.h"
+
+extern TypeInfo U3CModuleU3E_t7079_il2cpp_TypeInfo;
+extern TypeInfo Locale_t7080_il2cpp_TypeInfo;
+extern TypeInfo MonoTODOAttribute_t7081_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t7082_il2cpp_TypeInfo;
+extern TypeInfo LinkedList_1_t7083_il2cpp_TypeInfo;
+extern TypeInfo LinkedListNode_1_t7084_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t7085_il2cpp_TypeInfo;
+extern TypeInfo Queue_1_t7086_il2cpp_TypeInfo;
+extern TypeInfo INodeHelper_1_t7347_il2cpp_TypeInfo;
+extern TypeInfo Node_t7087_il2cpp_TypeInfo;
+extern TypeInfo NodeEnumerator_t7090_il2cpp_TypeInfo;
+extern TypeInfo RBTree_t7088_il2cpp_TypeInfo;
+extern TypeInfo Node_t7093_il2cpp_TypeInfo;
+extern TypeInfo NodeHelper_t7094_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t7095_il2cpp_TypeInfo;
+extern TypeInfo ValueCollection_t7096_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t7097_il2cpp_TypeInfo;
+extern TypeInfo KeyCollection_t7098_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t7099_il2cpp_TypeInfo;
+extern TypeInfo SortedDictionary_2_t7100_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t7101_il2cpp_TypeInfo;
+extern TypeInfo Stack_1_t7102_il2cpp_TypeInfo;
+extern TypeInfo HybridDictionary_t6806_il2cpp_TypeInfo;
+extern TypeInfo IOrderedDictionary_t5461_il2cpp_TypeInfo;
+extern TypeInfo DictionaryNode_t7103_il2cpp_TypeInfo;
+extern TypeInfo DictionaryNodeEnumerator_t7104_il2cpp_TypeInfo;
+extern TypeInfo DictionaryNodeCollectionEnumerator_t7105_il2cpp_TypeInfo;
+extern TypeInfo DictionaryNodeCollection_t7106_il2cpp_TypeInfo;
+extern TypeInfo ListDictionary_t6910_il2cpp_TypeInfo;
+extern TypeInfo _Item_t7108_il2cpp_TypeInfo;
+extern TypeInfo _KeysEnumerator_t7110_il2cpp_TypeInfo;
+extern TypeInfo KeysCollection_t7111_il2cpp_TypeInfo;
+extern TypeInfo NameObjectCollectionBase_t7109_il2cpp_TypeInfo;
+extern TypeInfo NameValueCollection_t7114_il2cpp_TypeInfo;
+extern TypeInfo StringCollection_t6692_il2cpp_TypeInfo;
+extern TypeInfo StringEnumerator_t7053_il2cpp_TypeInfo;
+extern TypeInfo DefaultValueAttribute_t7052_il2cpp_TypeInfo;
+extern TypeInfo TypeConverter_t7115_il2cpp_TypeInfo;
+extern TypeInfo TypeConverterAttribute_t7116_il2cpp_TypeInfo;
+extern TypeInfo Win32Exception_t7117_il2cpp_TypeInfo;
+extern TypeInfo CompressionMode_t7119_il2cpp_TypeInfo;
+extern TypeInfo UnmanagedReadOrWrite_t7120_il2cpp_TypeInfo;
+extern TypeInfo ReadMethod_t7121_il2cpp_TypeInfo;
+extern TypeInfo WriteMethod_t7122_il2cpp_TypeInfo;
+extern TypeInfo DeflateStream_t7123_il2cpp_TypeInfo;
+extern TypeInfo GZipStream_t7125_il2cpp_TypeInfo;
+extern TypeInfo AuthenticatedStream_t7126_il2cpp_TypeInfo;
+extern TypeInfo AuthenticationLevel_t7127_il2cpp_TypeInfo;
+extern TypeInfo SslPolicyErrors_t6625_il2cpp_TypeInfo;
+extern TypeInfo U3CBeginAuthenticateAsClientU3Ec__AnonStorey7_t7129_il2cpp_TypeInfo;
+extern TypeInfo SslStream_t7128_il2cpp_TypeInfo;
+extern TypeInfo AddressFamily_t7131_il2cpp_TypeInfo;
+extern TypeInfo LingerOption_t7132_il2cpp_TypeInfo;
+extern TypeInfo MulticastOption_t7133_il2cpp_TypeInfo;
+extern TypeInfo NetworkStream_t7134_il2cpp_TypeInfo;
+extern TypeInfo ProtocolType_t7135_il2cpp_TypeInfo;
+extern TypeInfo SelectMode_t7136_il2cpp_TypeInfo;
+extern TypeInfo SocketOperation_t7137_il2cpp_TypeInfo;
+extern TypeInfo SocketAsyncResult_t7140_il2cpp_TypeInfo;
+extern TypeInfo Worker_t7142_il2cpp_TypeInfo;
+extern TypeInfo SocketAsyncCall_t7141_il2cpp_TypeInfo;
+extern TypeInfo Socket_t4375_il2cpp_TypeInfo;
+extern TypeInfo SocketAsyncEventArgs_t5223_il2cpp_TypeInfo;
+extern TypeInfo SocketAsyncOperation_t7144_il2cpp_TypeInfo;
+extern TypeInfo SocketError_t7145_il2cpp_TypeInfo;
+extern TypeInfo SocketException_t5213_il2cpp_TypeInfo;
+extern TypeInfo SocketFlags_t5716_il2cpp_TypeInfo;
+extern TypeInfo SocketOptionLevel_t7146_il2cpp_TypeInfo;
+extern TypeInfo SocketOptionName_t7147_il2cpp_TypeInfo;
+extern TypeInfo SocketShutdown_t7148_il2cpp_TypeInfo;
+extern TypeInfo SocketType_t7149_il2cpp_TypeInfo;
+extern TypeInfo AuthenticationManager_t7151_il2cpp_TypeInfo;
+extern TypeInfo Authorization_t7152_il2cpp_TypeInfo;
+extern TypeInfo BasicClient_t7154_il2cpp_TypeInfo;
+extern TypeInfo State_t7155_il2cpp_TypeInfo;
+extern TypeInfo Chunk_t7156_il2cpp_TypeInfo;
+extern TypeInfo ChunkStream_t7158_il2cpp_TypeInfo;
+extern TypeInfo Cookie_t7159_il2cpp_TypeInfo;
+extern TypeInfo CookieCollectionComparer_t7160_il2cpp_TypeInfo;
+extern TypeInfo CookieCollection_t7162_il2cpp_TypeInfo;
+extern TypeInfo CookieContainer_t7164_il2cpp_TypeInfo;
+extern TypeInfo CookieException_t7165_il2cpp_TypeInfo;
+extern TypeInfo DecompressionMethods_t7166_il2cpp_TypeInfo;
+extern TypeInfo DefaultCertificatePolicy_t7167_il2cpp_TypeInfo;
+extern TypeInfo DigestHeaderParser_t7168_il2cpp_TypeInfo;
+extern TypeInfo DigestSession_t7169_il2cpp_TypeInfo;
+extern TypeInfo DigestClient_t7170_il2cpp_TypeInfo;
+extern TypeInfo Dns_t7171_il2cpp_TypeInfo;
+extern TypeInfo EndPoint_t5222_il2cpp_TypeInfo;
+extern TypeInfo FileWebStream_t7174_il2cpp_TypeInfo;
+extern TypeInfo GetResponseCallback_t7175_il2cpp_TypeInfo;
+extern TypeInfo FileWebRequest_t7173_il2cpp_TypeInfo;
+extern TypeInfo FileWebRequestCreator_t7179_il2cpp_TypeInfo;
+extern TypeInfo FileWebResponse_t7177_il2cpp_TypeInfo;
+extern TypeInfo FtpAsyncResult_t7181_il2cpp_TypeInfo;
+extern TypeInfo WriteDelegate_t7182_il2cpp_TypeInfo;
+extern TypeInfo ReadDelegate_t7183_il2cpp_TypeInfo;
+extern TypeInfo FtpDataStream_t7185_il2cpp_TypeInfo;
+extern TypeInfo FtpRequestCreator_t7186_il2cpp_TypeInfo;
+extern TypeInfo FtpStatus_t7187_il2cpp_TypeInfo;
+extern TypeInfo FtpStatusCode_t7188_il2cpp_TypeInfo;
+extern TypeInfo RequestState_t7189_il2cpp_TypeInfo;
+extern TypeInfo FtpWebRequest_t7184_il2cpp_TypeInfo;
+extern TypeInfo FtpWebResponse_t7180_il2cpp_TypeInfo;
+extern TypeInfo GlobalProxySelection_t7191_il2cpp_TypeInfo;
+extern TypeInfo HttpRequestCreator_t7192_il2cpp_TypeInfo;
+extern TypeInfo HttpStatusCode_t7193_il2cpp_TypeInfo;
+extern TypeInfo HttpVersion_t7195_il2cpp_TypeInfo;
+extern TypeInfo HttpWebRequest_t6544_il2cpp_TypeInfo;
+extern TypeInfo HttpWebResponse_t7198_il2cpp_TypeInfo;
+extern TypeInfo CookieParser_t7203_il2cpp_TypeInfo;
+extern TypeInfo IAuthenticationModule_t7153_il2cpp_TypeInfo;
+extern TypeInfo ICertificatePolicy_t6619_il2cpp_TypeInfo;
+extern TypeInfo ICredentials_t7041_il2cpp_TypeInfo;
+extern TypeInfo ICredentialPolicy_t7150_il2cpp_TypeInfo;
+extern TypeInfo IPAddress_t5682_il2cpp_TypeInfo;
+extern TypeInfo IPEndPoint_t5717_il2cpp_TypeInfo;
+extern TypeInfo IPHostEntry_t7172_il2cpp_TypeInfo;
+extern TypeInfo IPv6Address_t7205_il2cpp_TypeInfo;
+extern TypeInfo IWebProxy_t7176_il2cpp_TypeInfo;
+extern TypeInfo IWebRequestCreate_t7221_il2cpp_TypeInfo;
+extern TypeInfo NetworkCredential_t7190_il2cpp_TypeInfo;
+extern TypeInfo ProtocolViolationException_t7206_il2cpp_TypeInfo;
+extern TypeInfo SecurityProtocolType_t7207_il2cpp_TypeInfo;
+extern TypeInfo ServicePoint_t6620_il2cpp_TypeInfo;
+extern TypeInfo SPKey_t7210_il2cpp_TypeInfo;
+extern TypeInfo ChainValidationHelper_t7211_il2cpp_TypeInfo;
+extern TypeInfo ServicePointManager_t6609_il2cpp_TypeInfo;
+extern TypeInfo SocketAddress_t7143_il2cpp_TypeInfo;
+extern TypeInfo WebAsyncResult_t7199_il2cpp_TypeInfo;
+extern TypeInfo ReadState_t7212_il2cpp_TypeInfo;
+extern TypeInfo AbortHelper_t7213_il2cpp_TypeInfo;
+extern TypeInfo WebConnection_t7201_il2cpp_TypeInfo;
+extern TypeInfo WebConnectionData_t7202_il2cpp_TypeInfo;
+extern TypeInfo WebConnectionGroup_t7209_il2cpp_TypeInfo;
+extern TypeInfo WebConnectionStream_t7197_il2cpp_TypeInfo;
+extern TypeInfo WebException_t7216_il2cpp_TypeInfo;
+extern TypeInfo WebExceptionStatus_t7217_il2cpp_TypeInfo;
+extern TypeInfo WebHeaderCollection_t7157_il2cpp_TypeInfo;
+extern TypeInfo WebProxy_t7219_il2cpp_TypeInfo;
+extern TypeInfo WebRequest_t6621_il2cpp_TypeInfo;
+extern TypeInfo WebResponse_t7078_il2cpp_TypeInfo;
+extern TypeInfo SslProtocols_t7222_il2cpp_TypeInfo;
+extern TypeInfo SecTrustResult_t7223_il2cpp_TypeInfo;
+extern TypeInfo OSX509Certificates_t7224_il2cpp_TypeInfo;
+extern TypeInfo OpenFlags_t7226_il2cpp_TypeInfo;
+extern TypeInfo PublicKey_t7229_il2cpp_TypeInfo;
+extern TypeInfo StoreLocation_t7230_il2cpp_TypeInfo;
+extern TypeInfo StoreName_t7231_il2cpp_TypeInfo;
+extern TypeInfo X500DistinguishedName_t7232_il2cpp_TypeInfo;
+extern TypeInfo X500DistinguishedNameFlags_t7233_il2cpp_TypeInfo;
+extern TypeInfo X509BasicConstraintsExtension_t7234_il2cpp_TypeInfo;
+extern TypeInfo X509Certificate2_t6622_il2cpp_TypeInfo;
+extern TypeInfo X509Certificate2Collection_t7237_il2cpp_TypeInfo;
+extern TypeInfo X509Certificate2Enumerator_t7238_il2cpp_TypeInfo;
+extern TypeInfo X509CertificateEnumerator_t6626_il2cpp_TypeInfo;
+extern TypeInfo X509CertificateCollection_t6530_il2cpp_TypeInfo;
+extern TypeInfo X509Chain_t6623_il2cpp_TypeInfo;
+extern TypeInfo X509ChainElement_t7243_il2cpp_TypeInfo;
+extern TypeInfo X509ChainElementCollection_t7239_il2cpp_TypeInfo;
+extern TypeInfo X509ChainElementEnumerator_t7245_il2cpp_TypeInfo;
+extern TypeInfo X509ChainPolicy_t7240_il2cpp_TypeInfo;
+extern TypeInfo X509ChainStatus_t7242_il2cpp_TypeInfo;
+extern TypeInfo X509ChainStatusFlags_t7247_il2cpp_TypeInfo;
+extern TypeInfo X509EnhancedKeyUsageExtension_t7248_il2cpp_TypeInfo;
+extern TypeInfo X509Extension_t7235_il2cpp_TypeInfo;
+extern TypeInfo X509ExtensionCollection_t7236_il2cpp_TypeInfo;
+extern TypeInfo X509ExtensionEnumerator_t7249_il2cpp_TypeInfo;
+extern TypeInfo X509FindType_t7250_il2cpp_TypeInfo;
+extern TypeInfo X509KeyUsageExtension_t7251_il2cpp_TypeInfo;
+extern TypeInfo X509KeyUsageFlags_t7252_il2cpp_TypeInfo;
+extern TypeInfo X509NameType_t7253_il2cpp_TypeInfo;
+extern TypeInfo X509RevocationFlag_t7254_il2cpp_TypeInfo;
+extern TypeInfo X509RevocationMode_t7255_il2cpp_TypeInfo;
+extern TypeInfo X509Store_t7244_il2cpp_TypeInfo;
+extern TypeInfo X509SubjectKeyIdentifierExtension_t7256_il2cpp_TypeInfo;
+extern TypeInfo X509VerificationFlags_t7257_il2cpp_TypeInfo;
+extern TypeInfo AsnDecodeStatus_t7258_il2cpp_TypeInfo;
+extern TypeInfo AsnEncodedData_t7227_il2cpp_TypeInfo;
+extern TypeInfo Oid_t7228_il2cpp_TypeInfo;
+extern TypeInfo OidCollection_t7246_il2cpp_TypeInfo;
+extern TypeInfo OidEnumerator_t7259_il2cpp_TypeInfo;
+extern TypeInfo BaseMachine_t7260_il2cpp_TypeInfo;
+extern TypeInfo Capture_t7261_il2cpp_TypeInfo;
+extern TypeInfo CaptureCollection_t7263_il2cpp_TypeInfo;
+extern TypeInfo Group_t6632_il2cpp_TypeInfo;
+extern TypeInfo GroupCollection_t6631_il2cpp_TypeInfo;
+extern TypeInfo Match_t6630_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t7266_il2cpp_TypeInfo;
+extern TypeInfo MatchCollection_t6629_il2cpp_TypeInfo;
+extern TypeInfo Regex_t6628_il2cpp_TypeInfo;
+extern TypeInfo RegexOptions_t7269_il2cpp_TypeInfo;
+extern TypeInfo OpCode_t7270_il2cpp_TypeInfo;
+extern TypeInfo OpFlags_t7271_il2cpp_TypeInfo;
+extern TypeInfo Position_t7272_il2cpp_TypeInfo;
+extern TypeInfo IMachine_t7265_il2cpp_TypeInfo;
+extern TypeInfo IMachineFactory_t7268_il2cpp_TypeInfo;
+extern TypeInfo Key_t7273_il2cpp_TypeInfo;
+extern TypeInfo FactoryCache_t7267_il2cpp_TypeInfo;
+extern TypeInfo Node_t7275_il2cpp_TypeInfo;
+extern TypeInfo MRUList_t7274_il2cpp_TypeInfo;
+extern TypeInfo Category_t7276_il2cpp_TypeInfo;
+extern TypeInfo CategoryUtils_t7277_il2cpp_TypeInfo;
+extern TypeInfo LinkRef_t7278_il2cpp_TypeInfo;
+extern TypeInfo ICompiler_t7303_il2cpp_TypeInfo;
+extern TypeInfo InterpreterFactory_t7279_il2cpp_TypeInfo;
+extern TypeInfo Link_t7280_il2cpp_TypeInfo;
+extern TypeInfo PatternLinkStack_t7281_il2cpp_TypeInfo;
+extern TypeInfo PatternCompiler_t7283_il2cpp_TypeInfo;
+extern TypeInfo LinkStack_t7282_il2cpp_TypeInfo;
+extern TypeInfo Mark_t7285_il2cpp_TypeInfo;
+extern TypeInfo IntStack_t7286_il2cpp_TypeInfo;
+extern TypeInfo RepeatContext_t7287_il2cpp_TypeInfo;
+extern TypeInfo Mode_t7288_il2cpp_TypeInfo;
+extern TypeInfo Interpreter_t7291_il2cpp_TypeInfo;
+extern TypeInfo Interval_t7292_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t7293_il2cpp_TypeInfo;
+extern TypeInfo CostDelegate_t7294_il2cpp_TypeInfo;
+extern TypeInfo IntervalCollection_t7295_il2cpp_TypeInfo;
+extern TypeInfo Parser_t7296_il2cpp_TypeInfo;
+extern TypeInfo QuickSearch_t7289_il2cpp_TypeInfo;
+extern TypeInfo ExpressionCollection_t7302_il2cpp_TypeInfo;
+extern TypeInfo Expression_t7300_il2cpp_TypeInfo;
+extern TypeInfo CompositeExpression_t7305_il2cpp_TypeInfo;
+extern TypeInfo Group_t7298_il2cpp_TypeInfo;
+extern TypeInfo RegularExpression_t7297_il2cpp_TypeInfo;
+extern TypeInfo CapturingGroup_t7306_il2cpp_TypeInfo;
+extern TypeInfo BalancingGroup_t7307_il2cpp_TypeInfo;
+extern TypeInfo NonBacktrackingGroup_t7308_il2cpp_TypeInfo;
+extern TypeInfo Repetition_t7309_il2cpp_TypeInfo;
+extern TypeInfo Assertion_t7299_il2cpp_TypeInfo;
+extern TypeInfo CaptureAssertion_t7311_il2cpp_TypeInfo;
+extern TypeInfo ExpressionAssertion_t7301_il2cpp_TypeInfo;
+extern TypeInfo Alternation_t7312_il2cpp_TypeInfo;
+extern TypeInfo Literal_t7310_il2cpp_TypeInfo;
+extern TypeInfo PositionAssertion_t7313_il2cpp_TypeInfo;
+extern TypeInfo Reference_t7314_il2cpp_TypeInfo;
+extern TypeInfo BackslashNumber_t7315_il2cpp_TypeInfo;
+extern TypeInfo CharacterClass_t7316_il2cpp_TypeInfo;
+extern TypeInfo AnchorInfo_t7304_il2cpp_TypeInfo;
+extern TypeInfo DefaultUriParser_t7317_il2cpp_TypeInfo;
+extern TypeInfo GenericUriParser_t7319_il2cpp_TypeInfo;
+extern TypeInfo UriScheme_t7320_il2cpp_TypeInfo;
+extern TypeInfo Uri_t6735_il2cpp_TypeInfo;
+extern TypeInfo UriFormatException_t7073_il2cpp_TypeInfo;
+extern TypeInfo UriHostNameType_t7322_il2cpp_TypeInfo;
+extern TypeInfo UriKind_t7323_il2cpp_TypeInfo;
+extern TypeInfo UriParser_t7318_il2cpp_TypeInfo;
+extern TypeInfo UriPartial_t7324_il2cpp_TypeInfo;
+extern TypeInfo UriTypeConverter_t7325_il2cpp_TypeInfo;
+extern TypeInfo LocalCertificateSelectionCallback_t7130_il2cpp_TypeInfo;
+extern TypeInfo RemoteCertificateValidationCallback_t6624_il2cpp_TypeInfo;
+extern TypeInfo BindIPEndPoint_t7208_il2cpp_TypeInfo;
+extern TypeInfo HttpContinueDelegate_t7196_il2cpp_TypeInfo;
+extern TypeInfo $ArrayType$16_t7326_il2cpp_TypeInfo;
+extern TypeInfo $ArrayType$128_t7327_il2cpp_TypeInfo;
+extern TypeInfo $ArrayType$12_t7328_il2cpp_TypeInfo;
+extern TypeInfo U3CPrivateImplementationDetailsU3E_t7329_il2cpp_TypeInfo;
+#include "utils/RegisterRuntimeInitializeAndCleanup.h"
+#include <map>
+struct TypeInfo;
+struct MethodInfo;
+TypeInfo* g_System_Assembly_Types[259] = 
+{
+	&U3CModuleU3E_t7079_il2cpp_TypeInfo,
+	&Locale_t7080_il2cpp_TypeInfo,
+	&MonoTODOAttribute_t7081_il2cpp_TypeInfo,
+	&Enumerator_t7082_il2cpp_TypeInfo,
+	&LinkedList_1_t7083_il2cpp_TypeInfo,
+	&LinkedListNode_1_t7084_il2cpp_TypeInfo,
+	&Enumerator_t7085_il2cpp_TypeInfo,
+	&Queue_1_t7086_il2cpp_TypeInfo,
+	&INodeHelper_1_t7347_il2cpp_TypeInfo,
+	&Node_t7087_il2cpp_TypeInfo,
+	&NodeEnumerator_t7090_il2cpp_TypeInfo,
+	&RBTree_t7088_il2cpp_TypeInfo,
+	&Node_t7093_il2cpp_TypeInfo,
+	&NodeHelper_t7094_il2cpp_TypeInfo,
+	&Enumerator_t7095_il2cpp_TypeInfo,
+	&ValueCollection_t7096_il2cpp_TypeInfo,
+	&Enumerator_t7097_il2cpp_TypeInfo,
+	&KeyCollection_t7098_il2cpp_TypeInfo,
+	&Enumerator_t7099_il2cpp_TypeInfo,
+	&SortedDictionary_2_t7100_il2cpp_TypeInfo,
+	&Enumerator_t7101_il2cpp_TypeInfo,
+	&Stack_1_t7102_il2cpp_TypeInfo,
+	&HybridDictionary_t6806_il2cpp_TypeInfo,
+	&IOrderedDictionary_t5461_il2cpp_TypeInfo,
+	&DictionaryNode_t7103_il2cpp_TypeInfo,
+	&DictionaryNodeEnumerator_t7104_il2cpp_TypeInfo,
+	&DictionaryNodeCollectionEnumerator_t7105_il2cpp_TypeInfo,
+	&DictionaryNodeCollection_t7106_il2cpp_TypeInfo,
+	&ListDictionary_t6910_il2cpp_TypeInfo,
+	&_Item_t7108_il2cpp_TypeInfo,
+	&_KeysEnumerator_t7110_il2cpp_TypeInfo,
+	&KeysCollection_t7111_il2cpp_TypeInfo,
+	&NameObjectCollectionBase_t7109_il2cpp_TypeInfo,
+	&NameValueCollection_t7114_il2cpp_TypeInfo,
+	&StringCollection_t6692_il2cpp_TypeInfo,
+	&StringEnumerator_t7053_il2cpp_TypeInfo,
+	&DefaultValueAttribute_t7052_il2cpp_TypeInfo,
+	&TypeConverter_t7115_il2cpp_TypeInfo,
+	&TypeConverterAttribute_t7116_il2cpp_TypeInfo,
+	&Win32Exception_t7117_il2cpp_TypeInfo,
+	&CompressionMode_t7119_il2cpp_TypeInfo,
+	&UnmanagedReadOrWrite_t7120_il2cpp_TypeInfo,
+	&ReadMethod_t7121_il2cpp_TypeInfo,
+	&WriteMethod_t7122_il2cpp_TypeInfo,
+	&DeflateStream_t7123_il2cpp_TypeInfo,
+	&GZipStream_t7125_il2cpp_TypeInfo,
+	&AuthenticatedStream_t7126_il2cpp_TypeInfo,
+	&AuthenticationLevel_t7127_il2cpp_TypeInfo,
+	&SslPolicyErrors_t6625_il2cpp_TypeInfo,
+	&U3CBeginAuthenticateAsClientU3Ec__AnonStorey7_t7129_il2cpp_TypeInfo,
+	&SslStream_t7128_il2cpp_TypeInfo,
+	&AddressFamily_t7131_il2cpp_TypeInfo,
+	&LingerOption_t7132_il2cpp_TypeInfo,
+	&MulticastOption_t7133_il2cpp_TypeInfo,
+	&NetworkStream_t7134_il2cpp_TypeInfo,
+	&ProtocolType_t7135_il2cpp_TypeInfo,
+	&SelectMode_t7136_il2cpp_TypeInfo,
+	&SocketOperation_t7137_il2cpp_TypeInfo,
+	&SocketAsyncResult_t7140_il2cpp_TypeInfo,
+	&Worker_t7142_il2cpp_TypeInfo,
+	&SocketAsyncCall_t7141_il2cpp_TypeInfo,
+	&Socket_t4375_il2cpp_TypeInfo,
+	&SocketAsyncEventArgs_t5223_il2cpp_TypeInfo,
+	&SocketAsyncOperation_t7144_il2cpp_TypeInfo,
+	&SocketError_t7145_il2cpp_TypeInfo,
+	&SocketException_t5213_il2cpp_TypeInfo,
+	&SocketFlags_t5716_il2cpp_TypeInfo,
+	&SocketOptionLevel_t7146_il2cpp_TypeInfo,
+	&SocketOptionName_t7147_il2cpp_TypeInfo,
+	&SocketShutdown_t7148_il2cpp_TypeInfo,
+	&SocketType_t7149_il2cpp_TypeInfo,
+	&AuthenticationManager_t7151_il2cpp_TypeInfo,
+	&Authorization_t7152_il2cpp_TypeInfo,
+	&BasicClient_t7154_il2cpp_TypeInfo,
+	&State_t7155_il2cpp_TypeInfo,
+	&Chunk_t7156_il2cpp_TypeInfo,
+	&ChunkStream_t7158_il2cpp_TypeInfo,
+	&Cookie_t7159_il2cpp_TypeInfo,
+	&CookieCollectionComparer_t7160_il2cpp_TypeInfo,
+	&CookieCollection_t7162_il2cpp_TypeInfo,
+	&CookieContainer_t7164_il2cpp_TypeInfo,
+	&CookieException_t7165_il2cpp_TypeInfo,
+	&DecompressionMethods_t7166_il2cpp_TypeInfo,
+	&DefaultCertificatePolicy_t7167_il2cpp_TypeInfo,
+	&DigestHeaderParser_t7168_il2cpp_TypeInfo,
+	&DigestSession_t7169_il2cpp_TypeInfo,
+	&DigestClient_t7170_il2cpp_TypeInfo,
+	&Dns_t7171_il2cpp_TypeInfo,
+	&EndPoint_t5222_il2cpp_TypeInfo,
+	&FileWebStream_t7174_il2cpp_TypeInfo,
+	&GetResponseCallback_t7175_il2cpp_TypeInfo,
+	&FileWebRequest_t7173_il2cpp_TypeInfo,
+	&FileWebRequestCreator_t7179_il2cpp_TypeInfo,
+	&FileWebResponse_t7177_il2cpp_TypeInfo,
+	&FtpAsyncResult_t7181_il2cpp_TypeInfo,
+	&WriteDelegate_t7182_il2cpp_TypeInfo,
+	&ReadDelegate_t7183_il2cpp_TypeInfo,
+	&FtpDataStream_t7185_il2cpp_TypeInfo,
+	&FtpRequestCreator_t7186_il2cpp_TypeInfo,
+	&FtpStatus_t7187_il2cpp_TypeInfo,
+	&FtpStatusCode_t7188_il2cpp_TypeInfo,
+	&RequestState_t7189_il2cpp_TypeInfo,
+	&FtpWebRequest_t7184_il2cpp_TypeInfo,
+	&FtpWebResponse_t7180_il2cpp_TypeInfo,
+	&GlobalProxySelection_t7191_il2cpp_TypeInfo,
+	&HttpRequestCreator_t7192_il2cpp_TypeInfo,
+	&HttpStatusCode_t7193_il2cpp_TypeInfo,
+	&HttpVersion_t7195_il2cpp_TypeInfo,
+	&HttpWebRequest_t6544_il2cpp_TypeInfo,
+	&HttpWebResponse_t7198_il2cpp_TypeInfo,
+	&CookieParser_t7203_il2cpp_TypeInfo,
+	&IAuthenticationModule_t7153_il2cpp_TypeInfo,
+	&ICertificatePolicy_t6619_il2cpp_TypeInfo,
+	&ICredentials_t7041_il2cpp_TypeInfo,
+	&ICredentialPolicy_t7150_il2cpp_TypeInfo,
+	&IPAddress_t5682_il2cpp_TypeInfo,
+	&IPEndPoint_t5717_il2cpp_TypeInfo,
+	&IPHostEntry_t7172_il2cpp_TypeInfo,
+	&IPv6Address_t7205_il2cpp_TypeInfo,
+	&IWebProxy_t7176_il2cpp_TypeInfo,
+	&IWebRequestCreate_t7221_il2cpp_TypeInfo,
+	&NetworkCredential_t7190_il2cpp_TypeInfo,
+	&ProtocolViolationException_t7206_il2cpp_TypeInfo,
+	&SecurityProtocolType_t7207_il2cpp_TypeInfo,
+	&ServicePoint_t6620_il2cpp_TypeInfo,
+	&SPKey_t7210_il2cpp_TypeInfo,
+	&ChainValidationHelper_t7211_il2cpp_TypeInfo,
+	&ServicePointManager_t6609_il2cpp_TypeInfo,
+	&SocketAddress_t7143_il2cpp_TypeInfo,
+	&WebAsyncResult_t7199_il2cpp_TypeInfo,
+	&ReadState_t7212_il2cpp_TypeInfo,
+	&AbortHelper_t7213_il2cpp_TypeInfo,
+	&WebConnection_t7201_il2cpp_TypeInfo,
+	&WebConnectionData_t7202_il2cpp_TypeInfo,
+	&WebConnectionGroup_t7209_il2cpp_TypeInfo,
+	&WebConnectionStream_t7197_il2cpp_TypeInfo,
+	&WebException_t7216_il2cpp_TypeInfo,
+	&WebExceptionStatus_t7217_il2cpp_TypeInfo,
+	&WebHeaderCollection_t7157_il2cpp_TypeInfo,
+	&WebProxy_t7219_il2cpp_TypeInfo,
+	&WebRequest_t6621_il2cpp_TypeInfo,
+	&WebResponse_t7078_il2cpp_TypeInfo,
+	&SslProtocols_t7222_il2cpp_TypeInfo,
+	&SecTrustResult_t7223_il2cpp_TypeInfo,
+	&OSX509Certificates_t7224_il2cpp_TypeInfo,
+	&OpenFlags_t7226_il2cpp_TypeInfo,
+	&PublicKey_t7229_il2cpp_TypeInfo,
+	&StoreLocation_t7230_il2cpp_TypeInfo,
+	&StoreName_t7231_il2cpp_TypeInfo,
+	&X500DistinguishedName_t7232_il2cpp_TypeInfo,
+	&X500DistinguishedNameFlags_t7233_il2cpp_TypeInfo,
+	&X509BasicConstraintsExtension_t7234_il2cpp_TypeInfo,
+	&X509Certificate2_t6622_il2cpp_TypeInfo,
+	&X509Certificate2Collection_t7237_il2cpp_TypeInfo,
+	&X509Certificate2Enumerator_t7238_il2cpp_TypeInfo,
+	&X509CertificateEnumerator_t6626_il2cpp_TypeInfo,
+	&X509CertificateCollection_t6530_il2cpp_TypeInfo,
+	&X509Chain_t6623_il2cpp_TypeInfo,
+	&X509ChainElement_t7243_il2cpp_TypeInfo,
+	&X509ChainElementCollection_t7239_il2cpp_TypeInfo,
+	&X509ChainElementEnumerator_t7245_il2cpp_TypeInfo,
+	&X509ChainPolicy_t7240_il2cpp_TypeInfo,
+	&X509ChainStatus_t7242_il2cpp_TypeInfo,
+	&X509ChainStatusFlags_t7247_il2cpp_TypeInfo,
+	&X509EnhancedKeyUsageExtension_t7248_il2cpp_TypeInfo,
+	&X509Extension_t7235_il2cpp_TypeInfo,
+	&X509ExtensionCollection_t7236_il2cpp_TypeInfo,
+	&X509ExtensionEnumerator_t7249_il2cpp_TypeInfo,
+	&X509FindType_t7250_il2cpp_TypeInfo,
+	&X509KeyUsageExtension_t7251_il2cpp_TypeInfo,
+	&X509KeyUsageFlags_t7252_il2cpp_TypeInfo,
+	&X509NameType_t7253_il2cpp_TypeInfo,
+	&X509RevocationFlag_t7254_il2cpp_TypeInfo,
+	&X509RevocationMode_t7255_il2cpp_TypeInfo,
+	&X509Store_t7244_il2cpp_TypeInfo,
+	&X509SubjectKeyIdentifierExtension_t7256_il2cpp_TypeInfo,
+	&X509VerificationFlags_t7257_il2cpp_TypeInfo,
+	&AsnDecodeStatus_t7258_il2cpp_TypeInfo,
+	&AsnEncodedData_t7227_il2cpp_TypeInfo,
+	&Oid_t7228_il2cpp_TypeInfo,
+	&OidCollection_t7246_il2cpp_TypeInfo,
+	&OidEnumerator_t7259_il2cpp_TypeInfo,
+	&BaseMachine_t7260_il2cpp_TypeInfo,
+	&Capture_t7261_il2cpp_TypeInfo,
+	&CaptureCollection_t7263_il2cpp_TypeInfo,
+	&Group_t6632_il2cpp_TypeInfo,
+	&GroupCollection_t6631_il2cpp_TypeInfo,
+	&Match_t6630_il2cpp_TypeInfo,
+	&Enumerator_t7266_il2cpp_TypeInfo,
+	&MatchCollection_t6629_il2cpp_TypeInfo,
+	&Regex_t6628_il2cpp_TypeInfo,
+	&RegexOptions_t7269_il2cpp_TypeInfo,
+	&OpCode_t7270_il2cpp_TypeInfo,
+	&OpFlags_t7271_il2cpp_TypeInfo,
+	&Position_t7272_il2cpp_TypeInfo,
+	&IMachine_t7265_il2cpp_TypeInfo,
+	&IMachineFactory_t7268_il2cpp_TypeInfo,
+	&Key_t7273_il2cpp_TypeInfo,
+	&FactoryCache_t7267_il2cpp_TypeInfo,
+	&Node_t7275_il2cpp_TypeInfo,
+	&MRUList_t7274_il2cpp_TypeInfo,
+	&Category_t7276_il2cpp_TypeInfo,
+	&CategoryUtils_t7277_il2cpp_TypeInfo,
+	&LinkRef_t7278_il2cpp_TypeInfo,
+	&ICompiler_t7303_il2cpp_TypeInfo,
+	&InterpreterFactory_t7279_il2cpp_TypeInfo,
+	&Link_t7280_il2cpp_TypeInfo,
+	&PatternLinkStack_t7281_il2cpp_TypeInfo,
+	&PatternCompiler_t7283_il2cpp_TypeInfo,
+	&LinkStack_t7282_il2cpp_TypeInfo,
+	&Mark_t7285_il2cpp_TypeInfo,
+	&IntStack_t7286_il2cpp_TypeInfo,
+	&RepeatContext_t7287_il2cpp_TypeInfo,
+	&Mode_t7288_il2cpp_TypeInfo,
+	&Interpreter_t7291_il2cpp_TypeInfo,
+	&Interval_t7292_il2cpp_TypeInfo,
+	&Enumerator_t7293_il2cpp_TypeInfo,
+	&CostDelegate_t7294_il2cpp_TypeInfo,
+	&IntervalCollection_t7295_il2cpp_TypeInfo,
+	&Parser_t7296_il2cpp_TypeInfo,
+	&QuickSearch_t7289_il2cpp_TypeInfo,
+	&ExpressionCollection_t7302_il2cpp_TypeInfo,
+	&Expression_t7300_il2cpp_TypeInfo,
+	&CompositeExpression_t7305_il2cpp_TypeInfo,
+	&Group_t7298_il2cpp_TypeInfo,
+	&RegularExpression_t7297_il2cpp_TypeInfo,
+	&CapturingGroup_t7306_il2cpp_TypeInfo,
+	&BalancingGroup_t7307_il2cpp_TypeInfo,
+	&NonBacktrackingGroup_t7308_il2cpp_TypeInfo,
+	&Repetition_t7309_il2cpp_TypeInfo,
+	&Assertion_t7299_il2cpp_TypeInfo,
+	&CaptureAssertion_t7311_il2cpp_TypeInfo,
+	&ExpressionAssertion_t7301_il2cpp_TypeInfo,
+	&Alternation_t7312_il2cpp_TypeInfo,
+	&Literal_t7310_il2cpp_TypeInfo,
+	&PositionAssertion_t7313_il2cpp_TypeInfo,
+	&Reference_t7314_il2cpp_TypeInfo,
+	&BackslashNumber_t7315_il2cpp_TypeInfo,
+	&CharacterClass_t7316_il2cpp_TypeInfo,
+	&AnchorInfo_t7304_il2cpp_TypeInfo,
+	&DefaultUriParser_t7317_il2cpp_TypeInfo,
+	&GenericUriParser_t7319_il2cpp_TypeInfo,
+	&UriScheme_t7320_il2cpp_TypeInfo,
+	&Uri_t6735_il2cpp_TypeInfo,
+	&UriFormatException_t7073_il2cpp_TypeInfo,
+	&UriHostNameType_t7322_il2cpp_TypeInfo,
+	&UriKind_t7323_il2cpp_TypeInfo,
+	&UriParser_t7318_il2cpp_TypeInfo,
+	&UriPartial_t7324_il2cpp_TypeInfo,
+	&UriTypeConverter_t7325_il2cpp_TypeInfo,
+	&LocalCertificateSelectionCallback_t7130_il2cpp_TypeInfo,
+	&RemoteCertificateValidationCallback_t6624_il2cpp_TypeInfo,
+	&BindIPEndPoint_t7208_il2cpp_TypeInfo,
+	&HttpContinueDelegate_t7196_il2cpp_TypeInfo,
+	&$ArrayType$16_t7326_il2cpp_TypeInfo,
+	&$ArrayType$128_t7327_il2cpp_TypeInfo,
+	&$ArrayType$12_t7328_il2cpp_TypeInfo,
+	&U3CPrivateImplementationDetailsU3E_t7329_il2cpp_TypeInfo,
+	NULL,
+};
+extern Il2CppImage g_System_dll_Image;
+extern CustomAttributesCache g_System_Assembly__CustomAttributeCache;
+Il2CppAssembly g_System_Assembly = 
+{
+	{ "System", 0, 0, "\x0\x24\x0\x0\x4\x80\x0\x0\x94\x0\x0\x0\x6\x2\x0\x0\x0\x24\x0\x0\x52\x53\x41\x31\x0\x4\x0\x0\x1\x0\x1\x0\x8D\x56\xC7\x6F\x9E\x86\x49\x38\x30\x49\xF3\x83\xC4\x4B\xE0\xEC\x20\x41\x81\x82\x2A\x6C\x31\xCF\x5E\xB7\xEF\x48\x69\x44\xD0\x32\x18\x8E\xA1\xD3\x92\x7\x63\x71\x2C\xCB\x12\xD7\x5F\xB7\x7E\x98\x11\x14\x9E\x61\x48\xE5\xD3\x2F\xBA\xAB\x37\x61\x1C\x18\x78\xDD\xC1\x9E\x20\xEF\x13\x5D\xC\xB2\xCF\xF2\xBF\xEC\x3D\x11\x58\x10\xC3\xD9\x6\x96\x38\xFE\x4B\xE2\x15\xDB\xF7\x95\x86\x19\x20\xE5\xAB\x6F\x7D\xB2\xE2\xCE\xEF\x13\x6A\xC2\x3D\x5D\xD2\xBF\x3\x17\x0\xAE\xC2\x32\xF6\xC6\xB1\xC7\x85\xB4\x30\x5C\x12\x3B\x37\xAB", { 0x7C, 0xEC, 0x85, 0xD7, 0xBE, 0xA7, 0x79, 0x8E }, 32772, 0, 1, 2, 0, 5, 0 },
+	&g_System_dll_Image,
+	&g_System_Assembly__CustomAttributeCache,
+};
+Il2CppImage g_System_dll_Image = 
+{
+	 "System.dll" ,
+	&g_System_Assembly,
+	g_System_Assembly_Types,
+	258,
+};
+static void s_SystemRegistration()
+{
+	RegisterAssembly (&g_System_Assembly);
+}
+static il2cpp::utils::RegisterRuntimeInitializeAndCleanup s_SystemRegistrationVariable(&s_SystemRegistration, NULL);

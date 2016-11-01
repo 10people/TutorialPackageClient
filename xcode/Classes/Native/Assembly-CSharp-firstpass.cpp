@@ -1,0 +1,1020 @@
+﻿#include "il2cpp-config.h"
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#ifndef _MSC_VER
+#include <alloca.h>
+#else
+#include <malloc.h>
+#endif
+#include <cmath>
+#include <limits>
+#include <assert.h>
+#include "stringLiterals.h"
+
+extern TypeInfo U3CModuleU3E_t0_il2cpp_TypeInfo;
+extern TypeInfo ContinuousGesturePhase_t1_il2cpp_TypeInfo;
+extern TypeInfo ContinuousGesture_t2_il2cpp_TypeInfo;
+extern TypeInfo ContinuousGestureRecognizer_1_t4_il2cpp_TypeInfo;
+extern TypeInfo DiscreteGesture_t5_il2cpp_TypeInfo;
+extern TypeInfo DiscreteGestureRecognizer_1_t6_il2cpp_TypeInfo;
+extern TypeInfo FingerEvent_t10_il2cpp_TypeInfo;
+extern TypeInfo FingerEventHandler_t13_il2cpp_TypeInfo;
+extern TypeInfo FingerEventDetector_1_t16_il2cpp_TypeInfo;
+extern TypeInfo FingerEventDetector_t7_il2cpp_TypeInfo;
+extern TypeInfo GestureRecognitionState_t19_il2cpp_TypeInfo;
+extern TypeInfo GestureResetMode_t20_il2cpp_TypeInfo;
+extern TypeInfo EventHandler_t22_il2cpp_TypeInfo;
+extern TypeInfo Gesture_t3_il2cpp_TypeInfo;
+extern TypeInfo GestureEventHandler_t27_il2cpp_TypeInfo;
+extern TypeInfo U3CFindGestureByClusterU3Ec__AnonStorey0_t28_il2cpp_TypeInfo;
+extern TypeInfo GestureRecognizer_1_t29_il2cpp_TypeInfo;
+extern TypeInfo SelectionType_t32_il2cpp_TypeInfo;
+extern TypeInfo GestureRecognizer_t25_il2cpp_TypeInfo;
+extern TypeInfo GestureRecognizerDelegate_t34_il2cpp_TypeInfo;
+extern TypeInfo Cluster_t31_il2cpp_TypeInfo;
+extern TypeInfo U3CFindClusterByIdU3Ec__AnonStorey1_t35_il2cpp_TypeInfo;
+extern TypeInfo FingerClusterManager_t33_il2cpp_TypeInfo;
+extern TypeInfo ScreenRaycaster_t17_il2cpp_TypeInfo;
+extern TypeInfo FingerDownEvent_t40_il2cpp_TypeInfo;
+extern TypeInfo FingerDownDetector_t42_il2cpp_TypeInfo;
+extern TypeInfo FingerHoverPhase_t44_il2cpp_TypeInfo;
+extern TypeInfo FingerHoverEvent_t45_il2cpp_TypeInfo;
+extern TypeInfo FingerHoverDetector_t47_il2cpp_TypeInfo;
+extern TypeInfo FingerMotionPhase_t49_il2cpp_TypeInfo;
+extern TypeInfo FingerMotionEvent_t50_il2cpp_TypeInfo;
+extern TypeInfo EventType_t51_il2cpp_TypeInfo;
+extern TypeInfo FingerMotionDetector_t53_il2cpp_TypeInfo;
+extern TypeInfo FingerUpEvent_t55_il2cpp_TypeInfo;
+extern TypeInfo FingerUpDetector_t57_il2cpp_TypeInfo;
+extern TypeInfo FingerPhase_t59_il2cpp_TypeInfo;
+extern TypeInfo InputProviderEvent_t61_il2cpp_TypeInfo;
+extern TypeInfo Finger_t8_il2cpp_TypeInfo;
+extern TypeInfo IFingerList_t30_il2cpp_TypeInfo;
+extern TypeInfo FingerPropertyGetterDelegate_1_t65_il2cpp_TypeInfo;
+extern TypeInfo FingerList_t26_il2cpp_TypeInfo;
+extern TypeInfo SwipeDirection_t72_il2cpp_TypeInfo;
+extern TypeInfo GlobalTouchFilterDelegate_t74_il2cpp_TypeInfo;
+extern TypeInfo FingerGestures_t75_il2cpp_TypeInfo;
+extern TypeInfo DragGesture_t81_il2cpp_TypeInfo;
+extern TypeInfo DragRecognizer_t82_il2cpp_TypeInfo;
+extern TypeInfo LongPressGesture_t84_il2cpp_TypeInfo;
+extern TypeInfo LongPressRecognizer_t85_il2cpp_TypeInfo;
+extern TypeInfo PinchGesture_t87_il2cpp_TypeInfo;
+extern TypeInfo PinchRecognizer_t88_il2cpp_TypeInfo;
+extern TypeInfo PointCloudGestureTemplate_t92_il2cpp_TypeInfo;
+extern TypeInfo PointCloudGesture_t95_il2cpp_TypeInfo;
+extern TypeInfo Point_t96_il2cpp_TypeInfo;
+extern TypeInfo NormalizedTemplate_t97_il2cpp_TypeInfo;
+extern TypeInfo GestureNormalizer_t98_il2cpp_TypeInfo;
+extern TypeInfo U3CFindNormalizedTemplateU3Ec__AnonStorey2_t99_il2cpp_TypeInfo;
+extern TypeInfo PointCloudRegognizer_t103_il2cpp_TypeInfo;
+extern TypeInfo SwipeGesture_t105_il2cpp_TypeInfo;
+extern TypeInfo SwipeRecognizer_t106_il2cpp_TypeInfo;
+extern TypeInfo TapGesture_t108_il2cpp_TypeInfo;
+extern TypeInfo TapRecognizer_t109_il2cpp_TypeInfo;
+extern TypeInfo TwistGesture_t111_il2cpp_TypeInfo;
+extern TypeInfo TwistRecognizer_t112_il2cpp_TypeInfo;
+extern TypeInfo FGInputProvider_t60_il2cpp_TypeInfo;
+extern TypeInfo FGMouseInputProvider_t115_il2cpp_TypeInfo;
+extern TypeInfo FGTouchInputProvider_t117_il2cpp_TypeInfo;
+extern TypeInfo TBDragView_t119_il2cpp_TypeInfo;
+extern TypeInfo TBLookAtTap_t122_il2cpp_TypeInfo;
+extern TypeInfo PanMode_t123_il2cpp_TypeInfo;
+extern TypeInfo TBOrbit_t125_il2cpp_TypeInfo;
+extern TypeInfo PanEventHandler_t127_il2cpp_TypeInfo;
+extern TypeInfo TBPan_t126_il2cpp_TypeInfo;
+extern TypeInfo ZoomMethod_t129_il2cpp_TypeInfo;
+extern TypeInfo TBPinchZoom_t130_il2cpp_TypeInfo;
+extern TypeInfo DragPlaneType_t131_il2cpp_TypeInfo;
+extern TypeInfo TBDragToMove_t132_il2cpp_TypeInfo;
+extern TypeInfo TBHoverChangeMaterial_t134_il2cpp_TypeInfo;
+extern TypeInfo TBHoverChangeScale_t135_il2cpp_TypeInfo;
+extern TypeInfo TBPinchToScale_t136_il2cpp_TypeInfo;
+extern TypeInfo TBQuickSetup_t137_il2cpp_TypeInfo;
+extern TypeInfo RotationAxis_t138_il2cpp_TypeInfo;
+extern TypeInfo TBTwistToRotate_t139_il2cpp_TypeInfo;
+extern TypeInfo TableException_t140_il2cpp_TypeInfo;
+extern TypeInfo TableManager_t332_il2cpp_TypeInfo;
+extern TypeInfo _ID_t714_il2cpp_TypeInfo;
+extern TypeInfo Tab_AchieveNotice_t337_il2cpp_TypeInfo;
+extern TypeInfo _ID_t715_il2cpp_TypeInfo;
+extern TypeInfo Tab_ActivenessAward_t339_il2cpp_TypeInfo;
+extern TypeInfo _ID_t716_il2cpp_TypeInfo;
+extern TypeInfo Tab_Animation_t341_il2cpp_TypeInfo;
+extern TypeInfo _ID_t717_il2cpp_TypeInfo;
+extern TypeInfo Tab_AnimationCurve_t343_il2cpp_TypeInfo;
+extern TypeInfo _ID_t718_il2cpp_TypeInfo;
+extern TypeInfo Tab_AutoSearch_t345_il2cpp_TypeInfo;
+extern TypeInfo _ID_t719_il2cpp_TypeInfo;
+extern TypeInfo Tab_BackPackUnlock_t347_il2cpp_TypeInfo;
+extern TypeInfo _ID_t720_il2cpp_TypeInfo;
+extern TypeInfo Tab_BePowerLevel_t349_il2cpp_TypeInfo;
+extern TypeInfo _ID_t721_il2cpp_TypeInfo;
+extern TypeInfo Tab_Belle_t351_il2cpp_TypeInfo;
+extern TypeInfo _ID_t722_il2cpp_TypeInfo;
+extern TypeInfo Tab_BelleAddition_t353_il2cpp_TypeInfo;
+extern TypeInfo _ID_t723_il2cpp_TypeInfo;
+extern TypeInfo Tab_BelleAward_t355_il2cpp_TypeInfo;
+extern TypeInfo _ID_t724_il2cpp_TypeInfo;
+extern TypeInfo Tab_BelleCloseCost_t357_il2cpp_TypeInfo;
+extern TypeInfo _ID_t725_il2cpp_TypeInfo;
+extern TypeInfo Tab_BelleCloseLevel_t359_il2cpp_TypeInfo;
+extern TypeInfo _ID_t726_il2cpp_TypeInfo;
+extern TypeInfo Tab_BelleGetItemWay_t361_il2cpp_TypeInfo;
+extern TypeInfo _ID_t727_il2cpp_TypeInfo;
+extern TypeInfo Tab_BelleLevelup_t363_il2cpp_TypeInfo;
+extern TypeInfo _ID_t728_il2cpp_TypeInfo;
+extern TypeInfo Tab_BelleMatrix_t365_il2cpp_TypeInfo;
+extern TypeInfo _ID_t729_il2cpp_TypeInfo;
+extern TypeInfo Tab_BelleMatrixAddition_t367_il2cpp_TypeInfo;
+extern TypeInfo _ID_t730_il2cpp_TypeInfo;
+extern TypeInfo Tab_BiographyItem_t369_il2cpp_TypeInfo;
+extern TypeInfo _ID_t731_il2cpp_TypeInfo;
+extern TypeInfo Tab_CabalFellowAttr_t371_il2cpp_TypeInfo;
+extern TypeInfo _ID_t732_il2cpp_TypeInfo;
+extern TypeInfo Tab_CabalFellowElementSkill_t373_il2cpp_TypeInfo;
+extern TypeInfo _ID_t733_il2cpp_TypeInfo;
+extern TypeInfo Tab_CabalFellowElementSkillBook_t375_il2cpp_TypeInfo;
+extern TypeInfo _ID_t734_il2cpp_TypeInfo;
+extern TypeInfo Tab_CabalFellowStar_t377_il2cpp_TypeInfo;
+extern TypeInfo _ID_t735_il2cpp_TypeInfo;
+extern TypeInfo Tab_CabalFellowTallentSkill_t379_il2cpp_TypeInfo;
+extern TypeInfo _ID_t736_il2cpp_TypeInfo;
+extern TypeInfo Tab_CabalFellowTallentSkillBook_t381_il2cpp_TypeInfo;
+extern TypeInfo _ID_t737_il2cpp_TypeInfo;
+extern TypeInfo Tab_CameraRock_t383_il2cpp_TypeInfo;
+extern TypeInfo _ID_t738_il2cpp_TypeInfo;
+extern TypeInfo Tab_CangJingGeExtraReward_t385_il2cpp_TypeInfo;
+extern TypeInfo _ID_t739_il2cpp_TypeInfo;
+extern TypeInfo Tab_CangJingGeInfo_t387_il2cpp_TypeInfo;
+extern TypeInfo _ID_t740_il2cpp_TypeInfo;
+extern TypeInfo Tab_CangKuUnlock_t389_il2cpp_TypeInfo;
+extern TypeInfo _ID_t741_il2cpp_TypeInfo;
+extern TypeInfo Tab_CharModel_t391_il2cpp_TypeInfo;
+extern TypeInfo _ID_t743_il2cpp_TypeInfo;
+extern TypeInfo Tab_CharMount_t393_il2cpp_TypeInfo;
+extern TypeInfo _ID_t745_il2cpp_TypeInfo;
+extern TypeInfo Tab_CharmItem_t395_il2cpp_TypeInfo;
+extern TypeInfo _ID_t746_il2cpp_TypeInfo;
+extern TypeInfo Tab_ChristmasMeterialItem_t397_il2cpp_TypeInfo;
+extern TypeInfo _ID_t747_il2cpp_TypeInfo;
+extern TypeInfo Tab_ChristmasTreeLevelUp_t399_il2cpp_TypeInfo;
+extern TypeInfo _ID_t748_il2cpp_TypeInfo;
+extern TypeInfo Tab_ClientStoryTable_t401_il2cpp_TypeInfo;
+extern TypeInfo _ID_t749_il2cpp_TypeInfo;
+extern TypeInfo Tab_CollectBornMonster_t403_il2cpp_TypeInfo;
+extern TypeInfo _ID_t750_il2cpp_TypeInfo;
+extern TypeInfo Tab_CollectItem_t405_il2cpp_TypeInfo;
+extern TypeInfo _ID_t751_il2cpp_TypeInfo;
+extern TypeInfo Tab_CommonItem_t407_il2cpp_TypeInfo;
+extern TypeInfo _ID_t752_il2cpp_TypeInfo;
+extern TypeInfo Tab_CoolDownTime_t409_il2cpp_TypeInfo;
+extern TypeInfo _ID_t753_il2cpp_TypeInfo;
+extern TypeInfo Tab_CopyScene_t411_il2cpp_TypeInfo;
+extern TypeInfo _ID_t754_il2cpp_TypeInfo;
+extern TypeInfo Tab_CopySceneRule_t413_il2cpp_TypeInfo;
+extern TypeInfo _ID_t755_il2cpp_TypeInfo;
+extern TypeInfo Tab_CopySceneScoreCalc_t415_il2cpp_TypeInfo;
+extern TypeInfo _ID_t756_il2cpp_TypeInfo;
+extern TypeInfo Tab_DailyLuckyDrawBonusInfo_t417_il2cpp_TypeInfo;
+extern TypeInfo _ID_t757_il2cpp_TypeInfo;
+extern TypeInfo Tab_DailyLuckyDrawPoolInfo_t419_il2cpp_TypeInfo;
+extern TypeInfo _ID_t758_il2cpp_TypeInfo;
+extern TypeInfo Tab_DailyMission_t421_il2cpp_TypeInfo;
+extern TypeInfo _ID_t759_il2cpp_TypeInfo;
+extern TypeInfo Tab_DailyMissionQuality_t423_il2cpp_TypeInfo;
+extern TypeInfo _ID_t760_il2cpp_TypeInfo;
+extern TypeInfo Tab_DamageBoardType_t425_il2cpp_TypeInfo;
+extern TypeInfo _ID_t761_il2cpp_TypeInfo;
+extern TypeInfo Tab_DayAward_t427_il2cpp_TypeInfo;
+extern TypeInfo _ID_t762_il2cpp_TypeInfo;
+extern TypeInfo Tab_DropNotify_t429_il2cpp_TypeInfo;
+extern TypeInfo _ID_t763_il2cpp_TypeInfo;
+extern TypeInfo Tab_DynamicObstacle_t431_il2cpp_TypeInfo;
+extern TypeInfo _ID_t764_il2cpp_TypeInfo;
+extern TypeInfo Tab_Effect_t433_il2cpp_TypeInfo;
+extern TypeInfo _ID_t765_il2cpp_TypeInfo;
+extern TypeInfo Tab_EffectPoint_t435_il2cpp_TypeInfo;
+extern TypeInfo _ID_t766_il2cpp_TypeInfo;
+extern TypeInfo Tab_EquipAttr_t437_il2cpp_TypeInfo;
+extern TypeInfo _ID_t767_il2cpp_TypeInfo;
+extern TypeInfo Tab_EquipEnchance_t439_il2cpp_TypeInfo;
+extern TypeInfo _ID_t768_il2cpp_TypeInfo;
+extern TypeInfo Tab_EquipSet_t441_il2cpp_TypeInfo;
+extern TypeInfo _ID_t769_il2cpp_TypeInfo;
+extern TypeInfo Tab_EquipSetTransfer_t443_il2cpp_TypeInfo;
+extern TypeInfo _ID_t770_il2cpp_TypeInfo;
+extern TypeInfo Tab_EquipStar_t445_il2cpp_TypeInfo;
+extern TypeInfo _ID_t771_il2cpp_TypeInfo;
+extern TypeInfo Tab_EquipStarLimit_t447_il2cpp_TypeInfo;
+extern TypeInfo _ID_t772_il2cpp_TypeInfo;
+extern TypeInfo Tab_EquipStarRate_t449_il2cpp_TypeInfo;
+extern TypeInfo _ID_t773_il2cpp_TypeInfo;
+extern TypeInfo Tab_FakeObject_t451_il2cpp_TypeInfo;
+extern TypeInfo _ID_t774_il2cpp_TypeInfo;
+extern TypeInfo Tab_FashionData_t453_il2cpp_TypeInfo;
+extern TypeInfo _ID_t775_il2cpp_TypeInfo;
+extern TypeInfo Tab_FellowGainCost_t455_il2cpp_TypeInfo;
+extern TypeInfo _ID_t776_il2cpp_TypeInfo;
+extern TypeInfo Tab_FellowGainRate_t457_il2cpp_TypeInfo;
+extern TypeInfo _ID_t777_il2cpp_TypeInfo;
+extern TypeInfo Tab_FlyWing_t459_il2cpp_TypeInfo;
+extern TypeInfo _ID_t778_il2cpp_TypeInfo;
+extern TypeInfo Tab_FlyWingClient_t461_il2cpp_TypeInfo;
+extern TypeInfo _ID_t779_il2cpp_TypeInfo;
+extern TypeInfo Tab_GemAttr_t463_il2cpp_TypeInfo;
+extern TypeInfo _ID_t780_il2cpp_TypeInfo;
+extern TypeInfo Tab_GemMount_t465_il2cpp_TypeInfo;
+extern TypeInfo _ID_t781_il2cpp_TypeInfo;
+extern TypeInfo Tab_GemOpenLimit_t467_il2cpp_TypeInfo;
+extern TypeInfo _ID_t782_il2cpp_TypeInfo;
+extern TypeInfo Tab_GoldMoneyShop_t469_il2cpp_TypeInfo;
+extern TypeInfo _ID_t783_il2cpp_TypeInfo;
+extern TypeInfo Tab_GongJiShop_t471_il2cpp_TypeInfo;
+extern TypeInfo _ID_t784_il2cpp_TypeInfo;
+extern TypeInfo Tab_GongZhanReward_t473_il2cpp_TypeInfo;
+extern TypeInfo _ID_t785_il2cpp_TypeInfo;
+extern TypeInfo Tab_GuildActivityBoss_t475_il2cpp_TypeInfo;
+extern TypeInfo _ID_t786_il2cpp_TypeInfo;
+extern TypeInfo Tab_GuildAttrAddition_t477_il2cpp_TypeInfo;
+extern TypeInfo _ID_t787_il2cpp_TypeInfo;
+extern TypeInfo Tab_GuildAutoLevelUp_t479_il2cpp_TypeInfo;
+extern TypeInfo _ID_t788_il2cpp_TypeInfo;
+extern TypeInfo Tab_GuildMission_t481_il2cpp_TypeInfo;
+extern TypeInfo _ID_t789_il2cpp_TypeInfo;
+extern TypeInfo Tab_GuildMissionAward_t483_il2cpp_TypeInfo;
+extern TypeInfo _ID_t790_il2cpp_TypeInfo;
+extern TypeInfo Tab_GuildMissionGuild_t485_il2cpp_TypeInfo;
+extern TypeInfo _ID_t791_il2cpp_TypeInfo;
+extern TypeInfo Tab_GuildPaoShang_t487_il2cpp_TypeInfo;
+extern TypeInfo _ID_t792_il2cpp_TypeInfo;
+extern TypeInfo Tab_GuildRule_t489_il2cpp_TypeInfo;
+extern TypeInfo _ID_t793_il2cpp_TypeInfo;
+extern TypeInfo Tab_GuildShop_t491_il2cpp_TypeInfo;
+extern TypeInfo _ID_t794_il2cpp_TypeInfo;
+extern TypeInfo Tab_GuildWealthItemMake_t493_il2cpp_TypeInfo;
+extern TypeInfo _ID_t795_il2cpp_TypeInfo;
+extern TypeInfo Tab_HelpItem_t495_il2cpp_TypeInfo;
+extern TypeInfo _ID_t796_il2cpp_TypeInfo;
+extern TypeInfo Tab_HongBaoRankAwardInfo_t497_il2cpp_TypeInfo;
+extern TypeInfo _ID_t797_il2cpp_TypeInfo;
+extern TypeInfo Tab_HuaShanReward_t499_il2cpp_TypeInfo;
+extern TypeInfo _ID_t798_il2cpp_TypeInfo;
+extern TypeInfo Tab_HuaShanRewardItem_t501_il2cpp_TypeInfo;
+extern TypeInfo _ID_t799_il2cpp_TypeInfo;
+extern TypeInfo Tab_Impact_t503_il2cpp_TypeInfo;
+extern TypeInfo _ID_t800_il2cpp_TypeInfo;
+extern TypeInfo Tab_ImpactConsume_t505_il2cpp_TypeInfo;
+extern TypeInfo _ID_t801_il2cpp_TypeInfo;
+extern TypeInfo Tab_ItemGetWay_t507_il2cpp_TypeInfo;
+extern TypeInfo _ID_t802_il2cpp_TypeInfo;
+extern TypeInfo Tab_ItemVisual_t509_il2cpp_TypeInfo;
+extern TypeInfo _ID_t803_il2cpp_TypeInfo;
+extern TypeInfo Tab_JuYiReward_t511_il2cpp_TypeInfo;
+extern TypeInfo _ID_t804_il2cpp_TypeInfo;
+extern TypeInfo Tab_LevelUp_t513_il2cpp_TypeInfo;
+extern TypeInfo _ID_t805_il2cpp_TypeInfo;
+extern TypeInfo Tab_LevelUpLimit_t515_il2cpp_TypeInfo;
+extern TypeInfo _ID_t806_il2cpp_TypeInfo;
+extern TypeInfo Tab_LightSkill_t517_il2cpp_TypeInfo;
+extern TypeInfo _ID_t807_il2cpp_TypeInfo;
+extern TypeInfo Tab_LivingSkill_t519_il2cpp_TypeInfo;
+extern TypeInfo _ID_t808_il2cpp_TypeInfo;
+extern TypeInfo Tab_LivingSkillStuff_t521_il2cpp_TypeInfo;
+extern TypeInfo _ID_t809_il2cpp_TypeInfo;
+extern TypeInfo Tab_MapConnection_t523_il2cpp_TypeInfo;
+extern TypeInfo _ID_t810_il2cpp_TypeInfo;
+extern TypeInfo Tab_MasterShop_t525_il2cpp_TypeInfo;
+extern TypeInfo _ID_t811_il2cpp_TypeInfo;
+extern TypeInfo Tab_MasterSkill_t527_il2cpp_TypeInfo;
+extern TypeInfo _ID_t812_il2cpp_TypeInfo;
+extern TypeInfo Tab_MasterSkillLimit_t529_il2cpp_TypeInfo;
+extern TypeInfo _ID_t813_il2cpp_TypeInfo;
+extern TypeInfo Tab_MissionBase_t531_il2cpp_TypeInfo;
+extern TypeInfo _ID_t814_il2cpp_TypeInfo;
+extern TypeInfo Tab_MissionBonus_t533_il2cpp_TypeInfo;
+extern TypeInfo _ID_t815_il2cpp_TypeInfo;
+extern TypeInfo Tab_MissionCollectItem_t535_il2cpp_TypeInfo;
+extern TypeInfo _ID_t816_il2cpp_TypeInfo;
+extern TypeInfo Tab_MissionCopyScene_t537_il2cpp_TypeInfo;
+extern TypeInfo _ID_t817_il2cpp_TypeInfo;
+extern TypeInfo Tab_MissionDelivery_t539_il2cpp_TypeInfo;
+extern TypeInfo _ID_t818_il2cpp_TypeInfo;
+extern TypeInfo Tab_MissionDictionary_t541_il2cpp_TypeInfo;
+extern TypeInfo _ID_t819_il2cpp_TypeInfo;
+extern TypeInfo Tab_MissionEnterArea_t543_il2cpp_TypeInfo;
+extern TypeInfo _ID_t820_il2cpp_TypeInfo;
+extern TypeInfo Tab_MissionKillMonster_t545_il2cpp_TypeInfo;
+extern TypeInfo _ID_t821_il2cpp_TypeInfo;
+extern TypeInfo Tab_MissionLevelUp_t547_il2cpp_TypeInfo;
+extern TypeInfo _ID_t822_il2cpp_TypeInfo;
+extern TypeInfo Tab_MissionLimit_t549_il2cpp_TypeInfo;
+extern TypeInfo _ID_t823_il2cpp_TypeInfo;
+extern TypeInfo Tab_MissionLootItem_t551_il2cpp_TypeInfo;
+extern TypeInfo _ID_t824_il2cpp_TypeInfo;
+extern TypeInfo Tab_MissionOperationNum_t553_il2cpp_TypeInfo;
+extern TypeInfo _ID_t825_il2cpp_TypeInfo;
+extern TypeInfo Tab_MissionUseItem_t555_il2cpp_TypeInfo;
+extern TypeInfo _ID_t826_il2cpp_TypeInfo;
+extern TypeInfo Tab_MoneyTree_t557_il2cpp_TypeInfo;
+extern TypeInfo _ID_t827_il2cpp_TypeInfo;
+extern TypeInfo Tab_MoneyTreeVIP_t559_il2cpp_TypeInfo;
+extern TypeInfo _ID_t828_il2cpp_TypeInfo;
+extern TypeInfo Tab_MountBase_t561_il2cpp_TypeInfo;
+extern TypeInfo _ID_t829_il2cpp_TypeInfo;
+extern TypeInfo Tab_NewServerAward_t563_il2cpp_TypeInfo;
+extern TypeInfo _ID_t830_il2cpp_TypeInfo;
+extern TypeInfo Tab_NianShouNpcScence_t565_il2cpp_TypeInfo;
+extern TypeInfo _ID_t831_il2cpp_TypeInfo;
+extern TypeInfo Tab_NpcDialog_t567_il2cpp_TypeInfo;
+extern TypeInfo _ID_t832_il2cpp_TypeInfo;
+extern TypeInfo Tab_NpcOptionDialog_t569_il2cpp_TypeInfo;
+extern TypeInfo _ID_t833_il2cpp_TypeInfo;
+extern TypeInfo Tab_OffLineExp_t571_il2cpp_TypeInfo;
+extern TypeInfo _ID_t834_il2cpp_TypeInfo;
+extern TypeInfo Tab_OnlineTimeRankReward_t573_il2cpp_TypeInfo;
+extern TypeInfo _ID_t835_il2cpp_TypeInfo;
+extern TypeInfo Tab_PVPRule_t575_il2cpp_TypeInfo;
+extern TypeInfo _ID_t836_il2cpp_TypeInfo;
+extern TypeInfo Tab_PaoHuanBonus_t577_il2cpp_TypeInfo;
+extern TypeInfo _ID_t837_il2cpp_TypeInfo;
+extern TypeInfo Tab_PaoHuanMission_t579_il2cpp_TypeInfo;
+extern TypeInfo _ID_t838_il2cpp_TypeInfo;
+extern TypeInfo Tab_PaoHuanRefresh_t581_il2cpp_TypeInfo;
+extern TypeInfo _ID_t839_il2cpp_TypeInfo;
+extern TypeInfo Tab_PatrolPoint_t583_il2cpp_TypeInfo;
+extern TypeInfo _ID_t840_il2cpp_TypeInfo;
+extern TypeInfo Tab_ProfessionConmmon_t585_il2cpp_TypeInfo;
+extern TypeInfo _ID_t841_il2cpp_TypeInfo;
+extern TypeInfo Tab_ProfessionReputationReward_t587_il2cpp_TypeInfo;
+extern TypeInfo _ID_t842_il2cpp_TypeInfo;
+extern TypeInfo Tab_PublicConfig_t589_il2cpp_TypeInfo;
+extern TypeInfo _ID_t843_il2cpp_TypeInfo;
+extern TypeInfo Tab_PushNotification_t591_il2cpp_TypeInfo;
+extern TypeInfo _ID_t844_il2cpp_TypeInfo;
+extern TypeInfo Tab_PvpAward_t593_il2cpp_TypeInfo;
+extern TypeInfo _ID_t845_il2cpp_TypeInfo;
+extern TypeInfo Tab_PvpRank_t595_il2cpp_TypeInfo;
+extern TypeInfo _ID_t846_il2cpp_TypeInfo;
+extern TypeInfo Tab_PvpShop_t597_il2cpp_TypeInfo;
+extern TypeInfo _ID_t847_il2cpp_TypeInfo;
+extern TypeInfo Tab_QianKunDaiFormula_t599_il2cpp_TypeInfo;
+extern TypeInfo _ID_t848_il2cpp_TypeInfo;
+extern TypeInfo Tab_RankReward_t601_il2cpp_TypeInfo;
+extern TypeInfo _ID_t849_il2cpp_TypeInfo;
+extern TypeInfo Tab_Recharge_t603_il2cpp_TypeInfo;
+extern TypeInfo _ID_t850_il2cpp_TypeInfo;
+extern TypeInfo Tab_Relation_t605_il2cpp_TypeInfo;
+extern TypeInfo _ID_t851_il2cpp_TypeInfo;
+extern TypeInfo Tab_RestaurantDesk_t607_il2cpp_TypeInfo;
+extern TypeInfo _ID_t852_il2cpp_TypeInfo;
+extern TypeInfo Tab_RestaurantFood_t609_il2cpp_TypeInfo;
+extern TypeInfo _ID_t853_il2cpp_TypeInfo;
+extern TypeInfo Tab_RestaurantGuest_t611_il2cpp_TypeInfo;
+extern TypeInfo _ID_t854_il2cpp_TypeInfo;
+extern TypeInfo Tab_RestaurantLevel_t613_il2cpp_TypeInfo;
+extern TypeInfo _ID_t855_il2cpp_TypeInfo;
+extern TypeInfo Tab_RoleBaseAttr_t615_il2cpp_TypeInfo;
+extern TypeInfo _ID_t856_il2cpp_TypeInfo;
+extern TypeInfo Tab_RoleName_t617_il2cpp_TypeInfo;
+extern TypeInfo _ID_t857_il2cpp_TypeInfo;
+extern TypeInfo Tab_SNSReward_t619_il2cpp_TypeInfo;
+extern TypeInfo _ID_t858_il2cpp_TypeInfo;
+extern TypeInfo Tab_SceneClass_t621_il2cpp_TypeInfo;
+extern TypeInfo _ID_t859_il2cpp_TypeInfo;
+extern TypeInfo Tab_SceneFightPos_t623_il2cpp_TypeInfo;
+extern TypeInfo _ID_t860_il2cpp_TypeInfo;
+extern TypeInfo Tab_SceneNpc_t625_il2cpp_TypeInfo;
+extern TypeInfo _ID_t861_il2cpp_TypeInfo;
+extern TypeInfo Tab_ShareReward_t627_il2cpp_TypeInfo;
+extern TypeInfo _ID_t862_il2cpp_TypeInfo;
+extern TypeInfo Tab_ShenQiInfo_t629_il2cpp_TypeInfo;
+extern TypeInfo _ID_t863_il2cpp_TypeInfo;
+extern TypeInfo Tab_ShenQiSkillInfo_t631_il2cpp_TypeInfo;
+extern TypeInfo _ID_t864_il2cpp_TypeInfo;
+extern TypeInfo Tab_ShouHuaAwardInfo_t633_il2cpp_TypeInfo;
+extern TypeInfo _ID_t865_il2cpp_TypeInfo;
+extern TypeInfo Tab_SkillActive_t635_il2cpp_TypeInfo;
+extern TypeInfo _ID_t866_il2cpp_TypeInfo;
+extern TypeInfo Tab_SkillBase_t637_il2cpp_TypeInfo;
+extern TypeInfo _ID_t867_il2cpp_TypeInfo;
+extern TypeInfo Tab_SkillEx_t639_il2cpp_TypeInfo;
+extern TypeInfo _ID_t868_il2cpp_TypeInfo;
+extern TypeInfo Tab_SkillLevelUp_t641_il2cpp_TypeInfo;
+extern TypeInfo _ID_t869_il2cpp_TypeInfo;
+extern TypeInfo Tab_SnareObjInfo_t643_il2cpp_TypeInfo;
+extern TypeInfo _ID_t870_il2cpp_TypeInfo;
+extern TypeInfo Tab_SongHuaAwardInfo_t645_il2cpp_TypeInfo;
+extern TypeInfo _ID_t871_il2cpp_TypeInfo;
+extern TypeInfo Tab_Sounds_t647_il2cpp_TypeInfo;
+extern TypeInfo _ID_t872_il2cpp_TypeInfo;
+extern TypeInfo Tab_StaminaBuyRule_t649_il2cpp_TypeInfo;
+extern TypeInfo _ID_t873_il2cpp_TypeInfo;
+extern TypeInfo Tab_StarCondition_t651_il2cpp_TypeInfo;
+extern TypeInfo _ID_t874_il2cpp_TypeInfo;
+extern TypeInfo Tab_StoryCopyScene_t653_il2cpp_TypeInfo;
+extern TypeInfo _ID_t875_il2cpp_TypeInfo;
+extern TypeInfo Tab_StoryCopySceneAward_t655_il2cpp_TypeInfo;
+extern TypeInfo _ID_t876_il2cpp_TypeInfo;
+extern TypeInfo Tab_StoryCopySceneChapter_t657_il2cpp_TypeInfo;
+extern TypeInfo _ID_t877_il2cpp_TypeInfo;
+extern TypeInfo Tab_StoryCopySceneFlow_t659_il2cpp_TypeInfo;
+extern TypeInfo _ID_t878_il2cpp_TypeInfo;
+extern TypeInfo Tab_StoryCopySceneNpc_t661_il2cpp_TypeInfo;
+extern TypeInfo _ID_t879_il2cpp_TypeInfo;
+extern TypeInfo Tab_StoryTable_t663_il2cpp_TypeInfo;
+extern TypeInfo _ID_t880_il2cpp_TypeInfo;
+extern TypeInfo Tab_StrDictionary_t665_il2cpp_TypeInfo;
+extern TypeInfo _ID_t881_il2cpp_TypeInfo;
+extern TypeInfo Tab_StrFilter_t667_il2cpp_TypeInfo;
+extern TypeInfo _ID_t882_il2cpp_TypeInfo;
+extern TypeInfo Tab_SwordsEquipPackUnlock_t669_il2cpp_TypeInfo;
+extern TypeInfo _ID_t883_il2cpp_TypeInfo;
+extern TypeInfo Tab_SwordsManAttr_t671_il2cpp_TypeInfo;
+extern TypeInfo _ID_t884_il2cpp_TypeInfo;
+extern TypeInfo Tab_SwordsManGainRata_t673_il2cpp_TypeInfo;
+extern TypeInfo _ID_t885_il2cpp_TypeInfo;
+extern TypeInfo Tab_SwordsManLevelUp_t675_il2cpp_TypeInfo;
+extern TypeInfo _ID_t886_il2cpp_TypeInfo;
+extern TypeInfo Tab_SwordsManScoreShop_t677_il2cpp_TypeInfo;
+extern TypeInfo _ID_t887_il2cpp_TypeInfo;
+extern TypeInfo Tab_SystemShop_t679_il2cpp_TypeInfo;
+extern TypeInfo _ID_t888_il2cpp_TypeInfo;
+extern TypeInfo Tab_Teleport_t681_il2cpp_TypeInfo;
+extern TypeInfo _ID_t889_il2cpp_TypeInfo;
+extern TypeInfo Tab_TestTable_t683_il2cpp_TypeInfo;
+extern TypeInfo _ID_t890_il2cpp_TypeInfo;
+extern TypeInfo Tab_TitleData_t685_il2cpp_TypeInfo;
+extern TypeInfo _ID_t891_il2cpp_TypeInfo;
+extern TypeInfo Tab_TitleType_t687_il2cpp_TypeInfo;
+extern TypeInfo _ID_t892_il2cpp_TypeInfo;
+extern TypeInfo Tab_TrainingBook_t689_il2cpp_TypeInfo;
+extern TypeInfo _ID_t893_il2cpp_TypeInfo;
+extern TypeInfo Tab_TrainingPic_t691_il2cpp_TypeInfo;
+extern TypeInfo _ID_t894_il2cpp_TypeInfo;
+extern TypeInfo Tab_Trigger_t693_il2cpp_TypeInfo;
+extern TypeInfo _ID_t895_il2cpp_TypeInfo;
+extern TypeInfo Tab_UIPath_t695_il2cpp_TypeInfo;
+extern TypeInfo _ID_t896_il2cpp_TypeInfo;
+extern TypeInfo Tab_UsableItem_t697_il2cpp_TypeInfo;
+extern TypeInfo _ID_t897_il2cpp_TypeInfo;
+extern TypeInfo Tab_VIPShop_t699_il2cpp_TypeInfo;
+extern TypeInfo _ID_t898_il2cpp_TypeInfo;
+extern TypeInfo Tab_VillainGuideNpc_t701_il2cpp_TypeInfo;
+extern TypeInfo _ID_t899_il2cpp_TypeInfo;
+extern TypeInfo Tab_VillainScene_t703_il2cpp_TypeInfo;
+extern TypeInfo _ID_t900_il2cpp_TypeInfo;
+extern TypeInfo Tab_VipBook_t705_il2cpp_TypeInfo;
+extern TypeInfo _ID_t901_il2cpp_TypeInfo;
+extern TypeInfo Tab_WeaponModel_t707_il2cpp_TypeInfo;
+extern TypeInfo _ID_t902_il2cpp_TypeInfo;
+extern TypeInfo Tab_Xiaozhitiao_t709_il2cpp_TypeInfo;
+extern TypeInfo _ID_t903_il2cpp_TypeInfo;
+extern TypeInfo Tab_YanHua_t711_il2cpp_TypeInfo;
+extern TypeInfo _ID_t904_il2cpp_TypeInfo;
+extern TypeInfo Tab_YuanBaoShop_t713_il2cpp_TypeInfo;
+extern TypeInfo TessarSDK4iOS_t905_il2cpp_TypeInfo;
+extern TypeInfo LuYouImplement_t906_il2cpp_TypeInfo;
+extern TypeInfo SharerImpl_t909_il2cpp_TypeInfo;
+extern TypeInfo RecordingStartedDelegate_t910_il2cpp_TypeInfo;
+extern TypeInfo RecordingStopedDelegate_t911_il2cpp_TypeInfo;
+extern TypeInfo RecordingFailedDelegate_t912_il2cpp_TypeInfo;
+extern TypeInfo RecordingWarningDelegate_t913_il2cpp_TypeInfo;
+extern TypeInfo RecordingTimeDelegate_t914_il2cpp_TypeInfo;
+extern TypeInfo SharerPreingDelegate_t915_il2cpp_TypeInfo;
+extern TypeInfo SharerPreparedDelegate_t916_il2cpp_TypeInfo;
+extern TypeInfo SharerStartedDelegate_t917_il2cpp_TypeInfo;
+extern TypeInfo SharerProgressDelegate_t919_il2cpp_TypeInfo;
+extern TypeInfo SharerCompleteDelegate_t920_il2cpp_TypeInfo;
+extern TypeInfo SharerFailedDelegate_t921_il2cpp_TypeInfo;
+extern TypeInfo LuYou_t907_il2cpp_TypeInfo;
+extern TypeInfo LuYouCameraAttachment_t922_il2cpp_TypeInfo;
+extern TypeInfo LuYouExampleGUI_t923_il2cpp_TypeInfo;
+extern TypeInfo LuYouLog_t924_il2cpp_TypeInfo;
+extern TypeInfo LuYouPostRender_t925_il2cpp_TypeInfo;
+extern TypeInfo LuYouPreRender_t926_il2cpp_TypeInfo;
+extern TypeInfo TestAudioRecorder_t928_il2cpp_TypeInfo;
+extern TypeInfo ParticleSystemScalerData_t930_il2cpp_TypeInfo;
+extern TypeInfo ParticleSystemScaleController_t932_il2cpp_TypeInfo;
+extern TypeInfo ReflectionFx_t938_il2cpp_TypeInfo;
+extern TypeInfo GameScore_t943_il2cpp_TypeInfo;
+extern TypeInfo SerializableTable_t334_il2cpp_TypeInfo;
+#include "utils/RegisterRuntimeInitializeAndCleanup.h"
+#include <map>
+struct TypeInfo;
+struct MethodInfo;
+TypeInfo* g_AssemblyU2DCSharpU2Dfirstpass_Assembly_Types[489] = 
+{
+	&U3CModuleU3E_t0_il2cpp_TypeInfo,
+	&ContinuousGesturePhase_t1_il2cpp_TypeInfo,
+	&ContinuousGesture_t2_il2cpp_TypeInfo,
+	&ContinuousGestureRecognizer_1_t4_il2cpp_TypeInfo,
+	&DiscreteGesture_t5_il2cpp_TypeInfo,
+	&DiscreteGestureRecognizer_1_t6_il2cpp_TypeInfo,
+	&FingerEvent_t10_il2cpp_TypeInfo,
+	&FingerEventHandler_t13_il2cpp_TypeInfo,
+	&FingerEventDetector_1_t16_il2cpp_TypeInfo,
+	&FingerEventDetector_t7_il2cpp_TypeInfo,
+	&GestureRecognitionState_t19_il2cpp_TypeInfo,
+	&GestureResetMode_t20_il2cpp_TypeInfo,
+	&EventHandler_t22_il2cpp_TypeInfo,
+	&Gesture_t3_il2cpp_TypeInfo,
+	&GestureEventHandler_t27_il2cpp_TypeInfo,
+	&U3CFindGestureByClusterU3Ec__AnonStorey0_t28_il2cpp_TypeInfo,
+	&GestureRecognizer_1_t29_il2cpp_TypeInfo,
+	&SelectionType_t32_il2cpp_TypeInfo,
+	&GestureRecognizer_t25_il2cpp_TypeInfo,
+	&GestureRecognizerDelegate_t34_il2cpp_TypeInfo,
+	&Cluster_t31_il2cpp_TypeInfo,
+	&U3CFindClusterByIdU3Ec__AnonStorey1_t35_il2cpp_TypeInfo,
+	&FingerClusterManager_t33_il2cpp_TypeInfo,
+	&ScreenRaycaster_t17_il2cpp_TypeInfo,
+	&FingerDownEvent_t40_il2cpp_TypeInfo,
+	&FingerDownDetector_t42_il2cpp_TypeInfo,
+	&FingerHoverPhase_t44_il2cpp_TypeInfo,
+	&FingerHoverEvent_t45_il2cpp_TypeInfo,
+	&FingerHoverDetector_t47_il2cpp_TypeInfo,
+	&FingerMotionPhase_t49_il2cpp_TypeInfo,
+	&FingerMotionEvent_t50_il2cpp_TypeInfo,
+	&EventType_t51_il2cpp_TypeInfo,
+	&FingerMotionDetector_t53_il2cpp_TypeInfo,
+	&FingerUpEvent_t55_il2cpp_TypeInfo,
+	&FingerUpDetector_t57_il2cpp_TypeInfo,
+	&FingerPhase_t59_il2cpp_TypeInfo,
+	&InputProviderEvent_t61_il2cpp_TypeInfo,
+	&Finger_t8_il2cpp_TypeInfo,
+	&IFingerList_t30_il2cpp_TypeInfo,
+	&FingerPropertyGetterDelegate_1_t65_il2cpp_TypeInfo,
+	&FingerList_t26_il2cpp_TypeInfo,
+	&SwipeDirection_t72_il2cpp_TypeInfo,
+	&GlobalTouchFilterDelegate_t74_il2cpp_TypeInfo,
+	&FingerGestures_t75_il2cpp_TypeInfo,
+	&DragGesture_t81_il2cpp_TypeInfo,
+	&DragRecognizer_t82_il2cpp_TypeInfo,
+	&LongPressGesture_t84_il2cpp_TypeInfo,
+	&LongPressRecognizer_t85_il2cpp_TypeInfo,
+	&PinchGesture_t87_il2cpp_TypeInfo,
+	&PinchRecognizer_t88_il2cpp_TypeInfo,
+	&PointCloudGestureTemplate_t92_il2cpp_TypeInfo,
+	&PointCloudGesture_t95_il2cpp_TypeInfo,
+	&Point_t96_il2cpp_TypeInfo,
+	&NormalizedTemplate_t97_il2cpp_TypeInfo,
+	&GestureNormalizer_t98_il2cpp_TypeInfo,
+	&U3CFindNormalizedTemplateU3Ec__AnonStorey2_t99_il2cpp_TypeInfo,
+	&PointCloudRegognizer_t103_il2cpp_TypeInfo,
+	&SwipeGesture_t105_il2cpp_TypeInfo,
+	&SwipeRecognizer_t106_il2cpp_TypeInfo,
+	&TapGesture_t108_il2cpp_TypeInfo,
+	&TapRecognizer_t109_il2cpp_TypeInfo,
+	&TwistGesture_t111_il2cpp_TypeInfo,
+	&TwistRecognizer_t112_il2cpp_TypeInfo,
+	&FGInputProvider_t60_il2cpp_TypeInfo,
+	&FGMouseInputProvider_t115_il2cpp_TypeInfo,
+	&FGTouchInputProvider_t117_il2cpp_TypeInfo,
+	&TBDragView_t119_il2cpp_TypeInfo,
+	&TBLookAtTap_t122_il2cpp_TypeInfo,
+	&PanMode_t123_il2cpp_TypeInfo,
+	&TBOrbit_t125_il2cpp_TypeInfo,
+	&PanEventHandler_t127_il2cpp_TypeInfo,
+	&TBPan_t126_il2cpp_TypeInfo,
+	&ZoomMethod_t129_il2cpp_TypeInfo,
+	&TBPinchZoom_t130_il2cpp_TypeInfo,
+	&DragPlaneType_t131_il2cpp_TypeInfo,
+	&TBDragToMove_t132_il2cpp_TypeInfo,
+	&TBHoverChangeMaterial_t134_il2cpp_TypeInfo,
+	&TBHoverChangeScale_t135_il2cpp_TypeInfo,
+	&TBPinchToScale_t136_il2cpp_TypeInfo,
+	&TBQuickSetup_t137_il2cpp_TypeInfo,
+	&RotationAxis_t138_il2cpp_TypeInfo,
+	&TBTwistToRotate_t139_il2cpp_TypeInfo,
+	&TableException_t140_il2cpp_TypeInfo,
+	&TableManager_t332_il2cpp_TypeInfo,
+	&_ID_t714_il2cpp_TypeInfo,
+	&Tab_AchieveNotice_t337_il2cpp_TypeInfo,
+	&_ID_t715_il2cpp_TypeInfo,
+	&Tab_ActivenessAward_t339_il2cpp_TypeInfo,
+	&_ID_t716_il2cpp_TypeInfo,
+	&Tab_Animation_t341_il2cpp_TypeInfo,
+	&_ID_t717_il2cpp_TypeInfo,
+	&Tab_AnimationCurve_t343_il2cpp_TypeInfo,
+	&_ID_t718_il2cpp_TypeInfo,
+	&Tab_AutoSearch_t345_il2cpp_TypeInfo,
+	&_ID_t719_il2cpp_TypeInfo,
+	&Tab_BackPackUnlock_t347_il2cpp_TypeInfo,
+	&_ID_t720_il2cpp_TypeInfo,
+	&Tab_BePowerLevel_t349_il2cpp_TypeInfo,
+	&_ID_t721_il2cpp_TypeInfo,
+	&Tab_Belle_t351_il2cpp_TypeInfo,
+	&_ID_t722_il2cpp_TypeInfo,
+	&Tab_BelleAddition_t353_il2cpp_TypeInfo,
+	&_ID_t723_il2cpp_TypeInfo,
+	&Tab_BelleAward_t355_il2cpp_TypeInfo,
+	&_ID_t724_il2cpp_TypeInfo,
+	&Tab_BelleCloseCost_t357_il2cpp_TypeInfo,
+	&_ID_t725_il2cpp_TypeInfo,
+	&Tab_BelleCloseLevel_t359_il2cpp_TypeInfo,
+	&_ID_t726_il2cpp_TypeInfo,
+	&Tab_BelleGetItemWay_t361_il2cpp_TypeInfo,
+	&_ID_t727_il2cpp_TypeInfo,
+	&Tab_BelleLevelup_t363_il2cpp_TypeInfo,
+	&_ID_t728_il2cpp_TypeInfo,
+	&Tab_BelleMatrix_t365_il2cpp_TypeInfo,
+	&_ID_t729_il2cpp_TypeInfo,
+	&Tab_BelleMatrixAddition_t367_il2cpp_TypeInfo,
+	&_ID_t730_il2cpp_TypeInfo,
+	&Tab_BiographyItem_t369_il2cpp_TypeInfo,
+	&_ID_t731_il2cpp_TypeInfo,
+	&Tab_CabalFellowAttr_t371_il2cpp_TypeInfo,
+	&_ID_t732_il2cpp_TypeInfo,
+	&Tab_CabalFellowElementSkill_t373_il2cpp_TypeInfo,
+	&_ID_t733_il2cpp_TypeInfo,
+	&Tab_CabalFellowElementSkillBook_t375_il2cpp_TypeInfo,
+	&_ID_t734_il2cpp_TypeInfo,
+	&Tab_CabalFellowStar_t377_il2cpp_TypeInfo,
+	&_ID_t735_il2cpp_TypeInfo,
+	&Tab_CabalFellowTallentSkill_t379_il2cpp_TypeInfo,
+	&_ID_t736_il2cpp_TypeInfo,
+	&Tab_CabalFellowTallentSkillBook_t381_il2cpp_TypeInfo,
+	&_ID_t737_il2cpp_TypeInfo,
+	&Tab_CameraRock_t383_il2cpp_TypeInfo,
+	&_ID_t738_il2cpp_TypeInfo,
+	&Tab_CangJingGeExtraReward_t385_il2cpp_TypeInfo,
+	&_ID_t739_il2cpp_TypeInfo,
+	&Tab_CangJingGeInfo_t387_il2cpp_TypeInfo,
+	&_ID_t740_il2cpp_TypeInfo,
+	&Tab_CangKuUnlock_t389_il2cpp_TypeInfo,
+	&_ID_t741_il2cpp_TypeInfo,
+	&Tab_CharModel_t391_il2cpp_TypeInfo,
+	&_ID_t743_il2cpp_TypeInfo,
+	&Tab_CharMount_t393_il2cpp_TypeInfo,
+	&_ID_t745_il2cpp_TypeInfo,
+	&Tab_CharmItem_t395_il2cpp_TypeInfo,
+	&_ID_t746_il2cpp_TypeInfo,
+	&Tab_ChristmasMeterialItem_t397_il2cpp_TypeInfo,
+	&_ID_t747_il2cpp_TypeInfo,
+	&Tab_ChristmasTreeLevelUp_t399_il2cpp_TypeInfo,
+	&_ID_t748_il2cpp_TypeInfo,
+	&Tab_ClientStoryTable_t401_il2cpp_TypeInfo,
+	&_ID_t749_il2cpp_TypeInfo,
+	&Tab_CollectBornMonster_t403_il2cpp_TypeInfo,
+	&_ID_t750_il2cpp_TypeInfo,
+	&Tab_CollectItem_t405_il2cpp_TypeInfo,
+	&_ID_t751_il2cpp_TypeInfo,
+	&Tab_CommonItem_t407_il2cpp_TypeInfo,
+	&_ID_t752_il2cpp_TypeInfo,
+	&Tab_CoolDownTime_t409_il2cpp_TypeInfo,
+	&_ID_t753_il2cpp_TypeInfo,
+	&Tab_CopyScene_t411_il2cpp_TypeInfo,
+	&_ID_t754_il2cpp_TypeInfo,
+	&Tab_CopySceneRule_t413_il2cpp_TypeInfo,
+	&_ID_t755_il2cpp_TypeInfo,
+	&Tab_CopySceneScoreCalc_t415_il2cpp_TypeInfo,
+	&_ID_t756_il2cpp_TypeInfo,
+	&Tab_DailyLuckyDrawBonusInfo_t417_il2cpp_TypeInfo,
+	&_ID_t757_il2cpp_TypeInfo,
+	&Tab_DailyLuckyDrawPoolInfo_t419_il2cpp_TypeInfo,
+	&_ID_t758_il2cpp_TypeInfo,
+	&Tab_DailyMission_t421_il2cpp_TypeInfo,
+	&_ID_t759_il2cpp_TypeInfo,
+	&Tab_DailyMissionQuality_t423_il2cpp_TypeInfo,
+	&_ID_t760_il2cpp_TypeInfo,
+	&Tab_DamageBoardType_t425_il2cpp_TypeInfo,
+	&_ID_t761_il2cpp_TypeInfo,
+	&Tab_DayAward_t427_il2cpp_TypeInfo,
+	&_ID_t762_il2cpp_TypeInfo,
+	&Tab_DropNotify_t429_il2cpp_TypeInfo,
+	&_ID_t763_il2cpp_TypeInfo,
+	&Tab_DynamicObstacle_t431_il2cpp_TypeInfo,
+	&_ID_t764_il2cpp_TypeInfo,
+	&Tab_Effect_t433_il2cpp_TypeInfo,
+	&_ID_t765_il2cpp_TypeInfo,
+	&Tab_EffectPoint_t435_il2cpp_TypeInfo,
+	&_ID_t766_il2cpp_TypeInfo,
+	&Tab_EquipAttr_t437_il2cpp_TypeInfo,
+	&_ID_t767_il2cpp_TypeInfo,
+	&Tab_EquipEnchance_t439_il2cpp_TypeInfo,
+	&_ID_t768_il2cpp_TypeInfo,
+	&Tab_EquipSet_t441_il2cpp_TypeInfo,
+	&_ID_t769_il2cpp_TypeInfo,
+	&Tab_EquipSetTransfer_t443_il2cpp_TypeInfo,
+	&_ID_t770_il2cpp_TypeInfo,
+	&Tab_EquipStar_t445_il2cpp_TypeInfo,
+	&_ID_t771_il2cpp_TypeInfo,
+	&Tab_EquipStarLimit_t447_il2cpp_TypeInfo,
+	&_ID_t772_il2cpp_TypeInfo,
+	&Tab_EquipStarRate_t449_il2cpp_TypeInfo,
+	&_ID_t773_il2cpp_TypeInfo,
+	&Tab_FakeObject_t451_il2cpp_TypeInfo,
+	&_ID_t774_il2cpp_TypeInfo,
+	&Tab_FashionData_t453_il2cpp_TypeInfo,
+	&_ID_t775_il2cpp_TypeInfo,
+	&Tab_FellowGainCost_t455_il2cpp_TypeInfo,
+	&_ID_t776_il2cpp_TypeInfo,
+	&Tab_FellowGainRate_t457_il2cpp_TypeInfo,
+	&_ID_t777_il2cpp_TypeInfo,
+	&Tab_FlyWing_t459_il2cpp_TypeInfo,
+	&_ID_t778_il2cpp_TypeInfo,
+	&Tab_FlyWingClient_t461_il2cpp_TypeInfo,
+	&_ID_t779_il2cpp_TypeInfo,
+	&Tab_GemAttr_t463_il2cpp_TypeInfo,
+	&_ID_t780_il2cpp_TypeInfo,
+	&Tab_GemMount_t465_il2cpp_TypeInfo,
+	&_ID_t781_il2cpp_TypeInfo,
+	&Tab_GemOpenLimit_t467_il2cpp_TypeInfo,
+	&_ID_t782_il2cpp_TypeInfo,
+	&Tab_GoldMoneyShop_t469_il2cpp_TypeInfo,
+	&_ID_t783_il2cpp_TypeInfo,
+	&Tab_GongJiShop_t471_il2cpp_TypeInfo,
+	&_ID_t784_il2cpp_TypeInfo,
+	&Tab_GongZhanReward_t473_il2cpp_TypeInfo,
+	&_ID_t785_il2cpp_TypeInfo,
+	&Tab_GuildActivityBoss_t475_il2cpp_TypeInfo,
+	&_ID_t786_il2cpp_TypeInfo,
+	&Tab_GuildAttrAddition_t477_il2cpp_TypeInfo,
+	&_ID_t787_il2cpp_TypeInfo,
+	&Tab_GuildAutoLevelUp_t479_il2cpp_TypeInfo,
+	&_ID_t788_il2cpp_TypeInfo,
+	&Tab_GuildMission_t481_il2cpp_TypeInfo,
+	&_ID_t789_il2cpp_TypeInfo,
+	&Tab_GuildMissionAward_t483_il2cpp_TypeInfo,
+	&_ID_t790_il2cpp_TypeInfo,
+	&Tab_GuildMissionGuild_t485_il2cpp_TypeInfo,
+	&_ID_t791_il2cpp_TypeInfo,
+	&Tab_GuildPaoShang_t487_il2cpp_TypeInfo,
+	&_ID_t792_il2cpp_TypeInfo,
+	&Tab_GuildRule_t489_il2cpp_TypeInfo,
+	&_ID_t793_il2cpp_TypeInfo,
+	&Tab_GuildShop_t491_il2cpp_TypeInfo,
+	&_ID_t794_il2cpp_TypeInfo,
+	&Tab_GuildWealthItemMake_t493_il2cpp_TypeInfo,
+	&_ID_t795_il2cpp_TypeInfo,
+	&Tab_HelpItem_t495_il2cpp_TypeInfo,
+	&_ID_t796_il2cpp_TypeInfo,
+	&Tab_HongBaoRankAwardInfo_t497_il2cpp_TypeInfo,
+	&_ID_t797_il2cpp_TypeInfo,
+	&Tab_HuaShanReward_t499_il2cpp_TypeInfo,
+	&_ID_t798_il2cpp_TypeInfo,
+	&Tab_HuaShanRewardItem_t501_il2cpp_TypeInfo,
+	&_ID_t799_il2cpp_TypeInfo,
+	&Tab_Impact_t503_il2cpp_TypeInfo,
+	&_ID_t800_il2cpp_TypeInfo,
+	&Tab_ImpactConsume_t505_il2cpp_TypeInfo,
+	&_ID_t801_il2cpp_TypeInfo,
+	&Tab_ItemGetWay_t507_il2cpp_TypeInfo,
+	&_ID_t802_il2cpp_TypeInfo,
+	&Tab_ItemVisual_t509_il2cpp_TypeInfo,
+	&_ID_t803_il2cpp_TypeInfo,
+	&Tab_JuYiReward_t511_il2cpp_TypeInfo,
+	&_ID_t804_il2cpp_TypeInfo,
+	&Tab_LevelUp_t513_il2cpp_TypeInfo,
+	&_ID_t805_il2cpp_TypeInfo,
+	&Tab_LevelUpLimit_t515_il2cpp_TypeInfo,
+	&_ID_t806_il2cpp_TypeInfo,
+	&Tab_LightSkill_t517_il2cpp_TypeInfo,
+	&_ID_t807_il2cpp_TypeInfo,
+	&Tab_LivingSkill_t519_il2cpp_TypeInfo,
+	&_ID_t808_il2cpp_TypeInfo,
+	&Tab_LivingSkillStuff_t521_il2cpp_TypeInfo,
+	&_ID_t809_il2cpp_TypeInfo,
+	&Tab_MapConnection_t523_il2cpp_TypeInfo,
+	&_ID_t810_il2cpp_TypeInfo,
+	&Tab_MasterShop_t525_il2cpp_TypeInfo,
+	&_ID_t811_il2cpp_TypeInfo,
+	&Tab_MasterSkill_t527_il2cpp_TypeInfo,
+	&_ID_t812_il2cpp_TypeInfo,
+	&Tab_MasterSkillLimit_t529_il2cpp_TypeInfo,
+	&_ID_t813_il2cpp_TypeInfo,
+	&Tab_MissionBase_t531_il2cpp_TypeInfo,
+	&_ID_t814_il2cpp_TypeInfo,
+	&Tab_MissionBonus_t533_il2cpp_TypeInfo,
+	&_ID_t815_il2cpp_TypeInfo,
+	&Tab_MissionCollectItem_t535_il2cpp_TypeInfo,
+	&_ID_t816_il2cpp_TypeInfo,
+	&Tab_MissionCopyScene_t537_il2cpp_TypeInfo,
+	&_ID_t817_il2cpp_TypeInfo,
+	&Tab_MissionDelivery_t539_il2cpp_TypeInfo,
+	&_ID_t818_il2cpp_TypeInfo,
+	&Tab_MissionDictionary_t541_il2cpp_TypeInfo,
+	&_ID_t819_il2cpp_TypeInfo,
+	&Tab_MissionEnterArea_t543_il2cpp_TypeInfo,
+	&_ID_t820_il2cpp_TypeInfo,
+	&Tab_MissionKillMonster_t545_il2cpp_TypeInfo,
+	&_ID_t821_il2cpp_TypeInfo,
+	&Tab_MissionLevelUp_t547_il2cpp_TypeInfo,
+	&_ID_t822_il2cpp_TypeInfo,
+	&Tab_MissionLimit_t549_il2cpp_TypeInfo,
+	&_ID_t823_il2cpp_TypeInfo,
+	&Tab_MissionLootItem_t551_il2cpp_TypeInfo,
+	&_ID_t824_il2cpp_TypeInfo,
+	&Tab_MissionOperationNum_t553_il2cpp_TypeInfo,
+	&_ID_t825_il2cpp_TypeInfo,
+	&Tab_MissionUseItem_t555_il2cpp_TypeInfo,
+	&_ID_t826_il2cpp_TypeInfo,
+	&Tab_MoneyTree_t557_il2cpp_TypeInfo,
+	&_ID_t827_il2cpp_TypeInfo,
+	&Tab_MoneyTreeVIP_t559_il2cpp_TypeInfo,
+	&_ID_t828_il2cpp_TypeInfo,
+	&Tab_MountBase_t561_il2cpp_TypeInfo,
+	&_ID_t829_il2cpp_TypeInfo,
+	&Tab_NewServerAward_t563_il2cpp_TypeInfo,
+	&_ID_t830_il2cpp_TypeInfo,
+	&Tab_NianShouNpcScence_t565_il2cpp_TypeInfo,
+	&_ID_t831_il2cpp_TypeInfo,
+	&Tab_NpcDialog_t567_il2cpp_TypeInfo,
+	&_ID_t832_il2cpp_TypeInfo,
+	&Tab_NpcOptionDialog_t569_il2cpp_TypeInfo,
+	&_ID_t833_il2cpp_TypeInfo,
+	&Tab_OffLineExp_t571_il2cpp_TypeInfo,
+	&_ID_t834_il2cpp_TypeInfo,
+	&Tab_OnlineTimeRankReward_t573_il2cpp_TypeInfo,
+	&_ID_t835_il2cpp_TypeInfo,
+	&Tab_PVPRule_t575_il2cpp_TypeInfo,
+	&_ID_t836_il2cpp_TypeInfo,
+	&Tab_PaoHuanBonus_t577_il2cpp_TypeInfo,
+	&_ID_t837_il2cpp_TypeInfo,
+	&Tab_PaoHuanMission_t579_il2cpp_TypeInfo,
+	&_ID_t838_il2cpp_TypeInfo,
+	&Tab_PaoHuanRefresh_t581_il2cpp_TypeInfo,
+	&_ID_t839_il2cpp_TypeInfo,
+	&Tab_PatrolPoint_t583_il2cpp_TypeInfo,
+	&_ID_t840_il2cpp_TypeInfo,
+	&Tab_ProfessionConmmon_t585_il2cpp_TypeInfo,
+	&_ID_t841_il2cpp_TypeInfo,
+	&Tab_ProfessionReputationReward_t587_il2cpp_TypeInfo,
+	&_ID_t842_il2cpp_TypeInfo,
+	&Tab_PublicConfig_t589_il2cpp_TypeInfo,
+	&_ID_t843_il2cpp_TypeInfo,
+	&Tab_PushNotification_t591_il2cpp_TypeInfo,
+	&_ID_t844_il2cpp_TypeInfo,
+	&Tab_PvpAward_t593_il2cpp_TypeInfo,
+	&_ID_t845_il2cpp_TypeInfo,
+	&Tab_PvpRank_t595_il2cpp_TypeInfo,
+	&_ID_t846_il2cpp_TypeInfo,
+	&Tab_PvpShop_t597_il2cpp_TypeInfo,
+	&_ID_t847_il2cpp_TypeInfo,
+	&Tab_QianKunDaiFormula_t599_il2cpp_TypeInfo,
+	&_ID_t848_il2cpp_TypeInfo,
+	&Tab_RankReward_t601_il2cpp_TypeInfo,
+	&_ID_t849_il2cpp_TypeInfo,
+	&Tab_Recharge_t603_il2cpp_TypeInfo,
+	&_ID_t850_il2cpp_TypeInfo,
+	&Tab_Relation_t605_il2cpp_TypeInfo,
+	&_ID_t851_il2cpp_TypeInfo,
+	&Tab_RestaurantDesk_t607_il2cpp_TypeInfo,
+	&_ID_t852_il2cpp_TypeInfo,
+	&Tab_RestaurantFood_t609_il2cpp_TypeInfo,
+	&_ID_t853_il2cpp_TypeInfo,
+	&Tab_RestaurantGuest_t611_il2cpp_TypeInfo,
+	&_ID_t854_il2cpp_TypeInfo,
+	&Tab_RestaurantLevel_t613_il2cpp_TypeInfo,
+	&_ID_t855_il2cpp_TypeInfo,
+	&Tab_RoleBaseAttr_t615_il2cpp_TypeInfo,
+	&_ID_t856_il2cpp_TypeInfo,
+	&Tab_RoleName_t617_il2cpp_TypeInfo,
+	&_ID_t857_il2cpp_TypeInfo,
+	&Tab_SNSReward_t619_il2cpp_TypeInfo,
+	&_ID_t858_il2cpp_TypeInfo,
+	&Tab_SceneClass_t621_il2cpp_TypeInfo,
+	&_ID_t859_il2cpp_TypeInfo,
+	&Tab_SceneFightPos_t623_il2cpp_TypeInfo,
+	&_ID_t860_il2cpp_TypeInfo,
+	&Tab_SceneNpc_t625_il2cpp_TypeInfo,
+	&_ID_t861_il2cpp_TypeInfo,
+	&Tab_ShareReward_t627_il2cpp_TypeInfo,
+	&_ID_t862_il2cpp_TypeInfo,
+	&Tab_ShenQiInfo_t629_il2cpp_TypeInfo,
+	&_ID_t863_il2cpp_TypeInfo,
+	&Tab_ShenQiSkillInfo_t631_il2cpp_TypeInfo,
+	&_ID_t864_il2cpp_TypeInfo,
+	&Tab_ShouHuaAwardInfo_t633_il2cpp_TypeInfo,
+	&_ID_t865_il2cpp_TypeInfo,
+	&Tab_SkillActive_t635_il2cpp_TypeInfo,
+	&_ID_t866_il2cpp_TypeInfo,
+	&Tab_SkillBase_t637_il2cpp_TypeInfo,
+	&_ID_t867_il2cpp_TypeInfo,
+	&Tab_SkillEx_t639_il2cpp_TypeInfo,
+	&_ID_t868_il2cpp_TypeInfo,
+	&Tab_SkillLevelUp_t641_il2cpp_TypeInfo,
+	&_ID_t869_il2cpp_TypeInfo,
+	&Tab_SnareObjInfo_t643_il2cpp_TypeInfo,
+	&_ID_t870_il2cpp_TypeInfo,
+	&Tab_SongHuaAwardInfo_t645_il2cpp_TypeInfo,
+	&_ID_t871_il2cpp_TypeInfo,
+	&Tab_Sounds_t647_il2cpp_TypeInfo,
+	&_ID_t872_il2cpp_TypeInfo,
+	&Tab_StaminaBuyRule_t649_il2cpp_TypeInfo,
+	&_ID_t873_il2cpp_TypeInfo,
+	&Tab_StarCondition_t651_il2cpp_TypeInfo,
+	&_ID_t874_il2cpp_TypeInfo,
+	&Tab_StoryCopyScene_t653_il2cpp_TypeInfo,
+	&_ID_t875_il2cpp_TypeInfo,
+	&Tab_StoryCopySceneAward_t655_il2cpp_TypeInfo,
+	&_ID_t876_il2cpp_TypeInfo,
+	&Tab_StoryCopySceneChapter_t657_il2cpp_TypeInfo,
+	&_ID_t877_il2cpp_TypeInfo,
+	&Tab_StoryCopySceneFlow_t659_il2cpp_TypeInfo,
+	&_ID_t878_il2cpp_TypeInfo,
+	&Tab_StoryCopySceneNpc_t661_il2cpp_TypeInfo,
+	&_ID_t879_il2cpp_TypeInfo,
+	&Tab_StoryTable_t663_il2cpp_TypeInfo,
+	&_ID_t880_il2cpp_TypeInfo,
+	&Tab_StrDictionary_t665_il2cpp_TypeInfo,
+	&_ID_t881_il2cpp_TypeInfo,
+	&Tab_StrFilter_t667_il2cpp_TypeInfo,
+	&_ID_t882_il2cpp_TypeInfo,
+	&Tab_SwordsEquipPackUnlock_t669_il2cpp_TypeInfo,
+	&_ID_t883_il2cpp_TypeInfo,
+	&Tab_SwordsManAttr_t671_il2cpp_TypeInfo,
+	&_ID_t884_il2cpp_TypeInfo,
+	&Tab_SwordsManGainRata_t673_il2cpp_TypeInfo,
+	&_ID_t885_il2cpp_TypeInfo,
+	&Tab_SwordsManLevelUp_t675_il2cpp_TypeInfo,
+	&_ID_t886_il2cpp_TypeInfo,
+	&Tab_SwordsManScoreShop_t677_il2cpp_TypeInfo,
+	&_ID_t887_il2cpp_TypeInfo,
+	&Tab_SystemShop_t679_il2cpp_TypeInfo,
+	&_ID_t888_il2cpp_TypeInfo,
+	&Tab_Teleport_t681_il2cpp_TypeInfo,
+	&_ID_t889_il2cpp_TypeInfo,
+	&Tab_TestTable_t683_il2cpp_TypeInfo,
+	&_ID_t890_il2cpp_TypeInfo,
+	&Tab_TitleData_t685_il2cpp_TypeInfo,
+	&_ID_t891_il2cpp_TypeInfo,
+	&Tab_TitleType_t687_il2cpp_TypeInfo,
+	&_ID_t892_il2cpp_TypeInfo,
+	&Tab_TrainingBook_t689_il2cpp_TypeInfo,
+	&_ID_t893_il2cpp_TypeInfo,
+	&Tab_TrainingPic_t691_il2cpp_TypeInfo,
+	&_ID_t894_il2cpp_TypeInfo,
+	&Tab_Trigger_t693_il2cpp_TypeInfo,
+	&_ID_t895_il2cpp_TypeInfo,
+	&Tab_UIPath_t695_il2cpp_TypeInfo,
+	&_ID_t896_il2cpp_TypeInfo,
+	&Tab_UsableItem_t697_il2cpp_TypeInfo,
+	&_ID_t897_il2cpp_TypeInfo,
+	&Tab_VIPShop_t699_il2cpp_TypeInfo,
+	&_ID_t898_il2cpp_TypeInfo,
+	&Tab_VillainGuideNpc_t701_il2cpp_TypeInfo,
+	&_ID_t899_il2cpp_TypeInfo,
+	&Tab_VillainScene_t703_il2cpp_TypeInfo,
+	&_ID_t900_il2cpp_TypeInfo,
+	&Tab_VipBook_t705_il2cpp_TypeInfo,
+	&_ID_t901_il2cpp_TypeInfo,
+	&Tab_WeaponModel_t707_il2cpp_TypeInfo,
+	&_ID_t902_il2cpp_TypeInfo,
+	&Tab_Xiaozhitiao_t709_il2cpp_TypeInfo,
+	&_ID_t903_il2cpp_TypeInfo,
+	&Tab_YanHua_t711_il2cpp_TypeInfo,
+	&_ID_t904_il2cpp_TypeInfo,
+	&Tab_YuanBaoShop_t713_il2cpp_TypeInfo,
+	&TessarSDK4iOS_t905_il2cpp_TypeInfo,
+	&LuYouImplement_t906_il2cpp_TypeInfo,
+	&SharerImpl_t909_il2cpp_TypeInfo,
+	&RecordingStartedDelegate_t910_il2cpp_TypeInfo,
+	&RecordingStopedDelegate_t911_il2cpp_TypeInfo,
+	&RecordingFailedDelegate_t912_il2cpp_TypeInfo,
+	&RecordingWarningDelegate_t913_il2cpp_TypeInfo,
+	&RecordingTimeDelegate_t914_il2cpp_TypeInfo,
+	&SharerPreingDelegate_t915_il2cpp_TypeInfo,
+	&SharerPreparedDelegate_t916_il2cpp_TypeInfo,
+	&SharerStartedDelegate_t917_il2cpp_TypeInfo,
+	&SharerProgressDelegate_t919_il2cpp_TypeInfo,
+	&SharerCompleteDelegate_t920_il2cpp_TypeInfo,
+	&SharerFailedDelegate_t921_il2cpp_TypeInfo,
+	&LuYou_t907_il2cpp_TypeInfo,
+	&LuYouCameraAttachment_t922_il2cpp_TypeInfo,
+	&LuYouExampleGUI_t923_il2cpp_TypeInfo,
+	&LuYouLog_t924_il2cpp_TypeInfo,
+	&LuYouPostRender_t925_il2cpp_TypeInfo,
+	&LuYouPreRender_t926_il2cpp_TypeInfo,
+	&TestAudioRecorder_t928_il2cpp_TypeInfo,
+	&ParticleSystemScalerData_t930_il2cpp_TypeInfo,
+	&ParticleSystemScaleController_t932_il2cpp_TypeInfo,
+	&ReflectionFx_t938_il2cpp_TypeInfo,
+	&GameScore_t943_il2cpp_TypeInfo,
+	&SerializableTable_t334_il2cpp_TypeInfo,
+	NULL,
+};
+extern Il2CppImage g_AssemblyU2DCSharpU2Dfirstpass_dll_Image;
+extern CustomAttributesCache g_AssemblyU2DCSharpU2Dfirstpass_Assembly__CustomAttributeCache;
+Il2CppAssembly g_AssemblyU2DCSharpU2Dfirstpass_Assembly = 
+{
+	{ "Assembly-CSharp-firstpass", 0, 0, 0, { 0 }, 32772, 0, 0, 0, 0, 0, 0 },
+	&g_AssemblyU2DCSharpU2Dfirstpass_dll_Image,
+	&g_AssemblyU2DCSharpU2Dfirstpass_Assembly__CustomAttributeCache,
+};
+Il2CppImage g_AssemblyU2DCSharpU2Dfirstpass_dll_Image = 
+{
+	 "Assembly-CSharp-firstpass.dll" ,
+	&g_AssemblyU2DCSharpU2Dfirstpass_Assembly,
+	g_AssemblyU2DCSharpU2Dfirstpass_Assembly_Types,
+	488,
+};
+static void s_AssemblyU2DCSharpU2DfirstpassRegistration()
+{
+	RegisterAssembly (&g_AssemblyU2DCSharpU2Dfirstpass_Assembly);
+}
+static il2cpp::utils::RegisterRuntimeInitializeAndCleanup s_AssemblyU2DCSharpU2DfirstpassRegistrationVariable(&s_AssemblyU2DCSharpU2DfirstpassRegistration, NULL);

@@ -1,0 +1,27 @@
+﻿#pragma once
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+#include "codegen/il2cpp-codegen.h"
+
+// System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_StoryCopySceneChapter>>>
+struct InternalEnumerator_1_t14879;
+// System.Object
+struct Object_t;
+// System.Array
+struct Array_t;
+// System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_StoryCopySceneChapter>>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_29.h"
+
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_StoryCopySceneChapter>>>::.ctor(System.Array)
+ void InternalEnumerator_1__ctor_m110372 (InternalEnumerator_1_t14879 * __this, Array_t * ___array, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_StoryCopySceneChapter>>>::System.Collections.IEnumerator.Reset()
+ void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m110373 (InternalEnumerator_1_t14879 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_StoryCopySceneChapter>>>::System.Collections.IEnumerator.get_Current()
+ Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m110374 (InternalEnumerator_1_t14879 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_StoryCopySceneChapter>>>::Dispose()
+ void InternalEnumerator_1_Dispose_m110375 (InternalEnumerator_1_t14879 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_StoryCopySceneChapter>>>::MoveNext()
+ bool InternalEnumerator_1_MoveNext_m110376 (InternalEnumerator_1_t14879 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+// T System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<GCGame.Table.Tab_StoryCopySceneChapter>>>::get_Current()
+ KeyValuePair_2_t5644  InternalEnumerator_1_get_Current_m110377 (InternalEnumerator_1_t14879 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

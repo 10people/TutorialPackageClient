@@ -1,0 +1,12 @@
+﻿#pragma once
+#include <stdint.h>
+// System.Enum
+#include "mscorlib_System_Enum.h"
+// GC_SYSTEMSHOP_MERCHANDISELIST/MERCHANDISEBIND
+#include "AssemblyU2DCSharp_GC_SYSTEMSHOP_MERCHANDISELIST_MERCHANDISEB.h"
+// GC_SYSTEMSHOP_MERCHANDISELIST/MERCHANDISEBIND
+struct MERCHANDISEBIND_t2959 
+{
+	// System.Int32 GC_SYSTEMSHOP_MERCHANDISELIST/MERCHANDISEBIND::value__
+	int32_t ___value__;
+};

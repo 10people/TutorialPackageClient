@@ -1,0 +1,13 @@
+Id	Desc	CanAssignTime	CanAcceptTimesOnce	ConsumeWealth	MemMaxTimesOneDay	MemMisRoundNumOnce	MemConsumeBangGong	AwardFactor
+INT	STRING	INT	INT	INT	INT	INT	INT	FLOAT
+#MAX_ID=100;MAX_RECORD=100;TableType=Index;								
+#ID(索引不可跳跃)帮会等级	策划维护	帮主每天开启次数	每次开启分配次数	消耗财富值	成员每天接取次数上限	成员每次任务环数	成员接任务消耗帮贡	帮会任务帮会等级系数
+1	1级帮会	4	20	3000	1	10	0	0.92
+2	2级帮会	5	20	3000	1	10	0	0.96
+3	3级帮会	6	20	3000	1	10	0	1
+4	4级帮会	7	20	3000	1	10	0	1.04
+5	5级帮会	8	20	3000	1	10	0	1.08
+6	6级帮会	9	20	3000	1	10	0	1.12
+7	7级帮会	11	20	3000	1	10	0	1.16
+8	8级帮会	13	20	3000	1	10	0	1.2
+9	9级帮会	15	20	3000	1	10	0	1.24

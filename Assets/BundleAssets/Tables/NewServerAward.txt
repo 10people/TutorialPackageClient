@@ -1,0 +1,18 @@
+Id	Desc	DescName	Type	Exp	Money	BindYuanbao	ItemDataID_1	ItemIsBind_1	ItemCount_1	ItemDataID_2	ItemIsBind_2	ItemCount_2	ItemDataID_3	ItemIsBind_3	ItemCount_3	ItemDataID_4	ItemIsBind_4	ItemCount_4	ShowId_1	ShowId_2	ShowId_3	ShowId_4	ShowType	EQUIP_1	EQUIP_2	EQUIP_3	EQUIP_4
+INT	STRING	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+#MAX_ID=49;MAX_RECORD=50;TableType=Index;																											
+#ID(索引不可跳跃，限7行，如需扩展找程序确认)	策划维护(新服开启首周)	名称(显示用)	奖励类型，0：登录有礼，1：天道酬勤，注意每个奖励只能是7个，且顺序也不能变	奖励经验	奖励金钱(单位金)	绑定元宝	奖励物品ID	物品是否绑定	奖励物品数量										狂战士	双剑士	弓箭手	魔导师		装备包，对应commonitem中的一项，注意commonitem中一定要配职业需求	装备包，对应commonitem中的一项，注意commonitem中一定要配职业需求	装备包，对应commonitem中的一项，注意commonitem中一定要配职业需求	装备包，对应commonitem中的一项，注意commonitem中一定要配职业需求
+0	day	day	0	-1	100000	-1	-1	1	1	-1	1	1	-1	1	1	-1	1	1	201	-1	-1	-1	1	42603	43603	45603	44603
+1	day	day	0	-1	-1	-1	59058	1	30	100001	1	5	-1	1	1	-1	1	1	56524	-1	-1	-1	1	-1	-1	-1	-1
+2	day	day	0	-1	-1	-1	71003	1	1	71001	1	5	125	1	10	-1	1	1	71003	-1	-1	-1	1	-1	-1	-1	-1
+3	day	day	0	-1	-1	-1	117	1	1	100001	1	20	24	1	20	-1	1	1	117	-1	-1	-1	1	-1	-1	-1	-1
+4	day	day	0	-1	-1	-1	73011	1	1	149	1	10	134	1	3	-1	1	1	73011	-1	-1	-1	1	-1	-1	-1	-1
+5	day	day	0	-1	-1	-1	135	1	10	125	1	10	-1	1	1	-1	1	1	200	-1	-1	-1	1	181	182	184	183
+6	day	day	0	-1	-1	-1	116	1	10	-1	1	1	-1	1	1	-1	1	1	202	-1	-1	-1	1	203	204	206	205
+7	day	day	1	-1	-1	1000	80002	1	1	8001	1	1	-1	1	1	-1	1	1	-1	-1	-1	-1	1	-1	-1	-1	-1
+8	day	day	1	-1	-1	1500	80004	1	1	112	1	3	-1	1	1	-1	1	1	-1	-1	-1	-1	1	-1	-1	-1	-1
+9	day	day	1	-1	-1	2000	80006	1	1	8002	1	1	-1	1	1	-1	1	1	-1	-1	-1	-1	1	-1	-1	-1	-1
+10	day	day	1	-1	-1	2500	80009	1	1	100001	1	5	-1	1	1	-1	1	1	-1	-1	-1	-1	1	-1	-1	-1	-1
+11	day	day	1	-1	-1	3000	80012	1	1	8003	1	1	-1	1	1	-1	1	1	-1	-1	-1	-1	1	-1	-1	-1	-1
+12	day	day	1	-1	-1	5000	80014	1	1	113	1	5	-1	1	1	-1	1	1	-1	-1	-1	-1	1	-1	-1	-1	-1
+13	day	day	1	-1	-1	10000	80015	1	1	71002	1	5	-1	1	1	-1	1	1	-1	-1	-1	-1	1	-1	-1	-1	-1

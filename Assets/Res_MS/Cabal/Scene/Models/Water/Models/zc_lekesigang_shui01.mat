@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: zc_lekesigang_shui01
+  m_Shader: {fileID: 4800000, guid: dcea6c8643b68e8469faa6aa907642e0, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: e352c2bba8b1f154f84f2cacc69d86fb, type: 3}
+          m_Scale: {x: 4, y: 3}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Bump
+        second:
+          m_Texture: {fileID: 2800000, guid: 428a89299405cd24b9790eb5eb905fdf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: db6ded423daf6e449ac50a3e1f99a36a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 2800000, guid: 2db78c4ca0e8f6940b2c362b339df95f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 259b7f3b12032244fb31ac9de4c74466, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 1.99999976
+      data:
+        first:
+          name: _Reflect
+        second: .946428597
+      data:
+        first:
+          name: _FogNear
+        second: 141.440002
+      data:
+        first:
+          name: _FogFar
+        second: 193.100006
+      data:
+        first:
+          name: _ReflectionAlpha
+        second: .446428448
+      data:
+        first:
+          name: _ReflectionBias
+        second: 1.63999999
+      data:
+        first:
+          name: _MainAlpha
+        second: .75
+      data:
+        first:
+          name: _FogStrength
+        second: .178571403
+      data:
+        first:
+          name: _FogShininess
+        second: 7.14285707
+      data:
+        first:
+          name: _InvFadeParemeter
+        second: 2.5
+      data:
+        first:
+          name: _WaveSpeed
+        second: 20
+    m_Colors:
+      data:
+        first:
+          name: _LightColor
+        second: {r: .727941155, g: .859279871, b: 1, a: .964705884}
+      data:
+        first:
+          name: _Color
+        second: {r: .588235319, g: .588235319, b: .588235319, a: 1}
+      data:
+        first:
+          name: _LightDirection
+        second: {r: -61.0999985, g: 133.5, b: 222.600006, a: 0}
+      data:
+        first:
+          name: _WaveDirection
+        second: {r: -10, g: -5, b: 10, a: 20}
+      data:
+        first:
+          name: _FogColor
+        second: {r: .158417955, g: 0, b: .323529422, a: 1}
+      data:
+        first:
+          name: _TexAtlasTiling
+        second: {r: 30, g: 40, b: 3, a: 6}
+      data:
+        first:
+          name: _MainColor
+        second: {r: .0658520833, g: .213235319, b: .188840806, a: 1}
+      data:
+        first:
+          name: _DirectionUv
+        second: {r: -.100000001, g: -.400000006, b: 0, a: 2}
+      data:
+        first:
+          name: _SunPos
+        second: {r: 5, g: 20, b: 1, a: .810000002}

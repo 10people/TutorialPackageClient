@@ -1,0 +1,97 @@
+﻿#pragma once
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+#include "codegen/il2cpp-codegen.h"
+
+// System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>
+struct Collection_1_t12811;
+// System.Object
+struct Object_t;
+// GCGame.Table.Tab_MissionDictionary
+struct Tab_MissionDictionary_t541;
+// System.Array
+struct Array_t;
+// System.Collections.IEnumerator
+struct IEnumerator_t67;
+// GCGame.Table.Tab_MissionDictionary[]
+struct Tab_MissionDictionaryU5BU5D_t12800;
+// System.Collections.Generic.IEnumerator`1<GCGame.Table.Tab_MissionDictionary>
+struct IEnumerator_1_t12802;
+// System.Collections.Generic.IList`1<GCGame.Table.Tab_MissionDictionary>
+struct IList_1_t12810;
+
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::.ctor()
+// System.Collections.ObjectModel.Collection`1<System.Object>
+#include "mscorlib_System_Collections_ObjectModel_Collection_1_genMethodDeclarations.h"
+#define Collection_1__ctor_m92964(__this, method) (void)Collection_1__ctor_m58052_gshared((Collection_1_t8621 *)__this, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+#define Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m92965(__this, method) (bool)Collection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m58053_gshared((Collection_1_t8621 *)__this, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define Collection_1_System_Collections_ICollection_CopyTo_m92966(__this, ___array, ___index, method) (void)Collection_1_System_Collections_ICollection_CopyTo_m58054_gshared((Collection_1_t8621 *)__this, (Array_t *)___array, (int32_t)___index, method)
+// System.Collections.IEnumerator System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::System.Collections.IEnumerable.GetEnumerator()
+#define Collection_1_System_Collections_IEnumerable_GetEnumerator_m92967(__this, method) (Object_t *)Collection_1_System_Collections_IEnumerable_GetEnumerator_m58055_gshared((Collection_1_t8621 *)__this, method)
+// System.Int32 System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::System.Collections.IList.Add(System.Object)
+#define Collection_1_System_Collections_IList_Add_m92968(__this, ___value, method) (int32_t)Collection_1_System_Collections_IList_Add_m58056_gshared((Collection_1_t8621 *)__this, (Object_t *)___value, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::System.Collections.IList.Contains(System.Object)
+#define Collection_1_System_Collections_IList_Contains_m92969(__this, ___value, method) (bool)Collection_1_System_Collections_IList_Contains_m58057_gshared((Collection_1_t8621 *)__this, (Object_t *)___value, method)
+// System.Int32 System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::System.Collections.IList.IndexOf(System.Object)
+#define Collection_1_System_Collections_IList_IndexOf_m92970(__this, ___value, method) (int32_t)Collection_1_System_Collections_IList_IndexOf_m58058_gshared((Collection_1_t8621 *)__this, (Object_t *)___value, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::System.Collections.IList.Insert(System.Int32,System.Object)
+#define Collection_1_System_Collections_IList_Insert_m92971(__this, ___index, ___value, method) (void)Collection_1_System_Collections_IList_Insert_m58059_gshared((Collection_1_t8621 *)__this, (int32_t)___index, (Object_t *)___value, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::System.Collections.IList.Remove(System.Object)
+#define Collection_1_System_Collections_IList_Remove_m92972(__this, ___value, method) (void)Collection_1_System_Collections_IList_Remove_m58060_gshared((Collection_1_t8621 *)__this, (Object_t *)___value, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::System.Collections.ICollection.get_IsSynchronized()
+#define Collection_1_System_Collections_ICollection_get_IsSynchronized_m92973(__this, method) (bool)Collection_1_System_Collections_ICollection_get_IsSynchronized_m58061_gshared((Collection_1_t8621 *)__this, method)
+// System.Object System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::System.Collections.ICollection.get_SyncRoot()
+#define Collection_1_System_Collections_ICollection_get_SyncRoot_m92974(__this, method) (Object_t *)Collection_1_System_Collections_ICollection_get_SyncRoot_m58062_gshared((Collection_1_t8621 *)__this, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::System.Collections.IList.get_IsFixedSize()
+#define Collection_1_System_Collections_IList_get_IsFixedSize_m92975(__this, method) (bool)Collection_1_System_Collections_IList_get_IsFixedSize_m58063_gshared((Collection_1_t8621 *)__this, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::System.Collections.IList.get_IsReadOnly()
+#define Collection_1_System_Collections_IList_get_IsReadOnly_m92976(__this, method) (bool)Collection_1_System_Collections_IList_get_IsReadOnly_m58064_gshared((Collection_1_t8621 *)__this, method)
+// System.Object System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::System.Collections.IList.get_Item(System.Int32)
+#define Collection_1_System_Collections_IList_get_Item_m92977(__this, ___index, method) (Object_t *)Collection_1_System_Collections_IList_get_Item_m58065_gshared((Collection_1_t8621 *)__this, (int32_t)___index, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::System.Collections.IList.set_Item(System.Int32,System.Object)
+#define Collection_1_System_Collections_IList_set_Item_m92978(__this, ___index, ___value, method) (void)Collection_1_System_Collections_IList_set_Item_m58066_gshared((Collection_1_t8621 *)__this, (int32_t)___index, (Object_t *)___value, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::Add(T)
+#define Collection_1_Add_m92979(__this, ___item, method) (void)Collection_1_Add_m58067_gshared((Collection_1_t8621 *)__this, (Object_t *)___item, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::Clear()
+#define Collection_1_Clear_m92980(__this, method) (void)Collection_1_Clear_m58068_gshared((Collection_1_t8621 *)__this, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::ClearItems()
+#define Collection_1_ClearItems_m92981(__this, method) (void)Collection_1_ClearItems_m58069_gshared((Collection_1_t8621 *)__this, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::Contains(T)
+#define Collection_1_Contains_m92982(__this, ___item, method) (bool)Collection_1_Contains_m58070_gshared((Collection_1_t8621 *)__this, (Object_t *)___item, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::CopyTo(T[],System.Int32)
+#define Collection_1_CopyTo_m92983(__this, ___array, ___index, method) (void)Collection_1_CopyTo_m58071_gshared((Collection_1_t8621 *)__this, (ObjectU5BU5D_t142*)___array, (int32_t)___index, method)
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::GetEnumerator()
+#define Collection_1_GetEnumerator_m92984(__this, method) (Object_t*)Collection_1_GetEnumerator_m58072_gshared((Collection_1_t8621 *)__this, method)
+// System.Int32 System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::IndexOf(T)
+#define Collection_1_IndexOf_m92985(__this, ___item, method) (int32_t)Collection_1_IndexOf_m58073_gshared((Collection_1_t8621 *)__this, (Object_t *)___item, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::Insert(System.Int32,T)
+#define Collection_1_Insert_m92986(__this, ___index, ___item, method) (void)Collection_1_Insert_m58074_gshared((Collection_1_t8621 *)__this, (int32_t)___index, (Object_t *)___item, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::InsertItem(System.Int32,T)
+#define Collection_1_InsertItem_m92987(__this, ___index, ___item, method) (void)Collection_1_InsertItem_m58075_gshared((Collection_1_t8621 *)__this, (int32_t)___index, (Object_t *)___item, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::Remove(T)
+#define Collection_1_Remove_m92988(__this, ___item, method) (bool)Collection_1_Remove_m58076_gshared((Collection_1_t8621 *)__this, (Object_t *)___item, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::RemoveAt(System.Int32)
+#define Collection_1_RemoveAt_m92989(__this, ___index, method) (void)Collection_1_RemoveAt_m58077_gshared((Collection_1_t8621 *)__this, (int32_t)___index, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::RemoveItem(System.Int32)
+#define Collection_1_RemoveItem_m92990(__this, ___index, method) (void)Collection_1_RemoveItem_m58078_gshared((Collection_1_t8621 *)__this, (int32_t)___index, method)
+// System.Int32 System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::get_Count()
+#define Collection_1_get_Count_m92991(__this, method) (int32_t)Collection_1_get_Count_m58079_gshared((Collection_1_t8621 *)__this, method)
+// T System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::get_Item(System.Int32)
+#define Collection_1_get_Item_m92992(__this, ___index, method) (Tab_MissionDictionary_t541 *)Collection_1_get_Item_m58080_gshared((Collection_1_t8621 *)__this, (int32_t)___index, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::set_Item(System.Int32,T)
+#define Collection_1_set_Item_m92993(__this, ___index, ___value, method) (void)Collection_1_set_Item_m58081_gshared((Collection_1_t8621 *)__this, (int32_t)___index, (Object_t *)___value, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::SetItem(System.Int32,T)
+#define Collection_1_SetItem_m92994(__this, ___index, ___item, method) (void)Collection_1_SetItem_m58082_gshared((Collection_1_t8621 *)__this, (int32_t)___index, (Object_t *)___item, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::IsValidItem(System.Object)
+#define Collection_1_IsValidItem_m92995(__this/* static, unused */, ___item, method) (bool)Collection_1_IsValidItem_m58083_gshared((Object_t *)__this/* static, unused */, (Object_t *)___item, method)
+// T System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::ConvertItem(System.Object)
+#define Collection_1_ConvertItem_m92996(__this/* static, unused */, ___item, method) (Tab_MissionDictionary_t541 *)Collection_1_ConvertItem_m58084_gshared((Object_t *)__this/* static, unused */, (Object_t *)___item, method)
+// System.Void System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::CheckWritable(System.Collections.Generic.IList`1<T>)
+#define Collection_1_CheckWritable_m92997(__this/* static, unused */, ___list, method) (void)Collection_1_CheckWritable_m58085_gshared((Object_t *)__this/* static, unused */, (Object_t*)___list, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::IsSynchronized(System.Collections.Generic.IList`1<T>)
+#define Collection_1_IsSynchronized_m92998(__this/* static, unused */, ___list, method) (bool)Collection_1_IsSynchronized_m58086_gshared((Object_t *)__this/* static, unused */, (Object_t*)___list, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<GCGame.Table.Tab_MissionDictionary>::IsFixedSize(System.Collections.Generic.IList`1<T>)
+#define Collection_1_IsFixedSize_m92999(__this/* static, unused */, ___list, method) (bool)Collection_1_IsFixedSize_m58087_gshared((Object_t *)__this/* static, unused */, (Object_t*)___list, method)

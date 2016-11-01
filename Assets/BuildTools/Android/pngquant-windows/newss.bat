@@ -1,0 +1,1 @@
+pngquant 256 D:/tools/test/*.png --ext .png --force

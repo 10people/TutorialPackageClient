@@ -1,0 +1,11 @@
+{
+	"group": "sonnar",
+	"libs": ["libz.1.2.5.dylib","libsqlite3.0.dylib"],
+	"frameworks": ["MobileCoreServices.framework", "SystemConfiguration.framework", "CFNetwork.framework", "CoreTelephony.framework","MediaPlayer.framework"],
+	"headerpaths": [],
+	"linker_flags": ["-ObjC"],
+    "enable_objc_exception": "YES",
+	"files":   [],
+	"folders": [],    
+	"excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"]
+}

@@ -1,0 +1,29 @@
+Id	Desc	WayType	WayDescDictId	WayValue	WayIcon
+INT	STRING	INT	INT	STRING	STRING
+#MAX_ID=1024;MAX_RECORD=1025;TableType=Hash;					
+#唯一标示	描述，策划维护，此列程序不读	1：跳转界面 2：提示信息	功能描述字典	"WayType:1,填界面名字 WayType:2,填字符串提示名字"	获取途径图片
+1	装备_聚贤庄副本	1	2427	chatInfoRoot	abi
+2	装备_藏经阁副本	1	2428	chatInfoRoot	abi
+3	装备_少室山副本	1	2429	chatInfoRoot	abi
+4	装备_装备强化	1	2430	chatInfoRoot	abi
+5	装备_装备打星	1	2431	chatInfoRoot	abi
+6	美人_美人图鉴	1	2432	chatInfoRoot	abi
+7	美人_美人阵法	1	2433	chatInfoRoot	abi
+8	宝石_商城-宝石	1	2434	chatInfoRoot	abi
+9	侠客_侠客	1	2435	chatInfoRoot	abi
+10	技能_技能升级	1	2436	chatInfoRoot	abi
+11	伙伴_伙伴获得	1	2437	chatInfoRoot	abi
+12	伙伴_资质强化	1	2438	chatInfoRoot	abi
+13	伙伴_伙伴升星	1	2439	chatInfoRoot	abi
+14	伙伴_伙伴技能	1	2440	chatInfoRoot	abi
+15	宝石_珍珑棋局副本	1	2668	chatInfoRoot	abi
+16	美人_怒海锄奸	2	3086	3086	abi
+17	冰冻地下墓地获取	1	11443	ActivityController	Beauty
+18	主线任务获取	1	10279	MissionLogRoot	Beauty
+19	剧情副本2-4获取	1	11444	ActivityController	Beauty
+20	次日登录获取	1	11445	QiandaoRoot	Beauty
+21	点券商店购买	1	11446	SysShopController	Beauty
+22	七日狂欢任务赠送	1	11447	SevenDaysReward	Beauty
+23	混沌之地奖励赠送	1	11448	ActivityController	Beauty
+24	月签到赠送	1	11550	QiandaoRoot	Beauty
+25	竞技场商店	1	11549	PvpShop	Beauty
